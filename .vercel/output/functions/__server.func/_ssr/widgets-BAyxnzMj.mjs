@@ -1,6 +1,6 @@
 import { x as require_jsx_runtime, y as Link } from "../_libs/@tanstack/react-router+[...].mjs";
 import { t as create } from "../_libs/zustand.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/widgets-DxwXF1wO.js
+//#region node_modules/.nitro/vite/services/ssr/assets/widgets-BAyxnzMj.js
 var import_jsx_runtime = require_jsx_runtime();
 var factory = {
 	months: [
@@ -4738,6 +4738,402 @@ var factory = {
 			"dups": 1
 		},
 		{
+			"id": "mini-113",
+			"family": "mini",
+			"title": "mini - وان یخدان(نیمه ساخته)",
+			"unit": "عدد",
+			"c": 1,
+			"s": 2,
+			"dups": 1
+		},
+		{
+			"id": "mini-114",
+			"family": "mini",
+			"title": "mini - وان(نیمه ساخته)",
+			"unit": "عدد",
+			"c": 1,
+			"s": 2,
+			"dups": 1
+		},
+		{
+			"id": "mini-115",
+			"family": "mini",
+			"title": "miniM-بدنه U شده",
+			"unit": "عدد",
+			"c": 1,
+			"s": 2,
+			"dups": 1
+		},
+		{
+			"id": "mini-116",
+			"family": "mini",
+			"title": "miniM - نیم ساخت قید پایین",
+			"unit": "عدد",
+			"c": 1,
+			"s": 1,
+			"dups": 1
+		},
+		{
+			"id": "mini-117",
+			"family": "mini",
+			"title": "mini - پشتی",
+			"unit": "عدد",
+			"c": 1,
+			"s": 1,
+			"dups": 1
+		},
+		{
+			"id": "mini-118",
+			"family": "mini",
+			"title": "mini - قاب فلزی نگهدارنده کارتن پلاست منبری",
+			"unit": "عدد",
+			"c": 2,
+			"s": 1,
+			"dups": 1
+		},
+		{
+			"id": "mini-119",
+			"family": "mini",
+			"title": "mini - قاب پشت کلید",
+			"unit": "عدد",
+			"c": 1,
+			"s": 1,
+			"dups": 1
+		},
+		{
+			"id": "mini-120",
+			"family": "mini",
+			"title": "mini- پایه ستاره ای",
+			"unit": "عدد",
+			"c": 4,
+			"s": 1,
+			"dups": 1
+		},
+		{
+			"id": "mini-121",
+			"family": "mini",
+			"title": "mini-( براکت فلزی( 20*30*1",
+			"unit": "عدد",
+			"c": 2,
+			"s": 1,
+			"dups": 1
+		},
+		{
+			"id": "mini-122",
+			"family": "mini",
+			"title": "mini- ورق فلزی (بخش ترموستات)",
+			"unit": "عدد",
+			"c": 2,
+			"s": 1,
+			"dups": 1
+		},
+		{
+			"id": "mini-123",
+			"family": "mini",
+			"title": "mini - ابر نیم چسب  ( 5×40×700)",
+			"unit": "عدد",
+			"c": 1.5,
+			"s": 1,
+			"dups": 1
+		},
+		{
+			"id": "mini-124",
+			"family": "mini",
+			"title": "mini - ابر پشت چسبدار ( 5×70×200)",
+			"unit": "عدد",
+			"c": 1,
+			"s": 1,
+			"dups": 1
+		},
+		{
+			"id": "mini-125",
+			"family": "mini",
+			"title": "mini - ابر پشت چسبدار- کنفی ( 5×100×100)",
+			"unit": "عدد",
+			"c": 13,
+			"s": 1,
+			"dups": 1
+		},
+		{
+			"id": "mini-126",
+			"family": "mini",
+			"title": "mini -فوم دو طرف چسبدار  25mm (رول 25 متری)",
+			"unit": "عدد",
+			"c": .09,
+			"s": 1,
+			"dups": 1
+		},
+		{
+			"id": "mini-127",
+			"family": "mini",
+			"title": "mini- ابر پشت چسبدار  (10×10×2000)",
+			"unit": "عدد",
+			"c": 1,
+			"s": 1,
+			"dups": 1
+		},
+		{
+			"id": "mini-128",
+			"family": "mini",
+			"title": "mini - ابر بدون چسب (40×50×500)",
+			"unit": "عدد",
+			"c": 1,
+			"s": 1,
+			"dups": 1
+		},
+		{
+			"id": "mini-129",
+			"family": "mini",
+			"title": "mini - کارتن پلاست منبری",
+			"unit": "عدد",
+			"c": 1,
+			"s": 1,
+			"dups": 1
+		},
+		{
+			"id": "mini-130",
+			"family": "mini",
+			"title": "پیچ خودکار سرگرد 5/8 × 8 گالوانیزه",
+			"unit": "عدد",
+			"c": 2,
+			"s": 1,
+			"dups": 1
+		},
+		{
+			"id": "mini-131",
+			"family": "mini",
+			"title": "پیچ سرگرد گل پهن 15×5 استوانه ای گالوانیزه",
+			"unit": "عدد",
+			"c": 2,
+			"s": 1,
+			"dups": 1
+		},
+		{
+			"id": "mini-132",
+			"family": "mini",
+			"title": "mini- صفحه تریزون (کمپرسور ساکشن سمت چپ)",
+			"unit": "عدد",
+			"c": 1,
+			"s": 3,
+			"dups": 1
+		},
+		{
+			"id": "mini-133",
+			"family": "mini",
+			"title": "mini- لوله خرطومی سر شیلنگ دار",
+			"unit": "عدد",
+			"c": 1,
+			"s": 3,
+			"dups": 1
+		},
+		{
+			"id": "mini-134",
+			"family": "mini",
+			"title": "چسب دو طرفه عرض 120mm (رول 50متری)",
+			"unit": "عدد",
+			"c": .008,
+			"s": 1,
+			"dups": 1
+		},
+		{
+			"id": "mini-135",
+			"family": "mini",
+			"title": "mini- ورق فلزی (بخش لولا و قفل یخدان)(پانج نمایشگر)",
+			"unit": "عدد",
+			"c": 2,
+			"s": 1,
+			"dups": 1
+		},
+		{
+			"id": "mini-136",
+			"family": "mini",
+			"title": "گاز سیکلو پنتان",
+			"unit": "کیلوگرم",
+			"c": .36,
+			"s": 1.8888888888888888,
+			"dups": 3
+		},
+		{
+			"id": "mini-137",
+			"family": "mini",
+			"title": "مواد ایزوسیانات",
+			"unit": "کیلوگرم",
+			"c": 5.04,
+			"s": 1.888888888888889,
+			"dups": 3
+		},
+		{
+			"id": "mini-138",
+			"family": "mini",
+			"title": "مواد پلی یول",
+			"unit": "کیلوگرم",
+			"c": 3.6,
+			"s": 1.888888888888889,
+			"dups": 3
+		},
+		{
+			"id": "mini-139",
+			"family": "mini",
+			"title": "چسب  حرارتی",
+			"unit": "عدد",
+			"c": 5.5,
+			"s": 1,
+			"dups": 2
+		},
+		{
+			"id": "mini-140",
+			"family": "mini",
+			"title": "چسب کاغذی (5 سانتی)",
+			"unit": "عدد",
+			"c": .2,
+			"s": 1,
+			"dups": 1
+		},
+		{
+			"id": "mini-141",
+			"family": "mini",
+			"title": "چسب آلومینیوم 5 سانت",
+			"unit": "متر",
+			"c": 9.5,
+			"s": 1,
+			"dups": 1
+		},
+		{
+			"id": "mini-142",
+			"family": "mini",
+			"title": "miniM-براکت لولا پایین",
+			"unit": "عدد",
+			"c": 1,
+			"s": 1,
+			"dups": 1
+		},
+		{
+			"id": "mini-143",
+			"family": "mini",
+			"title": "پیچ سرگرد استوانه ای چهارسو گالوانیزه 20×6",
+			"unit": "عدد",
+			"c": 2,
+			"s": 1,
+			"dups": 1
+		},
+		{
+			"id": "mini-144",
+			"family": "mini",
+			"title": "پیچ گالوانیزه آچار خور M6×15",
+			"unit": "عدد",
+			"c": 2,
+			"s": 1,
+			"dups": 1
+		},
+		{
+			"id": "mini-145",
+			"family": "mini",
+			"title": "mini-miniM-miniG-مهره تسمه ای لولا بالا",
+			"unit": "عدد",
+			"c": 1,
+			"s": 1,
+			"dups": 1
+		},
+		{
+			"id": "mini-146",
+			"family": "mini",
+			"title": "mini - سیم درخت  (سوکت کمپرسور سایز 6.3)",
+			"unit": "عدد",
+			"c": 1,
+			"s": 2,
+			"dups": 1
+		},
+		{
+			"id": "mini-147",
+			"family": "mini",
+			"title": "miniM-ورق (خم و پانچ شده) درب استیل خش دار",
+			"unit": "عدد",
+			"c": 1,
+			"s": 3,
+			"dups": 1
+		},
+		{
+			"id": "mini-148",
+			"family": "mini",
+			"title": "miniM-لاینر درب",
+			"unit": "عدد",
+			"c": 1,
+			"s": 2,
+			"dups": 1
+		},
+		{
+			"id": "mini-149",
+			"family": "mini",
+			"title": "پادری mini metal - سیلور",
+			"unit": "عدد",
+			"c": 1,
+			"s": 1,
+			"dups": 1
+		},
+		{
+			"id": "mini-150",
+			"family": "mini",
+			"title": "سردری mini metal - سیلور",
+			"unit": "عدد",
+			"c": 1,
+			"s": 1,
+			"dups": 1
+		},
+		{
+			"id": "mini-151",
+			"family": "mini",
+			"title": "mini- پوسته درب رنگ شده  (نیمه ساخته)",
+			"unit": "عدد",
+			"c": 1,
+			"s": 3,
+			"dups": 1
+		},
+		{
+			"id": "mini-152",
+			"family": "mini",
+			"title": "mini - لاینر(نیمه ساخته)",
+			"unit": "عدد",
+			"c": 1,
+			"s": 2,
+			"dups": 1
+		},
+		{
+			"id": "mini-153",
+			"family": "mini",
+			"title": "mini- رنگ شده پروفیل اکسترود درب ABS (نیمه ساخته)",
+			"unit": "عدد",
+			"c": 2,
+			"s": 2,
+			"dups": 1
+		},
+		{
+			"id": "mini-154",
+			"family": "mini",
+			"title": "mini- رنگ شده سردری ABS (نیمه ساخته)",
+			"unit": "عدد",
+			"c": 2,
+			"s": 1,
+			"dups": 1
+		},
+		{
+			"id": "mini-155",
+			"family": "mini",
+			"title": "mini - براکت دستگیره",
+			"unit": "عدد",
+			"c": 2,
+			"s": 1,
+			"dups": 1
+		},
+		{
+			"id": "mini-156",
+			"family": "mini",
+			"title": "mini - نوار گسکت",
+			"unit": "عدد",
+			"c": 1,
+			"s": 2,
+			"dups": 1
+		},
+		{
 			"id": "c70-0",
 			"family": "c70",
 			"title": "C70-FR16- تریزون یخچال",
@@ -5772,11 +6168,11 @@ var factory = {
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "32240017",
 			"title": "mini - لاینر(نیمه ساخته)",
-			"reason": "خطا اپراتور",
+			"reason": "ایراد اپراتوری",
 			"origin": "prod",
 			"qty": 1,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-152"],
 			"color": null,
 			"note": ""
 		},
@@ -5790,8 +6186,8 @@ var factory = {
 			"reason": "دفرمگی",
 			"origin": "contractor",
 			"qty": 9,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-152"],
 			"color": null,
 			"note": ""
 		},
@@ -5817,11 +6213,11 @@ var factory = {
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "11240097",
 			"title": "mini - نوار گسکت",
-			"reason": "فوم زدگی",
+			"reason": "ایراد اپراتوری",
 			"origin": "prod",
 			"qty": 1,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-156"],
 			"color": null,
 			"note": ""
 		},
@@ -5835,8 +6231,8 @@ var factory = {
 			"reason": "فوم زدگی",
 			"origin": "prod",
 			"qty": 1,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-152"],
 			"color": null,
 			"note": ""
 		},
@@ -5880,10 +6276,10 @@ var factory = {
 			"reason": "ایراد رنگ",
 			"origin": "contractor",
 			"qty": 11,
-			"match": "none",
-			"bomIds": [],
+			"match": "canon",
+			"bomIds": ["mini-154"],
 			"color": "gloss",
-			"note": ""
+			"note": "گونه‌نویسی یکسان پس از حذف رنگ/وضعیت"
 		},
 		{
 			"id": 9,
@@ -5907,7 +6303,7 @@ var factory = {
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "11240125",
 			"title": "mini - نقشه سیم کشی",
-			"reason": "چروک و پارگی",
+			"reason": "پارگی",
 			"origin": "prod",
 			"qty": 4,
 			"match": "exact",
@@ -5922,7 +6318,7 @@ var factory = {
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "11990043",
 			"title": "دمپر لاستیکی(LM60-کلور)",
-			"reason": "سوختگی رنگ",
+			"reason": "ایراد رنگ",
 			"origin": "prod",
 			"qty": 5,
 			"match": "exact",
@@ -5982,7 +6378,7 @@ var factory = {
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "32240049",
 			"title": "نیم ساخته درب فوم خورده یخچال Mini (BK02)(جدید)",
-			"reason": "خطا اپراتور",
+			"reason": "ایراد اپراتوری",
 			"origin": "prod",
 			"qty": 2,
 			"match": "canon",
@@ -6087,7 +6483,7 @@ var factory = {
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "11240036",
 			"title": "mini - درپوش پشت یخدان",
-			"reason": "سوختگی مواد",
+			"reason": "سوختگی",
 			"origin": "contractor",
 			"qty": 6,
 			"match": "exact",
@@ -6117,7 +6513,7 @@ var factory = {
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "21161331",
 			"title": "mini - کارتن محصول",
-			"reason": "چروک و پارگی",
+			"reason": "پارگی",
 			"origin": "prod",
 			"qty": 6,
 			"match": "exact",
@@ -6192,7 +6588,7 @@ var factory = {
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "11240039",
 			"title": "mini - بطری گیر کوچک",
-			"reason": "سوختگی مواد",
+			"reason": "سوختگی",
 			"origin": "prod",
 			"qty": 1,
 			"match": "exact",
@@ -6255,8 +6651,8 @@ var factory = {
 			"reason": "فوم زدگی",
 			"origin": "prod",
 			"qty": 1,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-132"],
 			"color": null,
 			"note": ""
 		},
@@ -6270,8 +6666,8 @@ var factory = {
 			"reason": "شکستگی",
 			"origin": "prod",
 			"qty": 5,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-114"],
 			"color": null,
 			"note": ""
 		},
@@ -6285,8 +6681,8 @@ var factory = {
 			"reason": "وکیوم",
 			"origin": "contractor",
 			"qty": 2,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-114"],
 			"color": null,
 			"note": ""
 		},
@@ -6300,8 +6696,8 @@ var factory = {
 			"reason": "دفرمگی",
 			"origin": "contractor",
 			"qty": 2,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-152"],
 			"color": null,
 			"note": ""
 		},
@@ -6315,10 +6711,10 @@ var factory = {
 			"reason": "لکه رنگ و چربی و چسب و تزریق",
 			"origin": "contractor",
 			"qty": 21,
-			"match": "none",
-			"bomIds": [],
+			"match": "canon",
+			"bomIds": ["mini-154"],
 			"color": "matte",
-			"note": ""
+			"note": "گونه‌نویسی یکسان پس از حذف رنگ/وضعیت"
 		},
 		{
 			"id": 38,
@@ -6342,7 +6738,7 @@ var factory = {
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "11240036",
 			"title": "mini - درپوش پشت یخدان",
-			"reason": "هاله",
+			"reason": "ایراد تزریق",
 			"origin": "contractor",
 			"qty": 11,
 			"match": "exact",
@@ -6375,10 +6771,10 @@ var factory = {
 			"reason": "لکه رنگ و چربی و چسب و تزریق",
 			"origin": "contractor",
 			"qty": 9,
-			"match": "none",
-			"bomIds": [],
+			"match": "canon",
+			"bomIds": ["mini-154"],
 			"color": "gloss",
-			"note": ""
+			"note": "گونه‌نویسی یکسان پس از حذف رنگ/وضعیت"
 		},
 		{
 			"id": 42,
@@ -6420,8 +6816,8 @@ var factory = {
 			"reason": "دفرمگی",
 			"origin": "contractor",
 			"qty": 5,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-114"],
 			"color": null,
 			"note": ""
 		},
@@ -6435,8 +6831,8 @@ var factory = {
 			"reason": "دفرمگی",
 			"origin": "contractor",
 			"qty": 1,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-113"],
 			"color": null,
 			"note": ""
 		},
@@ -6555,8 +6951,8 @@ var factory = {
 			"reason": "دفرمگی",
 			"origin": "prod",
 			"qty": 11,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-114"],
 			"color": null,
 			"note": ""
 		},
@@ -6567,7 +6963,7 @@ var factory = {
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "11990036",
 			"title": "mini - کلور لوگو",
-			"reason": "خرابی",
+			"reason": "ایراد اپراتوری",
 			"origin": "prod",
 			"qty": 1,
 			"match": "exact",
@@ -6627,7 +7023,7 @@ var factory = {
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "11240036",
 			"title": "mini - درپوش پشت یخدان",
-			"reason": "چسبی بودن",
+			"reason": "چسب خوردگی",
 			"origin": "prod",
 			"qty": 2,
 			"match": "exact",
@@ -6657,7 +7053,7 @@ var factory = {
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "32240048",
 			"title": "نیم ساخته درب فوم خورده یخچال mini قرمز(جدید)",
-			"reason": "خش و لک",
+			"reason": "خش",
 			"origin": "prod",
 			"qty": 1,
 			"match": "canon",
@@ -6705,8 +7101,8 @@ var factory = {
 			"reason": "پارگی",
 			"origin": "prod",
 			"qty": 1,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-129"],
 			"color": null,
 			"note": ""
 		},
@@ -6720,8 +7116,8 @@ var factory = {
 			"reason": "دفرمگی",
 			"origin": "prod",
 			"qty": 2,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-113"],
 			"color": null,
 			"note": ""
 		},
@@ -6735,8 +7131,8 @@ var factory = {
 			"reason": "ایراد فنی",
 			"origin": "prod",
 			"qty": 2,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-126"],
 			"color": null,
 			"note": ""
 		},
@@ -6750,8 +7146,8 @@ var factory = {
 			"reason": "دفرمگی",
 			"origin": "prod",
 			"qty": 1,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-132"],
 			"color": null,
 			"note": ""
 		},
@@ -6762,11 +7158,11 @@ var factory = {
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "32240016",
 			"title": "mini - وان(نیمه ساخته)",
-			"reason": "دفرمگی و ایراد ابعاد",
+			"reason": "ایراد ابعادی",
 			"origin": "prod",
 			"qty": 14,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-114"],
 			"color": null,
 			"note": ""
 		},
@@ -6777,11 +7173,11 @@ var factory = {
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "32240017",
 			"title": "mini - لاینر(نیمه ساخته)",
-			"reason": "ایراد ابعاد",
+			"reason": "ایراد ابعادی",
 			"origin": "prod",
 			"qty": 1,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-152"],
 			"color": null,
 			"note": ""
 		},
@@ -6837,7 +7233,7 @@ var factory = {
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "11240128",
 			"title": "mini - برچسب 4 ستاره",
-			"reason": "ایراد ابعاد",
+			"reason": "ایراد ابعادی",
 			"origin": "prod",
 			"qty": 7,
 			"match": "exact",
@@ -6897,7 +7293,7 @@ var factory = {
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "11240124",
 			"title": "mini - برچسب انرژی",
-			"reason": "لک",
+			"reason": "ایراد اپراتوری",
 			"origin": "prod",
 			"qty": 66,
 			"match": "exact",
@@ -7032,7 +7428,7 @@ var factory = {
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "11240331",
 			"title": "C70-FR16-قیف لوله خروج آب دیفراست یخچال",
-			"reason": "",
+			"reason": "ایراد اپراتوری",
 			"origin": "prod",
 			"qty": 1,
 			"match": "none",
@@ -7047,11 +7443,11 @@ var factory = {
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "11240059",
 			"title": "mini- پایه ستاره ای",
-			"reason": "",
+			"reason": "ایراد اپراتوری",
 			"origin": "prod",
 			"qty": 12,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-120"],
 			"color": null,
 			"note": ""
 		},
@@ -7062,7 +7458,7 @@ var factory = {
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "11240280",
 			"title": "C70-FR16- آبکاری براکت پایه پایین مهارکابین (مشترک با LM70)",
-			"reason": "",
+			"reason": "ایراد اپراتوری",
 			"origin": "prod",
 			"qty": 2,
 			"match": "none",
@@ -7077,7 +7473,7 @@ var factory = {
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "11240300",
 			"title": "C70-FR16-مجموعه لوله ساکشن و موئی",
-			"reason": "",
+			"reason": "ایراد اپراتوری",
 			"origin": "prod",
 			"qty": 1,
 			"match": "none",
@@ -7092,7 +7488,7 @@ var factory = {
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "11240245",
 			"title": "C70-FR16- قید پایین سفید ساده (مشترک با LM70)",
-			"reason": "",
+			"reason": "ایراد اپراتوری",
 			"origin": "prod",
 			"qty": 1,
 			"match": "none",
@@ -7107,7 +7503,7 @@ var factory = {
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "11240248",
 			"title": "C70-FR16- قید وسط سفید ساده",
-			"reason": "",
+			"reason": "ایراد اپراتوری",
 			"origin": "prod",
 			"qty": 1,
 			"match": "none",
@@ -7122,7 +7518,7 @@ var factory = {
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "11240243",
 			"title": "C70-FR16- بدنه U شده سفید ساده (همراه با کندانسور)",
-			"reason": "",
+			"reason": "ایراد اپراتوری",
 			"origin": "prod",
 			"qty": 1,
 			"match": "none",
@@ -7137,7 +7533,7 @@ var factory = {
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "11240276",
 			"title": "C70-FR16-صفحه تریزون 5تکه فریزر",
-			"reason": "",
+			"reason": "ایراد اپراتوری",
 			"origin": "prod",
 			"qty": 3,
 			"match": "none",
@@ -7152,7 +7548,7 @@ var factory = {
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "11240268",
 			"title": "C70-FR16- وان فریزر",
-			"reason": "",
+			"reason": "ایراد اپراتوری",
 			"origin": "prod",
 			"qty": 2,
 			"match": "none",
@@ -7167,7 +7563,7 @@ var factory = {
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "11240267",
 			"title": "C70-FR16- وان یخچال",
-			"reason": "",
+			"reason": "ایراد اپراتوری",
 			"origin": "prod",
 			"qty": 2,
 			"match": "none",
@@ -7182,7 +7578,7 @@ var factory = {
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "11240336",
 			"title": "C70-C60- پرکن راست سفید (مشترک با LM70-LM60)",
-			"reason": "",
+			"reason": "ایراد اپراتوری",
 			"origin": "prod",
 			"qty": 2,
 			"match": "canon",
@@ -7197,7 +7593,7 @@ var factory = {
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "11240266",
 			"title": "C70-FR16- لاینر درب فریزر",
-			"reason": "",
+			"reason": "ایراد اپراتوری",
 			"origin": "prod",
 			"qty": 3,
 			"match": "none",
@@ -7212,7 +7608,7 @@ var factory = {
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "11240323",
 			"title": "C70-FR16-پادری فریزر مدل میراکل سفید (مشترک با مدل LM70)",
-			"reason": "",
+			"reason": "ایراد اپراتوری",
 			"origin": "prod",
 			"qty": 2,
 			"match": "none",
@@ -7227,7 +7623,7 @@ var factory = {
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "11240313",
 			"title": "C70-FR16- سردری فریزر سفید (مشترک با LM70مدل روسو و میراکل)",
-			"reason": "",
+			"reason": "ایراد اپراتوری",
 			"origin": "prod",
 			"qty": 2,
 			"match": "none",
@@ -7242,7 +7638,7 @@ var factory = {
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "11240508",
 			"title": "C70-C60-دستگیره کنار سفید (مشترک با LM70)",
-			"reason": "",
+			"reason": "ایراد اپراتوری",
 			"origin": "prod",
 			"qty": 4,
 			"match": "none",
@@ -7257,7 +7653,7 @@ var factory = {
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "11240116",
 			"title": "MINI & C2S- برچسب اخطار",
-			"reason": "",
+			"reason": "ایراد اپراتوری",
 			"origin": "prod",
 			"qty": 2,
 			"match": "exact",
@@ -7272,7 +7668,7 @@ var factory = {
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "11240028",
 			"title": "mini - شاسی قاب ترموستات",
-			"reason": "",
+			"reason": "ایراد اپراتوری",
 			"origin": "prod",
 			"qty": 7,
 			"match": "exact",
@@ -7287,7 +7683,7 @@ var factory = {
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "11240071",
 			"title": "mini - ترموستات",
-			"reason": "",
+			"reason": "ایراد اپراتوری",
 			"origin": "prod",
 			"qty": 1,
 			"match": "exact",
@@ -7302,7 +7698,7 @@ var factory = {
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "32240049",
 			"title": "نیم ساخته درب فوم خورده یخچال Mini (BK02)(جدید)",
-			"reason": "لک رنگ",
+			"reason": "ایراد رنگ",
 			"origin": "prod",
 			"qty": 2,
 			"match": "canon",
@@ -7332,11 +7728,11 @@ var factory = {
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "32240015",
 			"title": "mini - وان یخدان(نیمه ساخته)",
-			"reason": "",
+			"reason": "ایراد اپراتوری",
 			"origin": "prod",
 			"qty": 1,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-113"],
 			"color": null,
 			"note": ""
 		},
@@ -7347,11 +7743,11 @@ var factory = {
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "32240016",
 			"title": "mini - وان(نیمه ساخته)",
-			"reason": "",
+			"reason": "ایراد اپراتوری",
 			"origin": "prod",
 			"qty": 1,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-114"],
 			"color": null,
 			"note": ""
 		},
@@ -7362,13 +7758,13 @@ var factory = {
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "32240023",
 			"title": "mini - سردری ( رنگ شده قرمز)(نیمه ساخته)",
-			"reason": "",
+			"reason": "ایراد اپراتوری",
 			"origin": "prod",
 			"qty": 2,
-			"match": "none",
-			"bomIds": [],
+			"match": "canon",
+			"bomIds": ["mini-154"],
 			"color": "red",
-			"note": ""
+			"note": "گونه‌نویسی یکسان پس از حذف رنگ/وضعیت"
 		},
 		{
 			"id": 108,
@@ -7377,7 +7773,7 @@ var factory = {
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "32240043",
 			"title": "mini- سردری ABS رنگ شده (آبی پاستیلیBl-01)(نیمه ساخته)",
-			"reason": "",
+			"reason": "ایراد اپراتوری",
 			"origin": "prod",
 			"qty": 1,
 			"match": "none",
@@ -7395,10 +7791,10 @@ var factory = {
 			"reason": "ایراد رنگ",
 			"origin": "contractor",
 			"qty": 20,
-			"match": "none",
-			"bomIds": [],
+			"match": "canon",
+			"bomIds": ["mini-154"],
 			"color": "white",
-			"note": ""
+			"note": "گونه‌نویسی یکسان پس از حذف رنگ/وضعیت"
 		},
 		{
 			"id": 110,
@@ -7407,7 +7803,7 @@ var factory = {
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "11990048",
 			"title": "پیچ خودکار سر گرد واشر دار 5/8×8 گالوانیزه",
-			"reason": "آبکاری ضعیف",
+			"reason": "ایراد آبکاری",
 			"origin": "contractor",
 			"qty": 115,
 			"match": "ambiguous",
@@ -7437,7 +7833,7 @@ var factory = {
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "11240035",
 			"title": "mini - درب یخدان",
-			"reason": "خش و لک",
+			"reason": "خش",
 			"origin": "contractor",
 			"qty": 7,
 			"match": "exact",
@@ -7452,7 +7848,7 @@ var factory = {
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "11240004",
 			"title": "mini - مکمل شاسی اصلی",
-			"reason": "ناقص",
+			"reason": "ایراد ابعادی",
 			"origin": "contractor",
 			"qty": 2,
 			"match": "exact",
@@ -7470,8 +7866,8 @@ var factory = {
 			"reason": "دفرمگی",
 			"origin": "contractor",
 			"qty": 4,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-132"],
 			"color": null,
 			"note": ""
 		},
@@ -7485,8 +7881,8 @@ var factory = {
 			"reason": "دفرمگی",
 			"origin": "contractor",
 			"qty": 6,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-152"],
 			"color": null,
 			"note": ""
 		},
@@ -7497,7 +7893,7 @@ var factory = {
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "32240039",
 			"title": "mini- سردری ABS رنگ شده  (سبز پاستیلی Gr-01)(نیمه ساخته)",
-			"reason": "لکه رنگ",
+			"reason": "ایراد رنگ",
 			"origin": "contractor",
 			"qty": 5,
 			"match": "none",
@@ -7512,13 +7908,13 @@ var factory = {
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "32240019",
 			"title": "mini - سردری مشکی  (نیمه ساخته)",
-			"reason": "لکه رنگ",
+			"reason": "ایراد رنگ",
 			"origin": "contractor",
 			"qty": 7,
-			"match": "none",
-			"bomIds": [],
+			"match": "canon",
+			"bomIds": ["mini-154"],
 			"color": "gloss",
-			"note": ""
+			"note": "گونه‌نویسی یکسان پس از حذف رنگ/وضعیت"
 		},
 		{
 			"id": 118,
@@ -7527,7 +7923,7 @@ var factory = {
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "32240043",
 			"title": "mini- سردری ABS رنگ شده (آبی پاستیلیBl-01)(نیمه ساخته)",
-			"reason": "لکه رنگ",
+			"reason": "ایراد رنگ",
 			"origin": "contractor",
 			"qty": 1,
 			"match": "none",
@@ -7557,7 +7953,7 @@ var factory = {
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "11240035",
 			"title": "mini - درب یخدان",
-			"reason": "",
+			"reason": "لکه رنگ و چربی و چسب و تزریق",
 			"origin": "contractor",
 			"qty": 4,
 			"match": "exact",
@@ -7572,7 +7968,7 @@ var factory = {
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "32240043",
 			"title": "mini- سردری ABS رنگ شده (آبی پاستیلیBl-01)(نیمه ساخته)",
-			"reason": "",
+			"reason": "خش",
 			"origin": "contractor",
 			"qty": 2,
 			"match": "none",
@@ -7587,13 +7983,13 @@ var factory = {
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "32240023",
 			"title": "mini - سردری ( رنگ شده قرمز)(نیمه ساخته)",
-			"reason": "",
+			"reason": "خش",
 			"origin": "contractor",
 			"qty": 2,
-			"match": "none",
-			"bomIds": [],
+			"match": "canon",
+			"bomIds": ["mini-154"],
 			"color": "red",
-			"note": ""
+			"note": "گونه‌نویسی یکسان پس از حذف رنگ/وضعیت"
 		},
 		{
 			"id": 123,
@@ -7602,11 +7998,11 @@ var factory = {
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "32240015",
 			"title": "mini - وان یخدان(نیمه ساخته)",
-			"reason": "",
+			"reason": "ایراد تزریق",
 			"origin": "contractor",
 			"qty": 3,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-113"],
 			"color": null,
 			"note": ""
 		},
@@ -7617,11 +8013,11 @@ var factory = {
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "32240016",
 			"title": "mini - وان(نیمه ساخته)",
-			"reason": "",
+			"reason": "ایراد تزریق",
 			"origin": "contractor",
 			"qty": 6,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-114"],
 			"color": null,
 			"note": ""
 		},
@@ -7632,11 +8028,11 @@ var factory = {
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "11240172",
 			"title": "mini- صفحه تریزون (کمپرسور ساکشن سمت چپ)",
-			"reason": "",
+			"reason": "ایراد فنی",
 			"origin": "contractor",
 			"qty": 1,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-132"],
 			"color": null,
 			"note": ""
 		},
@@ -7647,7 +8043,7 @@ var factory = {
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "32240039",
 			"title": "mini- سردری ABS رنگ شده  (سبز پاستیلی Gr-01)(نیمه ساخته)",
-			"reason": "",
+			"reason": "خش",
 			"origin": "contractor",
 			"qty": 2,
 			"match": "none",
@@ -7662,8 +8058,8 @@ var factory = {
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "11240096",
 			"title": "mini - گسکت درب یخدان",
-			"reason": "ایراد فنی",
-			"origin": "unknown",
+			"reason": "پارگی",
+			"origin": "contractor",
 			"qty": 78,
 			"match": "exact",
 			"bomIds": ["mini-79"],
@@ -7677,8 +8073,8 @@ var factory = {
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "11240676",
 			"title": "C70-FR16- بدنه U شده سفید ساده",
-			"reason": "",
-			"origin": "unknown",
+			"reason": "ایراد اپراتوری",
+			"origin": "prod",
 			"qty": 1,
 			"match": "none",
 			"bomIds": [],
@@ -7692,8 +8088,8 @@ var factory = {
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "11240284",
 			"title": "C70-FR16-لوله آنتی",
-			"reason": "",
-			"origin": "unknown",
+			"reason": "ایراد اپراتوری",
+			"origin": "prod",
 			"qty": 1,
 			"match": "none",
 			"bomIds": [],
@@ -7707,8 +8103,8 @@ var factory = {
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "11240266",
 			"title": "C70-FR16- لاینر درب فریزر",
-			"reason": "",
-			"origin": "unknown",
+			"reason": "ایراد اپراتوری",
+			"origin": "prod",
 			"qty": 2,
 			"match": "none",
 			"bomIds": [],
@@ -7722,8 +8118,8 @@ var factory = {
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "11240248",
 			"title": "C70-FR16- قید وسط سفید ساده",
-			"reason": "",
-			"origin": "unknown",
+			"reason": "ایراد اپراتوری",
+			"origin": "prod",
 			"qty": 3,
 			"match": "none",
 			"bomIds": [],
@@ -7737,8 +8133,8 @@ var factory = {
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "11240251",
 			"title": "C70-FR16- لاینر درب یخچال",
-			"reason": "",
-			"origin": "unknown",
+			"reason": "ایراد اپراتوری",
+			"origin": "prod",
 			"qty": 4,
 			"match": "none",
 			"bomIds": [],
@@ -7752,8 +8148,8 @@ var factory = {
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "11240268",
 			"title": "C70-FR16- وان فریزر",
-			"reason": "",
-			"origin": "unknown",
+			"reason": "ایراد اپراتوری",
+			"origin": "prod",
 			"qty": 2,
 			"match": "none",
 			"bomIds": [],
@@ -7767,8 +8163,8 @@ var factory = {
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "11240267",
 			"title": "C70-FR16- وان یخچال",
-			"reason": "",
-			"origin": "unknown",
+			"reason": "ایراد اپراتوری",
+			"origin": "prod",
 			"qty": 2,
 			"match": "none",
 			"bomIds": [],
@@ -7782,13 +8178,13 @@ var factory = {
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "32240061",
 			"title": "mini- رنگ شده سردری ABS (سفید استخوانی )(نیمه ساخته)",
-			"reason": "خش و لک",
+			"reason": "خش",
 			"origin": "contractor",
 			"qty": 3,
-			"match": "none",
-			"bomIds": [],
+			"match": "canon",
+			"bomIds": ["mini-154"],
 			"color": "white",
-			"note": ""
+			"note": "گونه‌نویسی یکسان پس از حذف رنگ/وضعیت"
 		},
 		{
 			"id": 136,
@@ -7800,8 +8196,8 @@ var factory = {
 			"reason": "دفرمگی",
 			"origin": "contractor",
 			"qty": 8,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-152"],
 			"color": null,
 			"note": ""
 		},
@@ -7812,11 +8208,11 @@ var factory = {
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "11240097",
 			"title": "mini - نوار گسکت",
-			"reason": "دمونتاژ",
+			"reason": "ایراد اپراتوری",
 			"origin": "prod",
 			"qty": 1,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-156"],
 			"color": null,
 			"note": ""
 		},
@@ -7830,8 +8226,8 @@ var factory = {
 			"reason": "دمونتاژ",
 			"origin": "prod",
 			"qty": 1,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-152"],
 			"color": null,
 			"note": ""
 		},
@@ -7845,8 +8241,8 @@ var factory = {
 			"reason": "دمونتاژ",
 			"origin": "prod",
 			"qty": 1,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-129"],
 			"color": null,
 			"note": ""
 		},
@@ -7860,8 +8256,8 @@ var factory = {
 			"reason": "دفرمگی",
 			"origin": "contractor",
 			"qty": 3,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-114"],
 			"color": null,
 			"note": ""
 		},
@@ -7875,10 +8271,10 @@ var factory = {
 			"reason": "دفرمگی",
 			"origin": "contractor",
 			"qty": 1,
-			"match": "none",
-			"bomIds": [],
+			"match": "canon",
+			"bomIds": ["mini-115"],
 			"color": "white",
-			"note": ""
+			"note": "گونه‌نویسی یکسان پس از حذف رنگ/وضعیت"
 		},
 		{
 			"id": 142,
@@ -7887,13 +8283,13 @@ var factory = {
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "32240019",
 			"title": "mini - سردری مشکی  (نیمه ساخته)",
-			"reason": "لکه رنگ",
+			"reason": "ایراد رنگ",
 			"origin": "contractor",
 			"qty": 4,
-			"match": "none",
-			"bomIds": [],
+			"match": "canon",
+			"bomIds": ["mini-154"],
 			"color": "gloss",
-			"note": ""
+			"note": "گونه‌نویسی یکسان پس از حذف رنگ/وضعیت"
 		},
 		{
 			"id": 143,
@@ -7920,8 +8316,8 @@ var factory = {
 			"reason": "دفرمگی",
 			"origin": "contractor",
 			"qty": 3,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-152"],
 			"color": null,
 			"note": ""
 		},
@@ -7995,8 +8391,8 @@ var factory = {
 			"reason": "ایراد فنی",
 			"origin": "prod",
 			"qty": 60,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-131"],
 			"color": null,
 			"note": ""
 		},
@@ -8052,7 +8448,7 @@ var factory = {
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "11240030",
 			"title": "mini - ولوم ترموستات",
-			"reason": "لکه رنگ",
+			"reason": "ایراد رنگ",
 			"origin": "prod",
 			"qty": 3,
 			"match": "exact",
@@ -8097,7 +8493,7 @@ var factory = {
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "11240033",
 			"title": "mini - جا میوه ای",
-			"reason": "ساییدگی",
+			"reason": "لکه",
 			"origin": "contractor",
 			"qty": 5,
 			"match": "exact",
@@ -8142,7 +8538,7 @@ var factory = {
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "11240040",
 			"title": "mini - بطری گیر بزرگ",
-			"reason": "لک رنگ",
+			"reason": "ایراد رنگ",
 			"origin": "contractor",
 			"qty": 3,
 			"match": "exact",
@@ -8232,7 +8628,7 @@ var factory = {
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "11240041",
 			"title": "mini - جا کره ای",
-			"reason": "لک رنگ",
+			"reason": "ایراد رنگ",
 			"origin": "prod",
 			"qty": 3,
 			"match": "exact",
@@ -8265,10 +8661,10 @@ var factory = {
 			"reason": "ایراد رنگ",
 			"origin": "contractor",
 			"qty": 2,
-			"match": "none",
-			"bomIds": [],
+			"match": "canon",
+			"bomIds": ["mini-154"],
 			"color": "red",
-			"note": ""
+			"note": "گونه‌نویسی یکسان پس از حذف رنگ/وضعیت"
 		},
 		{
 			"id": 168,
@@ -8280,8 +8676,8 @@ var factory = {
 			"reason": "دفرمگی",
 			"origin": "contractor",
 			"qty": 2,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-152"],
 			"color": null,
 			"note": ""
 		},
@@ -8295,10 +8691,10 @@ var factory = {
 			"reason": "خش",
 			"origin": "prod",
 			"qty": 1,
-			"match": "none",
-			"bomIds": [],
+			"match": "canon",
+			"bomIds": ["mini-116"],
 			"color": "white",
-			"note": ""
+			"note": "گونه‌نویسی یکسان پس از حذف رنگ/وضعیت"
 		},
 		{
 			"id": 170,
@@ -8310,8 +8706,8 @@ var factory = {
 			"reason": "دفرمگی",
 			"origin": "contractor",
 			"qty": 4,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-132"],
 			"color": null,
 			"note": ""
 		},
@@ -8325,8 +8721,8 @@ var factory = {
 			"reason": "ترک",
 			"origin": "contractor",
 			"qty": 4,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-114"],
 			"color": null,
 			"note": ""
 		},
@@ -8337,7 +8733,7 @@ var factory = {
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "11240035",
 			"title": "mini - درب یخدان",
-			"reason": "چسبی بودن",
+			"reason": "چسب خوردگی",
 			"origin": "prod",
 			"qty": 1,
 			"match": "exact",
@@ -8355,8 +8751,8 @@ var factory = {
 			"reason": "دمونتاژ",
 			"origin": "prod",
 			"qty": 1,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-117"],
 			"color": null,
 			"note": ""
 		},
@@ -8370,8 +8766,8 @@ var factory = {
 			"reason": "دمونتاژ",
 			"origin": "prod",
 			"qty": 1,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-129"],
 			"color": null,
 			"note": ""
 		},
@@ -8382,7 +8778,7 @@ var factory = {
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "45240004",
 			"title": "سردری minimetalسفید",
-			"reason": "پلیسه گیری",
+			"reason": "عدم پلیسه گیری",
 			"origin": "contractor",
 			"qty": 3,
 			"match": "none",
@@ -8415,8 +8811,8 @@ var factory = {
 			"reason": "دفرمگی",
 			"origin": "contractor",
 			"qty": 1,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-148"],
 			"color": null,
 			"note": ""
 		},
@@ -8430,8 +8826,8 @@ var factory = {
 			"reason": "دمونتاژ",
 			"origin": "prod",
 			"qty": 1,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-148"],
 			"color": null,
 			"note": ""
 		},
@@ -8442,7 +8838,7 @@ var factory = {
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "11240035",
 			"title": "mini - درب یخدان",
-			"reason": "پلیسه گیری",
+			"reason": "عدم پلیسه گیری",
 			"origin": "contractor",
 			"qty": 1,
 			"match": "exact",
@@ -8517,7 +8913,7 @@ var factory = {
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "11240122",
 			"title": "C2S - برچسب سیکلوپنتان",
-			"reason": "چروک",
+			"reason": "پارگی",
 			"origin": "prod",
 			"qty": 3,
 			"match": "ambiguous",
@@ -8562,7 +8958,7 @@ var factory = {
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "11240125",
 			"title": "mini - نقشه سیم کشی",
-			"reason": "چروک",
+			"reason": "پارگی",
 			"origin": "prod",
 			"qty": 3,
 			"match": "exact",
@@ -8610,8 +9006,8 @@ var factory = {
 			"reason": "ایراد اپراتوری",
 			"origin": "contractor",
 			"qty": 1,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-114"],
 			"color": null,
 			"note": ""
 		},
@@ -8625,8 +9021,8 @@ var factory = {
 			"reason": "دفرمگی",
 			"origin": "prod",
 			"qty": 18,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-114"],
 			"color": null,
 			"note": ""
 		},
@@ -8640,8 +9036,8 @@ var factory = {
 			"reason": "دفرمگی",
 			"origin": "contractor",
 			"qty": 3,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-132"],
 			"color": null,
 			"note": ""
 		},
@@ -8652,11 +9048,11 @@ var factory = {
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "11240229",
 			"title": "miniM-لاینر درب",
-			"reason": "ایراد ابعاد",
+			"reason": "ایراد ابعادی",
 			"origin": "prod",
 			"qty": 1,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-148"],
 			"color": null,
 			"note": ""
 		},
@@ -8715,8 +9111,8 @@ var factory = {
 			"reason": "دمونتاژ",
 			"origin": "prod",
 			"qty": 1,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-114"],
 			"color": null,
 			"note": ""
 		},
@@ -8730,8 +9126,8 @@ var factory = {
 			"reason": "سوراخ",
 			"origin": "contractor",
 			"qty": 4,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-114"],
 			"color": null,
 			"note": ""
 		},
@@ -8745,8 +9141,8 @@ var factory = {
 			"reason": "دفرمگی",
 			"origin": "contractor",
 			"qty": 19,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-114"],
 			"color": null,
 			"note": ""
 		},
@@ -8760,8 +9156,8 @@ var factory = {
 			"reason": "دفرمگی",
 			"origin": "contractor",
 			"qty": 1,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-132"],
 			"color": null,
 			"note": ""
 		},
@@ -9150,8 +9546,8 @@ var factory = {
 			"reason": "پارگی",
 			"origin": "prod",
 			"qty": 2,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-156"],
 			"color": null,
 			"note": ""
 		},
@@ -9195,10 +9591,10 @@ var factory = {
 			"reason": "ایراد رنگ",
 			"origin": "contractor",
 			"qty": 2,
-			"match": "none",
-			"bomIds": [],
+			"match": "canon",
+			"bomIds": ["mini-154"],
 			"color": "red",
-			"note": ""
+			"note": "گونه‌نویسی یکسان پس از حذف رنگ/وضعیت"
 		},
 		{
 			"id": 230,
@@ -9210,10 +9606,10 @@ var factory = {
 			"reason": "شکستگی",
 			"origin": "contractor",
 			"qty": 3,
-			"match": "none",
-			"bomIds": [],
+			"match": "canon",
+			"bomIds": ["mini-154"],
 			"color": "white",
-			"note": ""
+			"note": "گونه‌نویسی یکسان پس از حذف رنگ/وضعیت"
 		},
 		{
 			"id": 231,
@@ -9225,8 +9621,8 @@ var factory = {
 			"reason": "دفرمگی",
 			"origin": "both",
 			"qty": 4,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-152"],
 			"color": null,
 			"note": ""
 		},
@@ -9237,7 +9633,7 @@ var factory = {
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "11240223",
 			"title": "miniM-پادری سفید",
-			"reason": "ایراد ابعاد",
+			"reason": "ایراد ابعادی",
 			"origin": "both",
 			"qty": 3,
 			"match": "none",
@@ -9255,10 +9651,10 @@ var factory = {
 			"reason": "ایراد ابعادی",
 			"origin": "contractor",
 			"qty": 2,
-			"match": "none",
-			"bomIds": [],
+			"match": "canon",
+			"bomIds": ["mini-154"],
 			"color": "white",
-			"note": ""
+			"note": "گونه‌نویسی یکسان پس از حذف رنگ/وضعیت"
 		},
 		{
 			"id": 234,
@@ -9270,8 +9666,8 @@ var factory = {
 			"reason": "دمونتاژ",
 			"origin": "prod",
 			"qty": 1,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-129"],
 			"color": null,
 			"note": ""
 		},
@@ -9282,11 +9678,11 @@ var factory = {
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "32240016",
 			"title": "mini - وان(نیمه ساخته)",
-			"reason": "دفرمگی-لکه",
+			"reason": "دفرمگی",
 			"origin": "contractor",
 			"qty": 35,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-114"],
 			"color": null,
 			"note": ""
 		},
@@ -9300,8 +9696,8 @@ var factory = {
 			"reason": "دمونتاژ",
 			"origin": "prod",
 			"qty": 1,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-114"],
 			"color": null,
 			"note": ""
 		},
@@ -9315,10 +9711,10 @@ var factory = {
 			"reason": "ایراد رنگ",
 			"origin": "contractor",
 			"qty": 33,
-			"match": "none",
-			"bomIds": [],
+			"match": "canon",
+			"bomIds": ["mini-154"],
 			"color": "gloss",
-			"note": ""
+			"note": "گونه‌نویسی یکسان پس از حذف رنگ/وضعیت"
 		},
 		{
 			"id": 238,
@@ -9330,8 +9726,8 @@ var factory = {
 			"reason": "دفرمگی",
 			"origin": "contractor",
 			"qty": 3,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-152"],
 			"color": null,
 			"note": ""
 		},
@@ -9345,8 +9741,8 @@ var factory = {
 			"reason": "پارگی",
 			"origin": "contractor",
 			"qty": 1,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-156"],
 			"color": null,
 			"note": ""
 		},
@@ -9390,8 +9786,8 @@ var factory = {
 			"reason": "دفرمگی",
 			"origin": "contractor",
 			"qty": 1,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-148"],
 			"color": null,
 			"note": ""
 		},
@@ -9420,10 +9816,10 @@ var factory = {
 			"reason": "ایراد رنگ",
 			"origin": "contractor",
 			"qty": 11,
-			"match": "none",
-			"bomIds": [],
+			"match": "canon",
+			"bomIds": ["mini-154"],
 			"color": "gloss",
-			"note": ""
+			"note": "گونه‌نویسی یکسان پس از حذف رنگ/وضعیت"
 		},
 		{
 			"id": 245,
@@ -9465,10 +9861,10 @@ var factory = {
 			"reason": "دمونتاژ",
 			"origin": "prod",
 			"qty": 1,
-			"match": "none",
-			"bomIds": [],
+			"match": "canon",
+			"bomIds": ["mini-154"],
 			"color": "white",
-			"note": ""
+			"note": "گونه‌نویسی یکسان پس از حذف رنگ/وضعیت"
 		},
 		{
 			"id": 248,
@@ -9480,10 +9876,10 @@ var factory = {
 			"reason": "شکستگی",
 			"origin": "contractor",
 			"qty": 1,
-			"match": "none",
-			"bomIds": [],
+			"match": "canon",
+			"bomIds": ["mini-154"],
 			"color": "gloss",
-			"note": ""
+			"note": "گونه‌نویسی یکسان پس از حذف رنگ/وضعیت"
 		},
 		{
 			"id": 249,
@@ -9492,11 +9888,11 @@ var factory = {
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "11240097",
 			"title": "mini - نوار گسکت",
-			"reason": "دمونتاژ",
+			"reason": "ایراد اپراتوری",
 			"origin": "prod",
 			"qty": 2,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-156"],
 			"color": null,
 			"note": ""
 		},
@@ -9510,8 +9906,8 @@ var factory = {
 			"reason": "دمونتاژ",
 			"origin": "prod",
 			"qty": 2,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-152"],
 			"color": null,
 			"note": ""
 		},
@@ -9525,8 +9921,8 @@ var factory = {
 			"reason": "دفرمگی",
 			"origin": "contractor",
 			"qty": 2,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-152"],
 			"color": null,
 			"note": ""
 		},
@@ -9765,10 +10161,10 @@ var factory = {
 			"reason": "ایراد رنگ",
 			"origin": "contractor",
 			"qty": 2,
-			"match": "none",
-			"bomIds": [],
+			"match": "canon",
+			"bomIds": ["mini-154"],
 			"color": "gloss",
-			"note": ""
+			"note": "گونه‌نویسی یکسان پس از حذف رنگ/وضعیت"
 		},
 		{
 			"id": 268,
@@ -9780,8 +10176,8 @@ var factory = {
 			"reason": "ایراد رنگ",
 			"origin": "contractor",
 			"qty": 23,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-114"],
 			"color": null,
 			"note": ""
 		},
@@ -9795,10 +10191,10 @@ var factory = {
 			"reason": "دفرمگی",
 			"origin": "contractor",
 			"qty": 2,
-			"match": "none",
-			"bomIds": [],
+			"match": "canon",
+			"bomIds": ["mini-115"],
 			"color": "white",
-			"note": ""
+			"note": "گونه‌نویسی یکسان پس از حذف رنگ/وضعیت"
 		},
 		{
 			"id": 270,
@@ -9810,8 +10206,8 @@ var factory = {
 			"reason": "دمونتاژ",
 			"origin": "prod",
 			"qty": 2,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-132"],
 			"color": null,
 			"note": ""
 		},
@@ -9825,10 +10221,10 @@ var factory = {
 			"reason": "خش",
 			"origin": "contractor",
 			"qty": 3,
-			"match": "none",
-			"bomIds": [],
+			"match": "canon",
+			"bomIds": ["mini-154"],
 			"color": "matte",
-			"note": ""
+			"note": "گونه‌نویسی یکسان پس از حذف رنگ/وضعیت"
 		},
 		{
 			"id": 272,
@@ -9840,10 +10236,10 @@ var factory = {
 			"reason": "ایراد رنگ",
 			"origin": "contractor",
 			"qty": 2,
-			"match": "none",
-			"bomIds": [],
+			"match": "canon",
+			"bomIds": ["mini-154"],
 			"color": "gloss",
-			"note": ""
+			"note": "گونه‌نویسی یکسان پس از حذف رنگ/وضعیت"
 		},
 		{
 			"id": 273,
@@ -9855,8 +10251,8 @@ var factory = {
 			"reason": "دمونتاژ",
 			"origin": "prod",
 			"qty": 1,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-117"],
 			"color": null,
 			"note": ""
 		},
@@ -9867,7 +10263,7 @@ var factory = {
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "11240035",
 			"title": "mini - درب یخدان",
-			"reason": "هاله دار بودن",
+			"reason": "ایراد تزریق",
 			"origin": "contractor",
 			"qty": 24,
 			"match": "exact",
@@ -9942,7 +10338,7 @@ var factory = {
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "11240101",
 			"title": "mini - درایر",
-			"reason": "",
+			"reason": "ایراد فنی",
 			"origin": "contractor",
 			"qty": 10,
 			"match": "exact",
@@ -10215,8 +10611,8 @@ var factory = {
 			"reason": "دمونتاژ",
 			"origin": "prod",
 			"qty": 2,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-118"],
 			"color": null,
 			"note": ""
 		},
@@ -10227,11 +10623,11 @@ var factory = {
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "11240097",
 			"title": "mini - نوار گسکت",
-			"reason": "دمونتاژ",
+			"reason": "ایراد اپراتوری",
 			"origin": "prod",
 			"qty": 1,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-156"],
 			"color": null,
 			"note": ""
 		},
@@ -10245,8 +10641,8 @@ var factory = {
 			"reason": "دمونتاژ",
 			"origin": "prod",
 			"qty": 1,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-152"],
 			"color": null,
 			"note": ""
 		},
@@ -10260,8 +10656,8 @@ var factory = {
 			"reason": "دفرمگی",
 			"origin": "contractor",
 			"qty": 16,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-114"],
 			"color": null,
 			"note": ""
 		},
@@ -10275,8 +10671,8 @@ var factory = {
 			"reason": "ایراد اپراتوری",
 			"origin": "prod",
 			"qty": 1,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-114"],
 			"color": null,
 			"note": ""
 		},
@@ -10290,10 +10686,10 @@ var factory = {
 			"reason": "ایراد رنگ",
 			"origin": "contractor",
 			"qty": 1,
-			"match": "none",
-			"bomIds": [],
+			"match": "canon",
+			"bomIds": ["mini-154"],
 			"color": "red",
-			"note": ""
+			"note": "گونه‌نویسی یکسان پس از حذف رنگ/وضعیت"
 		},
 		{
 			"id": 303,
@@ -10320,10 +10716,10 @@ var factory = {
 			"reason": "ایراد رنگ",
 			"origin": "contractor",
 			"qty": 1,
-			"match": "none",
-			"bomIds": [],
+			"match": "canon",
+			"bomIds": ["mini-154"],
 			"color": "red",
-			"note": ""
+			"note": "گونه‌نویسی یکسان پس از حذف رنگ/وضعیت"
 		},
 		{
 			"id": 305,
@@ -10335,8 +10731,8 @@ var factory = {
 			"reason": "دفرمگی",
 			"origin": "contractor",
 			"qty": 3,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-152"],
 			"color": null,
 			"note": ""
 		},
@@ -10350,8 +10746,8 @@ var factory = {
 			"reason": "دمونتاژ",
 			"origin": "prod",
 			"qty": 3,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-142"],
 			"color": null,
 			"note": ""
 		},
@@ -10365,8 +10761,8 @@ var factory = {
 			"reason": "ایراد فنی",
 			"origin": "contractor",
 			"qty": 1,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-142"],
 			"color": null,
 			"note": ""
 		},
@@ -10380,8 +10776,8 @@ var factory = {
 			"reason": "دفرمگی",
 			"origin": "contractor",
 			"qty": 18,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-114"],
 			"color": null,
 			"note": ""
 		},
@@ -10395,8 +10791,8 @@ var factory = {
 			"reason": "خش",
 			"origin": "contractor",
 			"qty": 5,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-150"],
 			"color": null,
 			"note": ""
 		},
@@ -10425,10 +10821,10 @@ var factory = {
 			"reason": "شکستگی",
 			"origin": "contractor",
 			"qty": 1,
-			"match": "none",
-			"bomIds": [],
+			"match": "canon",
+			"bomIds": ["mini-154"],
 			"color": "matte",
-			"note": ""
+			"note": "گونه‌نویسی یکسان پس از حذف رنگ/وضعیت"
 		},
 		{
 			"id": 312,
@@ -10437,7 +10833,7 @@ var factory = {
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "11240035",
 			"title": "mini - درب یخدان",
-			"reason": "ایراد رنگ+دفرمگی",
+			"reason": "ایراد رنگ",
 			"origin": "contractor",
 			"qty": 34,
 			"match": "exact",
@@ -10602,7 +10998,7 @@ var factory = {
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "11240033",
 			"title": "mini - جا میوه ای",
-			"reason": "سایدگی",
+			"reason": "ساییدگی",
 			"origin": "contractor",
 			"qty": 2,
 			"match": "exact",
@@ -10632,7 +11028,7 @@ var factory = {
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "11240129",
 			"title": "mini - برچسب اطمینان از باز بودن آبریز",
-			"reason": "",
+			"reason": "خش",
 			"origin": "contractor",
 			"qty": 2,
 			"match": "exact",
@@ -10647,7 +11043,7 @@ var factory = {
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "11240124",
 			"title": "mini - برچسب انرژی",
-			"reason": "",
+			"reason": "خش",
 			"origin": "contractor",
 			"qty": 21,
 			"match": "exact",
@@ -10662,7 +11058,7 @@ var factory = {
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "11240148",
 			"title": "mini- برچسب گارانتی",
-			"reason": "",
+			"reason": "خش",
 			"origin": "prod",
 			"qty": 28,
 			"match": "exact",
@@ -10677,7 +11073,7 @@ var factory = {
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "11240128",
 			"title": "mini - برچسب 4 ستاره",
-			"reason": "",
+			"reason": "لکه",
 			"origin": "contractor",
 			"qty": 6,
 			"match": "exact",
@@ -10692,7 +11088,7 @@ var factory = {
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "11990052",
 			"title": "برچسب سبز استاندارد یخچال (37×25)  کد(6999614036)",
-			"reason": "",
+			"reason": "لکه",
 			"origin": "contractor",
 			"qty": 10,
 			"match": "none",
@@ -10707,7 +11103,7 @@ var factory = {
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "11240033",
 			"title": "mini - جا میوه ای",
-			"reason": "",
+			"reason": "ایراد تزریق",
 			"origin": "contractor",
 			"qty": 4,
 			"match": "exact",
@@ -10737,7 +11133,7 @@ var factory = {
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "11240042",
 			"title": "mini - درب جا کره ای",
-			"reason": "سایدگی",
+			"reason": "ساییدگی",
 			"origin": "contractor",
 			"qty": 13,
 			"match": "exact",
@@ -10785,8 +11181,8 @@ var factory = {
 			"reason": "پارگی",
 			"origin": "contractor",
 			"qty": 1,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-156"],
 			"color": null,
 			"note": ""
 		},
@@ -10800,8 +11196,8 @@ var factory = {
 			"reason": "فوم زدگی",
 			"origin": "prod",
 			"qty": 1,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-118"],
 			"color": null,
 			"note": ""
 		},
@@ -10815,10 +11211,10 @@ var factory = {
 			"reason": "شکستگی",
 			"origin": "contractor",
 			"qty": 1,
-			"match": "none",
-			"bomIds": [],
+			"match": "canon",
+			"bomIds": ["mini-154"],
 			"color": "gloss",
-			"note": ""
+			"note": "گونه‌نویسی یکسان پس از حذف رنگ/وضعیت"
 		},
 		{
 			"id": 338,
@@ -10830,8 +11226,8 @@ var factory = {
 			"reason": "ایراد اپراتوری",
 			"origin": "prod",
 			"qty": 2,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-150"],
 			"color": null,
 			"note": ""
 		},
@@ -10842,7 +11238,7 @@ var factory = {
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "11240649",
 			"title": "miniM - نیم ساخت قید پایین (سیلور )",
-			"reason": "ایراد ابعاد",
+			"reason": "ایراد ابعادی",
 			"origin": "prod",
 			"qty": 21,
 			"match": "none",
@@ -10860,8 +11256,8 @@ var factory = {
 			"reason": "دفرمگی",
 			"origin": "contractor",
 			"qty": 2,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-152"],
 			"color": null,
 			"note": ""
 		},
@@ -10872,7 +11268,7 @@ var factory = {
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "11240035",
 			"title": "mini - درب یخدان",
-			"reason": "لکه رنگ",
+			"reason": "ایراد رنگ",
 			"origin": "contractor",
 			"qty": 46,
 			"match": "exact",
@@ -10935,8 +11331,8 @@ var factory = {
 			"reason": "ایراد رنگ",
 			"origin": "contractor",
 			"qty": 33,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-114"],
 			"color": null,
 			"note": ""
 		},
@@ -10950,8 +11346,8 @@ var factory = {
 			"reason": "پارگی",
 			"origin": "contractor",
 			"qty": 2,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-156"],
 			"color": null,
 			"note": ""
 		},
@@ -10965,10 +11361,10 @@ var factory = {
 			"reason": "ایراد رنگ",
 			"origin": "contractor",
 			"qty": 1,
-			"match": "none",
-			"bomIds": [],
+			"match": "canon",
+			"bomIds": ["mini-154"],
 			"color": "red",
-			"note": ""
+			"note": "گونه‌نویسی یکسان پس از حذف رنگ/وضعیت"
 		},
 		{
 			"id": 348,
@@ -10977,11 +11373,11 @@ var factory = {
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "45240007",
 			"title": "سردری mini metal - سیلور",
-			"reason": "ایراد ابعاد",
+			"reason": "ایراد ابعادی",
 			"origin": "contractor",
 			"qty": 1,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-150"],
 			"color": null,
 			"note": ""
 		},
@@ -10992,7 +11388,7 @@ var factory = {
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "11240649",
 			"title": "miniM - نیم ساخت قید پایین (سیلور )",
-			"reason": "ایراد ابعاد",
+			"reason": "ایراد ابعادی",
 			"origin": "contractor",
 			"qty": 40,
 			"match": "none",
@@ -11007,11 +11403,11 @@ var factory = {
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "11240097",
 			"title": "mini - نوار گسکت",
-			"reason": "ایراد ابعاد",
+			"reason": "ایراد ابعادی",
 			"origin": "contractor",
 			"qty": 2,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-156"],
 			"color": null,
 			"note": ""
 		},
@@ -11025,8 +11421,8 @@ var factory = {
 			"reason": "دمونتاژ",
 			"origin": "prod",
 			"qty": 2,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-129"],
 			"color": null,
 			"note": ""
 		},
@@ -11040,8 +11436,8 @@ var factory = {
 			"reason": "خش",
 			"origin": "contractor",
 			"qty": 4,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-150"],
 			"color": null,
 			"note": ""
 		},
@@ -11055,10 +11451,10 @@ var factory = {
 			"reason": "شکستگی",
 			"origin": "contractor",
 			"qty": 2,
-			"match": "none",
-			"bomIds": [],
+			"match": "canon",
+			"bomIds": ["mini-154"],
 			"color": "white",
-			"note": ""
+			"note": "گونه‌نویسی یکسان پس از حذف رنگ/وضعیت"
 		},
 		{
 			"id": 354,
@@ -11070,8 +11466,8 @@ var factory = {
 			"reason": "دفرمگی",
 			"origin": "contractor",
 			"qty": 2,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-152"],
 			"color": null,
 			"note": ""
 		},
@@ -11085,10 +11481,10 @@ var factory = {
 			"reason": "دفرمگی",
 			"origin": "prod",
 			"qty": 1,
-			"match": "none",
-			"bomIds": [],
+			"match": "canon",
+			"bomIds": ["mini-115"],
 			"color": "white",
-			"note": ""
+			"note": "گونه‌نویسی یکسان پس از حذف رنگ/وضعیت"
 		},
 		{
 			"id": 356,
@@ -11100,8 +11496,8 @@ var factory = {
 			"reason": "دمونتاژ",
 			"origin": "contractor",
 			"qty": 1,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-148"],
 			"color": null,
 			"note": ""
 		},
@@ -11220,10 +11616,10 @@ var factory = {
 			"reason": "دمونتاژ",
 			"origin": "prod",
 			"qty": 1,
-			"match": "none",
-			"bomIds": [],
+			"match": "canon",
+			"bomIds": ["mini-154"],
 			"color": "red",
-			"note": ""
+			"note": "گونه‌نویسی یکسان پس از حذف رنگ/وضعیت"
 		},
 		{
 			"id": 365,
@@ -11235,10 +11631,10 @@ var factory = {
 			"reason": "خش",
 			"origin": "prod",
 			"qty": 1,
-			"match": "none",
-			"bomIds": [],
+			"match": "canon",
+			"bomIds": ["mini-116"],
 			"color": "white",
-			"note": ""
+			"note": "گونه‌نویسی یکسان پس از حذف رنگ/وضعیت"
 		},
 		{
 			"id": 366,
@@ -11247,11 +11643,11 @@ var factory = {
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "11240097",
 			"title": "mini - نوار گسکت",
-			"reason": "دمونتاژ",
+			"reason": "ایراد اپراتوری",
 			"origin": "prod",
 			"qty": 1,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-156"],
 			"color": null,
 			"note": ""
 		},
@@ -11265,8 +11661,8 @@ var factory = {
 			"reason": "دمونتاژ",
 			"origin": "prod",
 			"qty": 1,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-152"],
 			"color": null,
 			"note": ""
 		},
@@ -11280,8 +11676,8 @@ var factory = {
 			"reason": "پارگی",
 			"origin": "contractor",
 			"qty": 2,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-156"],
 			"color": null,
 			"note": ""
 		},
@@ -11295,10 +11691,10 @@ var factory = {
 			"reason": "خش",
 			"origin": "contractor",
 			"qty": 7,
-			"match": "none",
-			"bomIds": [],
+			"match": "canon",
+			"bomIds": ["mini-115"],
 			"color": "white",
-			"note": ""
+			"note": "گونه‌نویسی یکسان پس از حذف رنگ/وضعیت"
 		},
 		{
 			"id": 370,
@@ -11307,7 +11703,7 @@ var factory = {
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "11240649",
 			"title": "miniM - نیم ساخت قید پایین (سیلور )",
-			"reason": "ایراد ابعاد",
+			"reason": "ایراد ابعادی",
 			"origin": "contractor",
 			"qty": 1,
 			"match": "none",
@@ -11355,10 +11751,10 @@ var factory = {
 			"reason": "ایراد رنگ",
 			"origin": "contractor",
 			"qty": 1,
-			"match": "none",
-			"bomIds": [],
+			"match": "canon",
+			"bomIds": ["mini-154"],
 			"color": "white",
-			"note": ""
+			"note": "گونه‌نویسی یکسان پس از حذف رنگ/وضعیت"
 		},
 		{
 			"id": 374,
@@ -11385,8 +11781,8 @@ var factory = {
 			"reason": "دمونتاژ",
 			"origin": "prod",
 			"qty": 1,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-132"],
 			"color": null,
 			"note": ""
 		},
@@ -11400,8 +11796,8 @@ var factory = {
 			"reason": "دفرمگی",
 			"origin": "contractor",
 			"qty": 1,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-132"],
 			"color": null,
 			"note": ""
 		},
@@ -11415,8 +11811,8 @@ var factory = {
 			"reason": "شکستگی",
 			"origin": "prod",
 			"qty": 7,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-144"],
 			"color": null,
 			"note": ""
 		},
@@ -11430,8 +11826,8 @@ var factory = {
 			"reason": "ایراد فنی",
 			"origin": "contractor",
 			"qty": 1,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-132"],
 			"color": null,
 			"note": ""
 		},
@@ -11442,11 +11838,11 @@ var factory = {
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "11240097",
 			"title": "mini - نوار گسکت",
-			"reason": "دمونتاژ",
+			"reason": "ایراد اپراتوری",
 			"origin": "prod",
 			"qty": 2,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-156"],
 			"color": null,
 			"note": ""
 		},
@@ -11460,8 +11856,8 @@ var factory = {
 			"reason": "دمونتاژ",
 			"origin": "prod",
 			"qty": 4,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-152"],
 			"color": null,
 			"note": ""
 		},
@@ -11505,8 +11901,8 @@ var factory = {
 			"reason": "خش",
 			"origin": "contractor",
 			"qty": 1,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-150"],
 			"color": null,
 			"note": ""
 		},
@@ -11520,8 +11916,8 @@ var factory = {
 			"reason": "دفرمگی",
 			"origin": "contractor",
 			"qty": 1,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-113"],
 			"color": null,
 			"note": ""
 		},
@@ -11535,10 +11931,10 @@ var factory = {
 			"reason": "دمونتاژ",
 			"origin": "contractor",
 			"qty": 1,
-			"match": "none",
-			"bomIds": [],
+			"match": "canon",
+			"bomIds": ["mini-154"],
 			"color": "white",
-			"note": ""
+			"note": "گونه‌نویسی یکسان پس از حذف رنگ/وضعیت"
 		},
 		{
 			"id": 386,
@@ -11550,8 +11946,8 @@ var factory = {
 			"reason": "ایراد رنگ",
 			"origin": "contractor",
 			"qty": 15,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-114"],
 			"color": null,
 			"note": ""
 		},
@@ -11565,8 +11961,8 @@ var factory = {
 			"reason": "ایراد فنی",
 			"origin": "contractor",
 			"qty": 1,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-114"],
 			"color": null,
 			"note": ""
 		},
@@ -11580,10 +11976,10 @@ var factory = {
 			"reason": "خش",
 			"origin": "contractor",
 			"qty": 2,
-			"match": "none",
-			"bomIds": [],
+			"match": "canon",
+			"bomIds": ["mini-115"],
 			"color": "white",
-			"note": ""
+			"note": "گونه‌نویسی یکسان پس از حذف رنگ/وضعیت"
 		},
 		{
 			"id": 389,
@@ -11610,8 +12006,8 @@ var factory = {
 			"reason": "خش",
 			"origin": "contractor",
 			"qty": 7,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-149"],
 			"color": null,
 			"note": ""
 		},
@@ -11625,8 +12021,8 @@ var factory = {
 			"reason": "خش",
 			"origin": "contractor",
 			"qty": 1,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-150"],
 			"color": null,
 			"note": ""
 		},
@@ -11640,8 +12036,8 @@ var factory = {
 			"reason": "دمونتاژ",
 			"origin": "prod",
 			"qty": 1,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-152"],
 			"color": null,
 			"note": ""
 		},
@@ -11652,11 +12048,11 @@ var factory = {
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "11240097",
 			"title": "mini - نوار گسکت",
-			"reason": "دمونتاژ",
+			"reason": "ایراد اپراتوری",
 			"origin": "prod",
 			"qty": 1,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-156"],
 			"color": null,
 			"note": ""
 		},
@@ -11670,8 +12066,8 @@ var factory = {
 			"reason": "دمونتاژ",
 			"origin": "contractor",
 			"qty": 1,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-129"],
 			"color": null,
 			"note": ""
 		},
@@ -11685,8 +12081,8 @@ var factory = {
 			"reason": "ایراد فنی",
 			"origin": "contractor",
 			"qty": 3,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-144"],
 			"color": null,
 			"note": ""
 		},
@@ -11700,8 +12096,8 @@ var factory = {
 			"reason": "ایراد فنی",
 			"origin": "contractor",
 			"qty": 3,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-142"],
 			"color": null,
 			"note": ""
 		},
@@ -11715,8 +12111,8 @@ var factory = {
 			"reason": "شکستگی",
 			"origin": "contractor",
 			"qty": 18,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-148"],
 			"color": null,
 			"note": ""
 		},
@@ -11727,13 +12123,13 @@ var factory = {
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "32240019",
 			"title": "mini - سردری مشکی  (نیمه ساخته)",
-			"reason": "کثیف",
+			"reason": "لکه",
 			"origin": "contractor",
 			"qty": 1,
-			"match": "none",
-			"bomIds": [],
+			"match": "canon",
+			"bomIds": ["mini-154"],
 			"color": "gloss",
-			"note": ""
+			"note": "گونه‌نویسی یکسان پس از حذف رنگ/وضعیت"
 		},
 		{
 			"id": 399,
@@ -11742,7 +12138,7 @@ var factory = {
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "11240101",
 			"title": "mini - درایر",
-			"reason": "تعویض کمپرسور",
+			"reason": "دمونتاژ",
 			"origin": "prod",
 			"qty": 5,
 			"match": "exact",
@@ -11768,30 +12164,30 @@ var factory = {
 		{
 			"id": 401,
 			"month": "1405/04",
-			"date": "1405/04/23",
+			"date": "1405/04/25",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
-			"code": "11240035",
-			"title": "mini - درب یخدان",
-			"reason": "مرجوع پیمانکار",
-			"origin": "unknown",
-			"qty": 103,
+			"code": "21161540",
+			"title": "mini - کارتن پلاست منبری",
+			"reason": "سوختگی",
+			"origin": "contractor",
+			"qty": 2,
 			"match": "exact",
-			"bomIds": ["mini-14"],
+			"bomIds": ["mini-129"],
 			"color": null,
 			"note": ""
 		},
 		{
 			"id": 402,
 			"month": "1405/04",
-			"date": "1405/04/23",
+			"date": "1405/04/25",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
-			"code": "11240036",
-			"title": "mini - درپوش پشت یخدان",
-			"reason": "مرجوع پیمانکار",
-			"origin": "unknown",
-			"qty": 136,
+			"code": "32240016",
+			"title": "mini - وان(نیمه ساخته)",
+			"reason": "ایراد رنگ",
+			"origin": "contractor",
+			"qty": 10,
 			"match": "exact",
-			"bomIds": ["mini-15"],
+			"bomIds": ["mini-114"],
 			"color": null,
 			"note": ""
 		},
@@ -11802,61 +12198,31 @@ var factory = {
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "21161540",
 			"title": "mini - کارتن پلاست منبری",
-			"reason": "سوختگی",
+			"reason": "ایراد ابعادی",
 			"origin": "contractor",
-			"qty": 2,
-			"match": "none",
-			"bomIds": [],
+			"qty": 1,
+			"match": "exact",
+			"bomIds": ["mini-129"],
 			"color": null,
 			"note": ""
 		},
 		{
 			"id": 404,
 			"month": "1405/04",
-			"date": "1405/04/25",
-			"wh": "انبار پای کار مواد اولیه خط یخچال",
-			"code": "32240016",
-			"title": "mini - وان(نیمه ساخته)",
-			"reason": "ایراد رنگ",
-			"origin": "contractor",
-			"qty": 10,
-			"match": "none",
-			"bomIds": [],
-			"color": null,
-			"note": ""
-		},
-		{
-			"id": 405,
-			"month": "1405/04",
-			"date": "1405/04/25",
-			"wh": "انبار پای کار مواد اولیه خط یخچال",
-			"code": "21161540",
-			"title": "mini - کارتن پلاست منبری",
-			"reason": "ایراد ابعاد",
-			"origin": "contractor",
-			"qty": 1,
-			"match": "none",
-			"bomIds": [],
-			"color": null,
-			"note": ""
-		},
-		{
-			"id": 406,
-			"month": "1405/04",
 			"date": "1405/04/28",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "11240019",
 			"title": "mini - نیم ساخت قید پایین (سفید)",
-			"reason": "ایراد ابعاد",
+			"reason": "ایراد ابعادی",
 			"origin": "contractor",
 			"qty": 10,
-			"match": "none",
-			"bomIds": [],
+			"match": "canon",
+			"bomIds": ["mini-116"],
 			"color": "white",
-			"note": ""
+			"note": "گونه‌نویسی یکسان پس از حذف رنگ/وضعیت"
 		},
 		{
-			"id": 407,
+			"id": 405,
 			"month": "1405/04",
 			"date": "1405/04/28",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -11871,7 +12237,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 408,
+			"id": 406,
 			"month": "1405/04",
 			"date": "1405/04/28",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -11880,13 +12246,13 @@ var factory = {
 			"reason": "دمونتاژ",
 			"origin": "prod",
 			"qty": 3,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-129"],
 			"color": null,
 			"note": ""
 		},
 		{
-			"id": 409,
+			"id": 407,
 			"month": "1405/04",
 			"date": "1405/04/28",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -11895,13 +12261,13 @@ var factory = {
 			"reason": "ایراد رنگ",
 			"origin": "contractor",
 			"qty": 4,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-114"],
 			"color": null,
 			"note": ""
 		},
 		{
-			"id": 410,
+			"id": 408,
 			"month": "1405/04",
 			"date": "1405/04/28",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -11910,13 +12276,13 @@ var factory = {
 			"reason": "پارگی",
 			"origin": "contractor",
 			"qty": 7,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-156"],
 			"color": null,
 			"note": ""
 		},
 		{
-			"id": 411,
+			"id": 409,
 			"month": "1405/04",
 			"date": "1405/04/28",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -11925,13 +12291,13 @@ var factory = {
 			"reason": "ایراد فنی",
 			"origin": "contractor",
 			"qty": 4,
-			"match": "none",
-			"bomIds": [],
+			"match": "canon",
+			"bomIds": ["mini-146"],
 			"color": null,
-			"note": ""
+			"note": "گونه‌نویسی یکسان پس از حذف رنگ/وضعیت"
 		},
 		{
-			"id": 412,
+			"id": 410,
 			"month": "1405/04",
 			"date": "1405/04/28",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -11940,13 +12306,13 @@ var factory = {
 			"reason": "خش",
 			"origin": "contractor",
 			"qty": 1,
-			"match": "none",
-			"bomIds": [],
+			"match": "canon",
+			"bomIds": ["mini-115"],
 			"color": "white",
-			"note": ""
+			"note": "گونه‌نویسی یکسان پس از حذف رنگ/وضعیت"
 		},
 		{
-			"id": 413,
+			"id": 411,
 			"month": "1405/04",
 			"date": "1405/04/28",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -11961,7 +12327,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 414,
+			"id": 412,
 			"month": "1405/04",
 			"date": "1405/04/29",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -11976,7 +12342,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 415,
+			"id": 413,
 			"month": "1405/04",
 			"date": "1405/04/29",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -11991,7 +12357,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 416,
+			"id": 414,
 			"month": "1405/04",
 			"date": "1405/04/29",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -12006,13 +12372,13 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 417,
+			"id": 415,
 			"month": "1405/04",
 			"date": "1405/04/29",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "11240233",
 			"title": "miniM-پلاستوفوم سری و کفی",
-			"reason": "ن",
+			"reason": "ایراد اپراتوری",
 			"origin": "prod",
 			"qty": 8,
 			"match": "none",
@@ -12021,13 +12387,13 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 418,
+			"id": 416,
 			"month": "1405/04",
 			"date": "1405/04/29",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "11240024",
 			"title": "mini - قفل درب یخدان",
-			"reason": "ن",
+			"reason": "ایراد ابعادی",
 			"origin": "contractor",
 			"qty": 10,
 			"match": "exact",
@@ -12036,13 +12402,13 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 419,
+			"id": 417,
 			"month": "1405/04",
 			"date": "1405/04/29",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "11240101",
 			"title": "mini - درایر",
-			"reason": "ن",
+			"reason": "ایراد اپراتوری",
 			"origin": "prod",
 			"qty": 1,
 			"match": "exact",
@@ -12051,13 +12417,13 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 420,
+			"id": 418,
 			"month": "1405/04",
 			"date": "1405/04/29",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "11240096",
 			"title": "mini - گسکت درب یخدان",
-			"reason": "ن",
+			"reason": "پارگی",
 			"origin": "contractor",
 			"qty": 1,
 			"match": "exact",
@@ -12066,7 +12432,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 421,
+			"id": 419,
 			"month": "1405/04",
 			"date": "1405/04/31",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -12075,13 +12441,13 @@ var factory = {
 			"reason": "خش",
 			"origin": "contractor",
 			"qty": 5,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-150"],
 			"color": null,
 			"note": ""
 		},
 		{
-			"id": 422,
+			"id": 420,
 			"month": "1405/04",
 			"date": "1405/04/31",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -12090,13 +12456,13 @@ var factory = {
 			"reason": "ایراد رنگ",
 			"origin": "contractor",
 			"qty": 1,
-			"match": "none",
-			"bomIds": [],
+			"match": "canon",
+			"bomIds": ["mini-154"],
 			"color": "red",
-			"note": ""
+			"note": "گونه‌نویسی یکسان پس از حذف رنگ/وضعیت"
 		},
 		{
-			"id": 423,
+			"id": 421,
 			"month": "1405/04",
 			"date": "1405/04/31",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -12105,13 +12471,13 @@ var factory = {
 			"reason": "ایراد رنگ",
 			"origin": "contractor",
 			"qty": 17,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-152"],
 			"color": null,
 			"note": ""
 		},
 		{
-			"id": 424,
+			"id": 422,
 			"month": "1405/04",
 			"date": "1405/04/31",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -12120,28 +12486,28 @@ var factory = {
 			"reason": "ایراد رنگ",
 			"origin": "contractor",
 			"qty": 1,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-113"],
 			"color": null,
 			"note": ""
 		},
 		{
-			"id": 425,
+			"id": 423,
 			"month": "1405/04",
 			"date": "1405/04/31",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "32240016",
 			"title": "mini - وان(نیمه ساخته)",
 			"reason": "خش",
-			"origin": "unknown",
+			"origin": "contractor",
 			"qty": 6,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-114"],
 			"color": null,
 			"note": ""
 		},
 		{
-			"id": 426,
+			"id": 424,
 			"month": "1405/04",
 			"date": "1405/04/31",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -12150,13 +12516,13 @@ var factory = {
 			"reason": "دمونتاژ",
 			"origin": "prod",
 			"qty": 1,
-			"match": "none",
-			"bomIds": [],
+			"match": "canon",
+			"bomIds": ["mini-154"],
 			"color": "gloss",
-			"note": ""
+			"note": "گونه‌نویسی یکسان پس از حذف رنگ/وضعیت"
 		},
 		{
-			"id": 427,
+			"id": 425,
 			"month": "1405/04",
 			"date": "1405/04/31",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -12165,13 +12531,13 @@ var factory = {
 			"reason": "دفرمگی",
 			"origin": "contractor",
 			"qty": 3,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-118"],
 			"color": null,
 			"note": ""
 		},
 		{
-			"id": 428,
+			"id": 426,
 			"month": "1405/04",
 			"date": "1405/04/31",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -12180,13 +12546,13 @@ var factory = {
 			"reason": "دفرمگی",
 			"origin": "contractor",
 			"qty": 4,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-152"],
 			"color": null,
 			"note": ""
 		},
 		{
-			"id": 429,
+			"id": 427,
 			"month": "1405/04",
 			"date": "1405/04/31",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -12195,13 +12561,13 @@ var factory = {
 			"reason": "پارگی",
 			"origin": "contractor",
 			"qty": 1,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-156"],
 			"color": null,
 			"note": ""
 		},
 		{
-			"id": 430,
+			"id": 428,
 			"month": "1405/04",
 			"date": "1405/04/31",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -12210,13 +12576,13 @@ var factory = {
 			"reason": "ایراد رنگ",
 			"origin": "contractor",
 			"qty": 4,
-			"match": "none",
-			"bomIds": [],
+			"match": "canon",
+			"bomIds": ["mini-154"],
 			"color": "gloss",
-			"note": ""
+			"note": "گونه‌نویسی یکسان پس از حذف رنگ/وضعیت"
 		},
 		{
-			"id": 431,
+			"id": 429,
 			"month": "1405/05",
 			"date": "1405/05/03",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -12231,13 +12597,13 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 432,
+			"id": 430,
 			"month": "1405/05",
 			"date": "1405/05/03",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "11240040",
 			"title": "mini - بطری گیر بزرگ",
-			"reason": "شکسته",
+			"reason": "شکستگی",
 			"origin": "contractor",
 			"qty": 3,
 			"match": "exact",
@@ -12246,13 +12612,13 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 433,
+			"id": 431,
 			"month": "1405/05",
 			"date": "1405/05/03",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "11240042",
 			"title": "mini - درب جا کره ای",
-			"reason": "شکسته",
+			"reason": "شکستگی",
 			"origin": "contractor",
 			"qty": 12,
 			"match": "exact",
@@ -12261,13 +12627,13 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 434,
+			"id": 432,
 			"month": "1405/05",
 			"date": "1405/05/03",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "11240032",
 			"title": "mini - زه جلو شیشه",
-			"reason": "شکسته",
+			"reason": "شکستگی",
 			"origin": "prod",
 			"qty": 2,
 			"match": "exact",
@@ -12276,7 +12642,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 435,
+			"id": 433,
 			"month": "1405/05",
 			"date": "1405/05/03",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -12291,7 +12657,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 436,
+			"id": 434,
 			"month": "1405/05",
 			"date": "1405/05/03",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -12306,7 +12672,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 437,
+			"id": 435,
 			"month": "1405/05",
 			"date": "1405/05/03",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -12321,7 +12687,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 438,
+			"id": 436,
 			"month": "1405/05",
 			"date": "1405/05/03",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -12336,13 +12702,13 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 439,
+			"id": 437,
 			"month": "1405/05",
 			"date": "1405/05/03",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "11240128",
 			"title": "mini - برچسب 4 ستاره",
-			"reason": "ایراد ابعاد",
+			"reason": "ایراد ابعادی",
 			"origin": "contractor",
 			"qty": 3,
 			"match": "exact",
@@ -12351,7 +12717,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 440,
+			"id": 438,
 			"month": "1405/05",
 			"date": "1405/05/03",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -12366,7 +12732,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 441,
+			"id": 439,
 			"month": "1405/05",
 			"date": "1405/05/03",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -12381,7 +12747,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 442,
+			"id": 440,
 			"month": "1405/05",
 			"date": "1405/05/03",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -12396,7 +12762,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 443,
+			"id": 441,
 			"month": "1405/05",
 			"date": "1405/05/03",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -12411,7 +12777,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 444,
+			"id": 442,
 			"month": "1405/05",
 			"date": "1405/05/03",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -12426,22 +12792,22 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 445,
+			"id": 443,
 			"month": "1405/05",
 			"date": "1405/05/03",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "11240097",
 			"title": "mini - نوار گسکت",
-			"reason": "ایراد بدنه",
+			"reason": "پارگی",
 			"origin": "contractor",
 			"qty": 1,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-156"],
 			"color": null,
 			"note": ""
 		},
 		{
-			"id": 446,
+			"id": 444,
 			"month": "1405/05",
 			"date": "1405/05/03",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -12456,7 +12822,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 447,
+			"id": 445,
 			"month": "1405/05",
 			"date": "1405/05/03",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -12465,13 +12831,13 @@ var factory = {
 			"reason": "شکستگی",
 			"origin": "contractor",
 			"qty": 3,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-148"],
 			"color": null,
 			"note": ""
 		},
 		{
-			"id": 448,
+			"id": 446,
 			"month": "1405/05",
 			"date": "1405/05/03",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -12480,13 +12846,13 @@ var factory = {
 			"reason": "خش",
 			"origin": "contractor",
 			"qty": 1,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-150"],
 			"color": null,
 			"note": ""
 		},
 		{
-			"id": 449,
+			"id": 447,
 			"month": "1405/05",
 			"date": "1405/05/03",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -12501,7 +12867,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 450,
+			"id": 448,
 			"month": "1405/05",
 			"date": "1405/05/03",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -12516,7 +12882,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 451,
+			"id": 449,
 			"month": "1405/05",
 			"date": "1405/05/03",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -12531,7 +12897,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 452,
+			"id": 450,
 			"month": "1405/05",
 			"date": "1405/05/10",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -12546,7 +12912,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 453,
+			"id": 451,
 			"month": "1405/05",
 			"date": "1405/05/10",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -12561,7 +12927,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 454,
+			"id": 452,
 			"month": "1405/05",
 			"date": "1405/05/10",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -12576,7 +12942,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 455,
+			"id": 453,
 			"month": "1405/05",
 			"date": "1405/05/10",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -12591,13 +12957,13 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 456,
+			"id": 454,
 			"month": "1405/05",
 			"date": "1405/05/10",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "11240024",
 			"title": "mini - قفل درب یخدان",
-			"reason": "تزریق ناقص",
+			"reason": "ایراد تزریق",
 			"origin": "contractor",
 			"qty": 21,
 			"match": "exact",
@@ -12606,7 +12972,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 457,
+			"id": 455,
 			"month": "1405/05",
 			"date": "1405/05/10",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -12621,7 +12987,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 458,
+			"id": 456,
 			"month": "1405/05",
 			"date": "1405/05/10",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -12636,7 +13002,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 459,
+			"id": 457,
 			"month": "1405/05",
 			"date": "1405/05/10",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -12651,13 +13017,13 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 460,
+			"id": 458,
 			"month": "1405/05",
 			"date": "1405/05/10",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "11240035",
 			"title": "mini - درب یخدان",
-			"reason": "لکه رنگ",
+			"reason": "ایراد رنگ",
 			"origin": "contractor",
 			"qty": 297,
 			"match": "exact",
@@ -12666,13 +13032,13 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 461,
+			"id": 459,
 			"month": "1405/05",
 			"date": "1405/05/10",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "11240036",
 			"title": "mini - درپوش پشت یخدان",
-			"reason": "لکه رنگ",
+			"reason": "ایراد رنگ",
 			"origin": "contractor",
 			"qty": 388,
 			"match": "exact",
@@ -12681,7 +13047,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 462,
+			"id": 460,
 			"month": "1405/05",
 			"date": "1405/05/10",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -12690,13 +13056,13 @@ var factory = {
 			"reason": "ایراد رنگ",
 			"origin": "contractor",
 			"qty": 38,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-114"],
 			"color": null,
 			"note": ""
 		},
 		{
-			"id": 463,
+			"id": 461,
 			"month": "1405/05",
 			"date": "1405/05/10",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -12711,7 +13077,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 464,
+			"id": 462,
 			"month": "1405/05",
 			"date": "1405/05/10",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -12720,13 +13086,13 @@ var factory = {
 			"reason": "خش",
 			"origin": "contractor",
 			"qty": 2,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-150"],
 			"color": null,
 			"note": ""
 		},
 		{
-			"id": 465,
+			"id": 463,
 			"month": "1405/05",
 			"date": "1405/05/10",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -12735,13 +13101,13 @@ var factory = {
 			"reason": "خش",
 			"origin": "contractor",
 			"qty": 1,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-149"],
 			"color": null,
 			"note": ""
 		},
 		{
-			"id": 466,
+			"id": 464,
 			"month": "1405/05",
 			"date": "1405/05/10",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -12756,7 +13122,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 467,
+			"id": 465,
 			"month": "1405/05",
 			"date": "1405/05/10",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -12771,7 +13137,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 468,
+			"id": 466,
 			"month": "1405/05",
 			"date": "1405/05/10",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -12780,43 +13146,43 @@ var factory = {
 			"reason": "شکستگی",
 			"origin": "contractor",
 			"qty": 8,
-			"match": "none",
-			"bomIds": [],
+			"match": "canon",
+			"bomIds": ["mini-154"],
 			"color": "gloss",
-			"note": ""
+			"note": "گونه‌نویسی یکسان پس از حذف رنگ/وضعیت"
 		},
 		{
-			"id": 469,
+			"id": 467,
 			"month": "1405/05",
 			"date": "1405/05/10",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "11240229",
 			"title": "miniM-لاینر درب",
-			"reason": "دفرمگی-شکستگی",
+			"reason": "شکستگی",
 			"origin": "contractor",
 			"qty": 3,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-148"],
 			"color": null,
 			"note": ""
 		},
 		{
-			"id": 470,
+			"id": 468,
 			"month": "1405/05",
 			"date": "1405/05/10",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "32240017",
 			"title": "mini - لاینر(نیمه ساخته)",
-			"reason": "دفرمگی-شکستگی",
+			"reason": "شکستگی",
 			"origin": "contractor",
 			"qty": 6,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-152"],
 			"color": null,
 			"note": ""
 		},
 		{
-			"id": 471,
+			"id": 469,
 			"month": "1405/05",
 			"date": "1405/05/10",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -12825,13 +13191,13 @@ var factory = {
 			"reason": "پارگی",
 			"origin": "contractor",
 			"qty": 5,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-156"],
 			"color": null,
 			"note": ""
 		},
 		{
-			"id": 472,
+			"id": 470,
 			"month": "1405/05",
 			"date": "1405/05/10",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -12840,13 +13206,13 @@ var factory = {
 			"reason": "خش",
 			"origin": "contractor",
 			"qty": 1,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-117"],
 			"color": null,
 			"note": ""
 		},
 		{
-			"id": 473,
+			"id": 471,
 			"month": "1405/05",
 			"date": "1405/05/10",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -12855,13 +13221,13 @@ var factory = {
 			"reason": "دمونتاژ",
 			"origin": "both",
 			"qty": 1,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-129"],
 			"color": null,
 			"note": ""
 		},
 		{
-			"id": 474,
+			"id": 472,
 			"month": "1405/05",
 			"date": "1405/05/14",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -12876,7 +13242,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 475,
+			"id": 473,
 			"month": "1405/05",
 			"date": "1405/05/14",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -12885,13 +13251,13 @@ var factory = {
 			"reason": "ایراد فنی",
 			"origin": "prod",
 			"qty": 36,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-131"],
 			"color": null,
 			"note": ""
 		},
 		{
-			"id": 476,
+			"id": 474,
 			"month": "1405/05",
 			"date": "1405/05/14",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -12906,7 +13272,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 477,
+			"id": 475,
 			"month": "1405/05",
 			"date": "1405/05/14",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -12921,7 +13287,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 478,
+			"id": 476,
 			"month": "1405/05",
 			"date": "1405/05/14",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -12936,7 +13302,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 479,
+			"id": 477,
 			"month": "1405/05",
 			"date": "1405/05/14",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -12951,7 +13317,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 480,
+			"id": 478,
 			"month": "1405/05",
 			"date": "1405/05/15",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -12960,13 +13326,13 @@ var factory = {
 			"reason": "پارگی",
 			"origin": "contractor",
 			"qty": 101,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-156"],
 			"color": null,
 			"note": ""
 		},
 		{
-			"id": 481,
+			"id": 479,
 			"month": "1405/05",
 			"date": "1405/05/15",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -12975,13 +13341,13 @@ var factory = {
 			"reason": "دفرمگی",
 			"origin": "contractor",
 			"qty": 7,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-118"],
 			"color": null,
 			"note": ""
 		},
 		{
-			"id": 482,
+			"id": 480,
 			"month": "1405/05",
 			"date": "1405/05/15",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -12990,13 +13356,13 @@ var factory = {
 			"reason": "دفرمگی",
 			"origin": "contractor",
 			"qty": 9,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-152"],
 			"color": null,
 			"note": ""
 		},
 		{
-			"id": 483,
+			"id": 481,
 			"month": "1405/05",
 			"date": "1405/05/15",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -13005,13 +13371,13 @@ var factory = {
 			"reason": "لکه",
 			"origin": "contractor",
 			"qty": 1,
-			"match": "none",
-			"bomIds": [],
+			"match": "canon",
+			"bomIds": ["mini-154"],
 			"color": "matte",
-			"note": ""
+			"note": "گونه‌نویسی یکسان پس از حذف رنگ/وضعیت"
 		},
 		{
-			"id": 484,
+			"id": 482,
 			"month": "1405/05",
 			"date": "1405/05/15",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -13020,9 +13386,39 @@ var factory = {
 			"reason": "شکستگی",
 			"origin": "contractor",
 			"qty": 1,
-			"match": "none",
-			"bomIds": [],
+			"match": "canon",
+			"bomIds": ["mini-154"],
 			"color": "gloss",
+			"note": "گونه‌نویسی یکسان پس از حذف رنگ/وضعیت"
+		},
+		{
+			"id": 483,
+			"month": "1405/05",
+			"date": "1405/05/15",
+			"wh": "انبار پای کار مواد اولیه خط یخچال",
+			"code": "45240007",
+			"title": "سردری mini metal - سیلور",
+			"reason": "دمونتاژ",
+			"origin": "contractor",
+			"qty": 3,
+			"match": "exact",
+			"bomIds": ["mini-150"],
+			"color": null,
+			"note": ""
+		},
+		{
+			"id": 484,
+			"month": "1405/05",
+			"date": "1405/05/15",
+			"wh": "انبار پای کار مواد اولیه خط یخچال",
+			"code": "45240006",
+			"title": "پادری mini metal - سیلور",
+			"reason": "دمونتاژ",
+			"origin": "contractor",
+			"qty": 4,
+			"match": "exact",
+			"bomIds": ["mini-149"],
+			"color": null,
 			"note": ""
 		},
 		{
@@ -13032,46 +13428,16 @@ var factory = {
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "45240007",
 			"title": "سردری mini metal - سیلور",
-			"reason": "دمونتاژ",
+			"reason": "ساییدگی",
 			"origin": "contractor",
-			"qty": 3,
-			"match": "none",
-			"bomIds": [],
+			"qty": 1,
+			"match": "exact",
+			"bomIds": ["mini-150"],
 			"color": null,
 			"note": ""
 		},
 		{
 			"id": 486,
-			"month": "1405/05",
-			"date": "1405/05/15",
-			"wh": "انبار پای کار مواد اولیه خط یخچال",
-			"code": "45240006",
-			"title": "پادری mini metal - سیلور",
-			"reason": "دمونتاژ",
-			"origin": "contractor",
-			"qty": 4,
-			"match": "none",
-			"bomIds": [],
-			"color": null,
-			"note": ""
-		},
-		{
-			"id": 487,
-			"month": "1405/05",
-			"date": "1405/05/15",
-			"wh": "انبار پای کار مواد اولیه خط یخچال",
-			"code": "45240007",
-			"title": "سردری mini metal - سیلور",
-			"reason": "سایدگی",
-			"origin": "contractor",
-			"qty": 1,
-			"match": "none",
-			"bomIds": [],
-			"color": null,
-			"note": ""
-		},
-		{
-			"id": 488,
 			"month": "1405/05",
 			"date": "1405/05/15",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -13086,15 +13452,45 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 489,
+			"id": 487,
 			"month": "1405/05",
 			"date": "1405/05/15",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "11240229",
 			"title": "miniM-لاینر درب",
-			"reason": "سایدگی",
+			"reason": "ساییدگی",
 			"origin": "contractor",
 			"qty": 2,
+			"match": "exact",
+			"bomIds": ["mini-148"],
+			"color": null,
+			"note": ""
+		},
+		{
+			"id": 488,
+			"month": "1405/05",
+			"date": "1405/05/15",
+			"wh": "انبار پای کار مواد اولیه خط یخچال",
+			"code": "11240229",
+			"title": "miniM-لاینر درب",
+			"reason": "دمونتاژ",
+			"origin": "both",
+			"qty": 2,
+			"match": "exact",
+			"bomIds": ["mini-148"],
+			"color": null,
+			"note": ""
+		},
+		{
+			"id": 489,
+			"month": "1405/05",
+			"date": "1405/05/15",
+			"wh": "انبار پای کار مواد اولیه خط یخچال",
+			"code": "11240276",
+			"title": "C70-FR16-صفحه تریزون 5تکه فریزر",
+			"reason": "رد کیفی",
+			"origin": "contractor",
+			"qty": 1,
 			"match": "none",
 			"bomIds": [],
 			"color": null,
@@ -13105,13 +13501,13 @@ var factory = {
 			"month": "1405/05",
 			"date": "1405/05/15",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
-			"code": "11240229",
-			"title": "miniM-لاینر درب",
-			"reason": "دمونتاژ",
+			"code": "11240172",
+			"title": "mini- صفحه تریزون (کمپرسور ساکشن سمت چپ)",
+			"reason": "دفرمگی",
 			"origin": "both",
-			"qty": 2,
-			"match": "none",
-			"bomIds": [],
+			"qty": 7,
+			"match": "exact",
+			"bomIds": ["mini-132"],
 			"color": null,
 			"note": ""
 		},
@@ -13120,13 +13516,13 @@ var factory = {
 			"month": "1405/05",
 			"date": "1405/05/15",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
-			"code": "11240276",
-			"title": "C70-FR16-صفحه تریزون 5تکه فریزر",
-			"reason": "ایراد کیفی",
-			"origin": "contractor",
-			"qty": 1,
-			"match": "none",
-			"bomIds": [],
+			"code": "32240015",
+			"title": "mini - وان یخدان(نیمه ساخته)",
+			"reason": "ایراد فنی",
+			"origin": "both",
+			"qty": 6,
+			"match": "exact",
+			"bomIds": ["mini-113"],
 			"color": null,
 			"note": ""
 		},
@@ -13135,48 +13531,18 @@ var factory = {
 			"month": "1405/05",
 			"date": "1405/05/15",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
-			"code": "11240172",
-			"title": "mini- صفحه تریزون (کمپرسور ساکشن سمت چپ)",
-			"reason": "دفرمگی",
-			"origin": "both",
-			"qty": 7,
-			"match": "none",
-			"bomIds": [],
-			"color": null,
-			"note": ""
-		},
-		{
-			"id": 493,
-			"month": "1405/05",
-			"date": "1405/05/15",
-			"wh": "انبار پای کار مواد اولیه خط یخچال",
-			"code": "32240015",
-			"title": "mini - وان یخدان(نیمه ساخته)",
-			"reason": "ایراد فنی",
-			"origin": "both",
-			"qty": 6,
-			"match": "none",
-			"bomIds": [],
-			"color": null,
-			"note": ""
-		},
-		{
-			"id": 494,
-			"month": "1405/05",
-			"date": "1405/05/15",
-			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "32240016",
 			"title": "mini - وان(نیمه ساخته)",
 			"reason": "ایراد رنگ",
 			"origin": "prod",
 			"qty": 28,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-114"],
 			"color": null,
 			"note": ""
 		},
 		{
-			"id": 495,
+			"id": 493,
 			"month": "1405/05",
 			"date": "1405/05/17",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -13191,7 +13557,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 496,
+			"id": 494,
 			"month": "1405/05",
 			"date": "1405/05/17",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -13206,13 +13572,13 @@ var factory = {
 			"note": "پیشوند خانواده با BOM مقصد نخواند"
 		},
 		{
-			"id": 497,
+			"id": 495,
 			"month": "1405/05",
 			"date": "1405/05/17",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "11240124",
 			"title": "mini - برچسب انرژی",
-			"reason": "",
+			"reason": "رد کیفی",
 			"origin": "unknown",
 			"qty": 410,
 			"match": "exact",
@@ -13221,13 +13587,13 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 498,
+			"id": 496,
 			"month": "1405/05",
 			"date": "1405/05/17",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "11240706",
 			"title": "mini- برچسب انرژی (هاردستون)",
-			"reason": "",
+			"reason": "رد کیفی",
 			"origin": "unknown",
 			"qty": 400,
 			"match": "canon",
@@ -13236,17 +13602,47 @@ var factory = {
 			"note": "گونه‌نویسی یکسان پس از حذف رنگ/وضعیت"
 		},
 		{
-			"id": 499,
+			"id": 497,
 			"month": "1405/05",
 			"date": "1405/05/17",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "11240705",
 			"title": "mini- لوگو (هاردستون)",
-			"reason": "ایراد چسب",
-			"origin": "unknown",
+			"reason": "عدم چسبندگی",
+			"origin": "contractor",
 			"qty": 2,
 			"match": "none",
 			"bomIds": [],
+			"color": null,
+			"note": ""
+		},
+		{
+			"id": 498,
+			"month": "1405/05",
+			"date": "1405/05/17",
+			"wh": "انبار پای کار مواد اولیه خط یخچال",
+			"code": "11240353",
+			"title": "لوگو مشکی نقره ای (کلور) سایز (5cm) یخچال",
+			"reason": "ایراد اپراتوری",
+			"origin": "prod",
+			"qty": 3,
+			"match": "none",
+			"bomIds": [],
+			"color": "gloss",
+			"note": ""
+		},
+		{
+			"id": 499,
+			"month": "1405/05",
+			"date": "1405/05/17",
+			"wh": "انبار پای کار مواد اولیه خط یخچال",
+			"code": "11240148",
+			"title": "mini- برچسب گارانتی",
+			"reason": "ایراد اپراتوری",
+			"origin": "prod",
+			"qty": 10,
+			"match": "exact",
+			"bomIds": ["mini-62"],
 			"color": null,
 			"note": ""
 		},
@@ -13255,39 +13651,9 @@ var factory = {
 			"month": "1405/05",
 			"date": "1405/05/17",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
-			"code": "11240353",
-			"title": "لوگو مشکی نقره ای (کلور) سایز (5cm) یخچال",
-			"reason": "ن",
-			"origin": "unknown",
-			"qty": 3,
-			"match": "none",
-			"bomIds": [],
-			"color": "gloss",
-			"note": ""
-		},
-		{
-			"id": 501,
-			"month": "1405/05",
-			"date": "1405/05/17",
-			"wh": "انبار پای کار مواد اولیه خط یخچال",
-			"code": "11240148",
-			"title": "mini- برچسب گارانتی",
-			"reason": "ن",
-			"origin": "unknown",
-			"qty": 10,
-			"match": "exact",
-			"bomIds": ["mini-62"],
-			"color": null,
-			"note": ""
-		},
-		{
-			"id": 502,
-			"month": "1405/05",
-			"date": "1405/05/17",
-			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "11240011",
 			"title": "mini - آبکاری لولا بالا روی بدنه",
-			"reason": "",
+			"reason": "ایراد آبکاری",
 			"origin": "contractor",
 			"qty": 1,
 			"match": "exact",
@@ -13296,13 +13662,13 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 503,
+			"id": 501,
 			"month": "1405/05",
 			"date": "1405/05/17",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "11240035",
 			"title": "mini - درب یخدان",
-			"reason": "",
+			"reason": "ایراد تزریق",
 			"origin": "contractor",
 			"qty": 300,
 			"match": "exact",
@@ -13311,13 +13677,13 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 504,
+			"id": 502,
 			"month": "1405/05",
 			"date": "1405/05/17",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "11240101",
 			"title": "mini - درایر",
-			"reason": "",
+			"reason": "ایراد فنی",
 			"origin": "contractor",
 			"qty": 15,
 			"match": "exact",
@@ -13326,14 +13692,14 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 505,
+			"id": 503,
 			"month": "1405/05",
 			"date": "1405/05/17",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "11240029",
 			"title": "mini - طلق قاب ترموستات",
-			"reason": "ن",
-			"origin": "contractor",
+			"reason": "ایراد اپراتوری",
+			"origin": "prod",
 			"qty": 1,
 			"match": "exact",
 			"bomIds": ["mini-11"],
@@ -13341,13 +13707,13 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 506,
+			"id": 504,
 			"month": "1405/05",
 			"date": "1405/05/17",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "11240100",
 			"title": "mini - کلید فشاری",
-			"reason": "ن",
+			"reason": "ایراد فنی",
 			"origin": "contractor",
 			"qty": 48,
 			"match": "exact",
@@ -13356,13 +13722,13 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 507,
+			"id": 505,
 			"month": "1405/05",
 			"date": "1405/05/17",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "11240024",
 			"title": "mini - قفل درب یخدان",
-			"reason": "ن",
+			"reason": "ایراد ابعادی",
 			"origin": "contractor",
 			"qty": 7,
 			"match": "exact",
@@ -13371,7 +13737,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 508,
+			"id": 506,
 			"month": "1405/05",
 			"date": "1405/05/20",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -13386,14 +13752,14 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 509,
+			"id": 507,
 			"month": "1405/05",
 			"date": "1405/05/25",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "12240052",
 			"title": "H-C2S-درایر2 لول(سایز6)",
-			"reason": "دوباره کاری",
-			"origin": "contractor",
+			"reason": "ایراد اپراتوری",
+			"origin": "prod",
 			"qty": 1,
 			"match": "none",
 			"bomIds": [],
@@ -13401,7 +13767,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 510,
+			"id": 508,
 			"month": "1405/05",
 			"date": "1405/05/25",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -13416,13 +13782,13 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 511,
+			"id": 509,
 			"month": "1405/05",
 			"date": "1405/05/25",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "11240122",
 			"title": "C2S - برچسب سیکلوپنتان",
-			"reason": "",
+			"reason": "خش",
 			"origin": "contractor",
 			"qty": 14,
 			"match": "ambiguous",
@@ -13431,13 +13797,13 @@ var factory = {
 			"note": "نام در چند خانواده هست: c70، mini"
 		},
 		{
-			"id": 512,
+			"id": 510,
 			"month": "1405/05",
 			"date": "1405/05/25",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "11240125",
 			"title": "mini - نقشه سیم کشی",
-			"reason": "",
+			"reason": "ایراد اپراتوری",
 			"origin": "prod",
 			"qty": 8,
 			"match": "exact",
@@ -13446,13 +13812,13 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 513,
+			"id": 511,
 			"month": "1405/05",
 			"date": "1405/05/25",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "21161562",
 			"title": "mini - پلاستوفوم سقفی (65*400*480)",
-			"reason": "",
+			"reason": "شکستگی",
 			"origin": "contractor",
 			"qty": 3,
 			"match": "exact",
@@ -13461,13 +13827,13 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 514,
+			"id": 512,
 			"month": "1405/05",
 			"date": "1405/05/25",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "11240233",
 			"title": "miniM-پلاستوفوم سری و کفی",
-			"reason": "",
+			"reason": "شکستگی",
 			"origin": "contractor",
 			"qty": 4,
 			"match": "none",
@@ -13476,13 +13842,13 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 515,
+			"id": 513,
 			"month": "1405/05",
 			"date": "1405/05/25",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "11240101",
 			"title": "mini - درایر",
-			"reason": "دوبارکاری",
+			"reason": "ایراد اپراتوری",
 			"origin": "prod",
 			"qty": 8,
 			"match": "exact",
@@ -13491,13 +13857,13 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 516,
+			"id": 514,
 			"month": "1405/05",
 			"date": "1405/05/25",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "11240028",
 			"title": "mini - شاسی قاب ترموستات",
-			"reason": "",
+			"reason": "ایراد ابعادی",
 			"origin": "prod",
 			"qty": 26,
 			"match": "exact",
@@ -13506,13 +13872,13 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 517,
+			"id": 515,
 			"month": "1405/05",
 			"date": "1405/05/25",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "11240024",
 			"title": "mini - قفل درب یخدان",
-			"reason": "",
+			"reason": "ایراد ابعادی",
 			"origin": "contractor",
 			"qty": 28,
 			"match": "exact",
@@ -13521,13 +13887,13 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 518,
+			"id": 516,
 			"month": "1405/05",
 			"date": "1405/05/25",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "11240030",
 			"title": "mini - ولوم ترموستات",
-			"reason": "",
+			"reason": "ایراد ابعادی",
 			"origin": "contractor",
 			"qty": 1,
 			"match": "exact",
@@ -13536,7 +13902,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 519,
+			"id": 517,
 			"month": "1405/05",
 			"date": "1405/05/25",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -13551,7 +13917,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 520,
+			"id": 518,
 			"month": "1405/05",
 			"date": "1405/05/25",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -13566,7 +13932,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 521,
+			"id": 519,
 			"month": "1405/05",
 			"date": "1405/05/27",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -13581,7 +13947,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 522,
+			"id": 520,
 			"month": "1405/05",
 			"date": "1405/05/27",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -13590,13 +13956,13 @@ var factory = {
 			"reason": "ایراد رنگ",
 			"origin": "contractor",
 			"qty": 2,
-			"match": "none",
-			"bomIds": [],
+			"match": "canon",
+			"bomIds": ["mini-154"],
 			"color": "gloss",
-			"note": ""
+			"note": "گونه‌نویسی یکسان پس از حذف رنگ/وضعیت"
 		},
 		{
-			"id": 523,
+			"id": 521,
 			"month": "1405/05",
 			"date": "1405/05/27",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -13605,13 +13971,13 @@ var factory = {
 			"reason": "دفرمگی",
 			"origin": "contractor",
 			"qty": 26,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-152"],
 			"color": null,
 			"note": ""
 		},
 		{
-			"id": 524,
+			"id": 522,
 			"month": "1405/05",
 			"date": "1405/05/27",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -13620,13 +13986,13 @@ var factory = {
 			"reason": "دفرمگی",
 			"origin": "contractor",
 			"qty": 36,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-114"],
 			"color": null,
 			"note": ""
 		},
 		{
-			"id": 525,
+			"id": 523,
 			"month": "1405/05",
 			"date": "1405/05/27",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -13635,13 +14001,13 @@ var factory = {
 			"reason": "ایراد رنگ",
 			"origin": "contractor",
 			"qty": 7,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-148"],
 			"color": null,
 			"note": ""
 		},
 		{
-			"id": 526,
+			"id": 524,
 			"month": "1405/05",
 			"date": "1405/05/27",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -13650,13 +14016,13 @@ var factory = {
 			"reason": "خش",
 			"origin": "contractor",
 			"qty": 3,
-			"match": "none",
-			"bomIds": [],
+			"match": "canon",
+			"bomIds": ["mini-115"],
 			"color": "white",
-			"note": ""
+			"note": "گونه‌نویسی یکسان پس از حذف رنگ/وضعیت"
 		},
 		{
-			"id": 527,
+			"id": 525,
 			"month": "1405/05",
 			"date": "1405/05/27",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -13671,7 +14037,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 528,
+			"id": 526,
 			"month": "1405/06",
 			"date": "1405/06/01",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -13680,13 +14046,13 @@ var factory = {
 			"reason": "ایراد رنگ",
 			"origin": "prod",
 			"qty": 20,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-114"],
 			"color": null,
 			"note": ""
 		},
 		{
-			"id": 529,
+			"id": 527,
 			"month": "1405/06",
 			"date": "1405/06/01",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -13695,13 +14061,13 @@ var factory = {
 			"reason": "ایراد رنگ",
 			"origin": "prod",
 			"qty": 14,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-152"],
 			"color": null,
 			"note": ""
 		},
 		{
-			"id": 530,
+			"id": 528,
 			"month": "1405/06",
 			"date": "1405/06/01",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -13710,28 +14076,28 @@ var factory = {
 			"reason": "پارگی",
 			"origin": "contractor",
 			"qty": 4,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-156"],
 			"color": null,
 			"note": ""
 		},
 		{
-			"id": 531,
+			"id": 529,
 			"month": "1405/06",
 			"date": "1405/06/01",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "11240097",
 			"title": "mini - نوار گسکت",
-			"reason": "دمونتاژ",
+			"reason": "ایراد اپراتوری",
 			"origin": "prod",
 			"qty": 2,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-156"],
 			"color": null,
 			"note": ""
 		},
 		{
-			"id": 532,
+			"id": 530,
 			"month": "1405/06",
 			"date": "1405/06/01",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -13740,13 +14106,13 @@ var factory = {
 			"reason": "دمونتاژ",
 			"origin": "prod",
 			"qty": 1,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-129"],
 			"color": null,
 			"note": ""
 		},
 		{
-			"id": 533,
+			"id": 531,
 			"month": "1405/06",
 			"date": "1405/06/01",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -13755,13 +14121,13 @@ var factory = {
 			"reason": "دمونتاژ",
 			"origin": "prod",
 			"qty": 1,
-			"match": "none",
-			"bomIds": [],
+			"match": "canon",
+			"bomIds": ["mini-116"],
 			"color": "white",
-			"note": ""
+			"note": "گونه‌نویسی یکسان پس از حذف رنگ/وضعیت"
 		},
 		{
-			"id": 534,
+			"id": 532,
 			"month": "1405/06",
 			"date": "1405/06/01",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -13776,7 +14142,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 535,
+			"id": 533,
 			"month": "1405/06",
 			"date": "1405/06/01",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -13791,7 +14157,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 536,
+			"id": 534,
 			"month": "1405/06",
 			"date": "1405/06/01",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -13800,13 +14166,13 @@ var factory = {
 			"reason": "شکستگی",
 			"origin": "contractor",
 			"qty": 1,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-149"],
 			"color": null,
 			"note": ""
 		},
 		{
-			"id": 537,
+			"id": 535,
 			"month": "1405/06",
 			"date": "1405/06/01",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -13821,7 +14187,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 538,
+			"id": 536,
 			"month": "1405/06",
 			"date": "1405/06/01",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -13836,7 +14202,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 539,
+			"id": 537,
 			"month": "1405/06",
 			"date": "1405/06/01",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -13851,7 +14217,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 540,
+			"id": 538,
 			"month": "1405/06",
 			"date": "1405/06/01",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -13866,7 +14232,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 541,
+			"id": 539,
 			"month": "1405/06",
 			"date": "1405/06/01",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -13881,7 +14247,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 542,
+			"id": 540,
 			"month": "1405/06",
 			"date": "1405/06/01",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -13896,7 +14262,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 543,
+			"id": 541,
 			"month": "1405/06",
 			"date": "1405/06/01",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -13911,7 +14277,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 544,
+			"id": 542,
 			"month": "1405/06",
 			"date": "1405/06/01",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -13926,7 +14292,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 545,
+			"id": 543,
 			"month": "1405/06",
 			"date": "1405/06/01",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -13941,7 +14307,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 546,
+			"id": 544,
 			"month": "1405/06",
 			"date": "1405/06/01",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -13956,7 +14322,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 547,
+			"id": 545,
 			"month": "1405/06",
 			"date": "1405/06/01",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -13971,7 +14337,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 548,
+			"id": 546,
 			"month": "1405/06",
 			"date": "1405/06/01",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -13986,7 +14352,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 549,
+			"id": 547,
 			"month": "1405/06",
 			"date": "1405/06/01",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -14001,7 +14367,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 550,
+			"id": 548,
 			"month": "1405/06",
 			"date": "1405/06/01",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -14016,7 +14382,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 551,
+			"id": 549,
 			"month": "1405/06",
 			"date": "1405/06/04",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -14025,13 +14391,13 @@ var factory = {
 			"reason": "دمونتاژ",
 			"origin": "prod",
 			"qty": 1,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-150"],
 			"color": null,
 			"note": ""
 		},
 		{
-			"id": 552,
+			"id": 550,
 			"month": "1405/06",
 			"date": "1405/06/04",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -14046,7 +14412,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 553,
+			"id": 551,
 			"month": "1405/06",
 			"date": "1405/06/04",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -14055,13 +14421,13 @@ var factory = {
 			"reason": "دمونتاژ",
 			"origin": "prod",
 			"qty": 1,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-149"],
 			"color": null,
 			"note": ""
 		},
 		{
-			"id": 554,
+			"id": 552,
 			"month": "1405/06",
 			"date": "1405/06/04",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -14076,7 +14442,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 555,
+			"id": 553,
 			"month": "1405/06",
 			"date": "1405/06/04",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -14085,13 +14451,13 @@ var factory = {
 			"reason": "دمونتاژ",
 			"origin": "prod",
 			"qty": 1,
-			"match": "none",
-			"bomIds": [],
+			"match": "canon",
+			"bomIds": ["mini-154"],
 			"color": "white",
-			"note": ""
+			"note": "گونه‌نویسی یکسان پس از حذف رنگ/وضعیت"
 		},
 		{
-			"id": 556,
+			"id": 554,
 			"month": "1405/06",
 			"date": "1405/06/04",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -14100,13 +14466,13 @@ var factory = {
 			"reason": "شکستگی",
 			"origin": "contractor",
 			"qty": 3,
-			"match": "none",
-			"bomIds": [],
+			"match": "canon",
+			"bomIds": ["mini-154"],
 			"color": "white",
-			"note": ""
+			"note": "گونه‌نویسی یکسان پس از حذف رنگ/وضعیت"
 		},
 		{
-			"id": 557,
+			"id": 555,
 			"month": "1405/06",
 			"date": "1405/06/04",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -14115,28 +14481,28 @@ var factory = {
 			"reason": "دمونتاژ",
 			"origin": "prod",
 			"qty": 10,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-152"],
 			"color": null,
 			"note": ""
 		},
 		{
-			"id": 558,
+			"id": 556,
 			"month": "1405/06",
 			"date": "1405/06/04",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "11240097",
 			"title": "mini - نوار گسکت",
-			"reason": "دمونتاژ",
+			"reason": "ایراد اپراتوری",
 			"origin": "prod",
 			"qty": 1,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-156"],
 			"color": null,
 			"note": ""
 		},
 		{
-			"id": 559,
+			"id": 557,
 			"month": "1405/06",
 			"date": "1405/06/04",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -14145,13 +14511,13 @@ var factory = {
 			"reason": "دفرمگی",
 			"origin": "prod",
 			"qty": 16,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-114"],
 			"color": null,
 			"note": ""
 		},
 		{
-			"id": 560,
+			"id": 558,
 			"month": "1405/06",
 			"date": "1405/06/04",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -14160,13 +14526,13 @@ var factory = {
 			"reason": "رد کیفی",
 			"origin": "prod",
 			"qty": 3,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-123"],
 			"color": null,
 			"note": ""
 		},
 		{
-			"id": 561,
+			"id": 559,
 			"month": "1405/06",
 			"date": "1405/06/04",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -14175,13 +14541,13 @@ var factory = {
 			"reason": "رد کیفی",
 			"origin": "prod",
 			"qty": 3,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-128"],
 			"color": null,
 			"note": ""
 		},
 		{
-			"id": 562,
+			"id": 560,
 			"month": "1405/06",
 			"date": "1405/06/04",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -14190,13 +14556,13 @@ var factory = {
 			"reason": "رد کیفی",
 			"origin": "prod",
 			"qty": 3,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-129"],
 			"color": null,
 			"note": ""
 		},
 		{
-			"id": 563,
+			"id": 561,
 			"month": "1405/06",
 			"date": "1405/06/04",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -14211,7 +14577,7 @@ var factory = {
 			"note": "نام در چند خانواده هست: c70، mini"
 		},
 		{
-			"id": 564,
+			"id": 562,
 			"month": "1405/06",
 			"date": "1405/06/04",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -14220,13 +14586,13 @@ var factory = {
 			"reason": "رد کیفی",
 			"origin": "prod",
 			"qty": 3,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-138"],
 			"color": null,
 			"note": ""
 		},
 		{
-			"id": 565,
+			"id": 563,
 			"month": "1405/06",
 			"date": "1405/06/04",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -14235,13 +14601,13 @@ var factory = {
 			"reason": "رد کیفی",
 			"origin": "prod",
 			"qty": 3,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-137"],
 			"color": null,
 			"note": ""
 		},
 		{
-			"id": 566,
+			"id": 564,
 			"month": "1405/06",
 			"date": "1405/06/04",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -14250,13 +14616,13 @@ var factory = {
 			"reason": "رد کیفی",
 			"origin": "prod",
 			"qty": 3,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-126"],
 			"color": null,
 			"note": ""
 		},
 		{
-			"id": 567,
+			"id": 565,
 			"month": "1405/06",
 			"date": "1405/06/04",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -14265,13 +14631,13 @@ var factory = {
 			"reason": "رد کیفی",
 			"origin": "prod",
 			"qty": 6,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-124"],
 			"color": null,
 			"note": ""
 		},
 		{
-			"id": 568,
+			"id": 566,
 			"month": "1405/06",
 			"date": "1405/06/04",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -14280,13 +14646,13 @@ var factory = {
 			"reason": "رد کیفی",
 			"origin": "prod",
 			"qty": 1,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-132"],
 			"color": null,
 			"note": ""
 		},
 		{
-			"id": 569,
+			"id": 567,
 			"month": "1405/06",
 			"date": "1405/06/04",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -14295,13 +14661,13 @@ var factory = {
 			"reason": "ایراد رنگ",
 			"origin": "prod",
 			"qty": 7,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-113"],
 			"color": null,
 			"note": ""
 		},
 		{
-			"id": 570,
+			"id": 568,
 			"month": "1405/06",
 			"date": "1405/06/04",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -14316,7 +14682,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 571,
+			"id": 569,
 			"month": "1405/06",
 			"date": "1405/06/04",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -14331,7 +14697,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 572,
+			"id": 570,
 			"month": "1405/06",
 			"date": "1405/06/04",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -14346,7 +14712,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 573,
+			"id": 571,
 			"month": "1405/06",
 			"date": "1405/06/04",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -14355,13 +14721,13 @@ var factory = {
 			"reason": "رد کیفی",
 			"origin": "prod",
 			"qty": 3,
-			"match": "none",
-			"bomIds": [],
+			"match": "canon",
+			"bomIds": ["mini-116"],
 			"color": "white",
-			"note": ""
+			"note": "گونه‌نویسی یکسان پس از حذف رنگ/وضعیت"
 		},
 		{
-			"id": 574,
+			"id": 572,
 			"month": "1405/06",
 			"date": "1405/06/04",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -14370,13 +14736,13 @@ var factory = {
 			"reason": "رد کیفی",
 			"origin": "prod",
 			"qty": 6,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-118"],
 			"color": null,
 			"note": ""
 		},
 		{
-			"id": 575,
+			"id": 573,
 			"month": "1405/06",
 			"date": "1405/06/04",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -14385,13 +14751,13 @@ var factory = {
 			"reason": "رد کیفی",
 			"origin": "prod",
 			"qty": 3,
-			"match": "none",
-			"bomIds": [],
+			"match": "canon",
+			"bomIds": ["mini-115"],
 			"color": "white",
-			"note": ""
+			"note": "گونه‌نویسی یکسان پس از حذف رنگ/وضعیت"
 		},
 		{
-			"id": 576,
+			"id": 574,
 			"month": "1405/06",
 			"date": "1405/06/04",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -14400,13 +14766,13 @@ var factory = {
 			"reason": "رد کیفی",
 			"origin": "prod",
 			"qty": 3,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-117"],
 			"color": null,
 			"note": ""
 		},
 		{
-			"id": 577,
+			"id": 575,
 			"month": "1405/06",
 			"date": "1405/06/05",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -14421,7 +14787,7 @@ var factory = {
 			"note": "پیشوند خانواده با BOM مقصد نخواند"
 		},
 		{
-			"id": 578,
+			"id": 576,
 			"month": "1405/06",
 			"date": "1405/06/05",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -14436,7 +14802,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 579,
+			"id": 577,
 			"month": "1405/06",
 			"date": "1405/06/05",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -14451,7 +14817,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 580,
+			"id": 578,
 			"month": "1405/06",
 			"date": "1405/06/05",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -14466,7 +14832,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 581,
+			"id": 579,
 			"month": "1405/06",
 			"date": "1405/06/05",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -14481,7 +14847,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 582,
+			"id": 580,
 			"month": "1405/06",
 			"date": "1405/06/05",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -14496,7 +14862,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 583,
+			"id": 581,
 			"month": "1405/06",
 			"date": "1405/06/05",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -14511,7 +14877,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 584,
+			"id": 582,
 			"month": "1405/06",
 			"date": "1405/06/05",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -14526,7 +14892,7 @@ var factory = {
 			"note": "گونه‌نویسی یکسان پس از حذف رنگ/وضعیت"
 		},
 		{
-			"id": 585,
+			"id": 583,
 			"month": "1405/06",
 			"date": "1405/06/05",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -14541,7 +14907,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 586,
+			"id": 584,
 			"month": "1405/06",
 			"date": "1405/06/05",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -14556,7 +14922,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 587,
+			"id": 585,
 			"month": "1405/06",
 			"date": "1405/06/05",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -14571,7 +14937,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 588,
+			"id": 586,
 			"month": "1405/06",
 			"date": "1405/06/05",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -14586,7 +14952,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 589,
+			"id": 587,
 			"month": "1405/06",
 			"date": "1405/06/05",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -14601,22 +14967,22 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 590,
+			"id": 588,
 			"month": "1405/06",
 			"date": "1405/06/05",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "45240007",
 			"title": "سردری mini metal - سیلور",
-			"reason": "رد تیغ",
+			"reason": "ایراد اپراتوری",
 			"origin": "prod",
 			"qty": 1,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-150"],
 			"color": null,
 			"note": ""
 		},
 		{
-			"id": 591,
+			"id": 589,
 			"month": "1405/06",
 			"date": "1405/06/05",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -14625,13 +14991,13 @@ var factory = {
 			"reason": "شکستگی",
 			"origin": "contractor",
 			"qty": 2,
-			"match": "none",
-			"bomIds": [],
+			"match": "canon",
+			"bomIds": ["mini-154"],
 			"color": "red",
-			"note": ""
+			"note": "گونه‌نویسی یکسان پس از حذف رنگ/وضعیت"
 		},
 		{
-			"id": 592,
+			"id": 590,
 			"month": "1405/06",
 			"date": "1405/06/05",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -14646,7 +15012,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 593,
+			"id": 591,
 			"month": "1405/06",
 			"date": "1405/06/05",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -14655,13 +15021,13 @@ var factory = {
 			"reason": "خش",
 			"origin": "contractor",
 			"qty": 1,
-			"match": "none",
-			"bomIds": [],
+			"match": "canon",
+			"bomIds": ["mini-116"],
 			"color": "white",
-			"note": ""
+			"note": "گونه‌نویسی یکسان پس از حذف رنگ/وضعیت"
 		},
 		{
-			"id": 594,
+			"id": 592,
 			"month": "1405/06",
 			"date": "1405/06/05",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -14670,28 +15036,28 @@ var factory = {
 			"reason": "خش",
 			"origin": "contractor",
 			"qty": 48,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-131"],
 			"color": null,
 			"note": ""
 		},
 		{
-			"id": 595,
+			"id": 593,
 			"month": "1405/06",
 			"date": "1405/06/05",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "11990095",
 			"title": "پیچ گالوانیزه آچار خور M6×15",
-			"reason": "هرز",
+			"reason": "هرز بودن",
 			"origin": "contractor",
 			"qty": 15,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-144"],
 			"color": null,
 			"note": ""
 		},
 		{
-			"id": 596,
+			"id": 594,
 			"month": "1405/06",
 			"date": "1405/06/05",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -14706,22 +15072,22 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 597,
+			"id": 595,
 			"month": "1405/06",
 			"date": "1405/06/05",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "11240172",
 			"title": "mini- صفحه تریزون (کمپرسور ساکشن سمت چپ)",
-			"reason": "نصب اشتباه",
-			"origin": "contractor",
+			"reason": "ایراد اپراتوری",
+			"origin": "prod",
 			"qty": 1,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-132"],
 			"color": null,
 			"note": ""
 		},
 		{
-			"id": 598,
+			"id": 596,
 			"month": "1405/06",
 			"date": "1405/06/09",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -14730,13 +15096,13 @@ var factory = {
 			"reason": "دفرمگی",
 			"origin": "contractor",
 			"qty": 8,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-152"],
 			"color": null,
 			"note": ""
 		},
 		{
-			"id": 599,
+			"id": 597,
 			"month": "1405/06",
 			"date": "1405/06/09",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -14751,22 +15117,22 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 600,
+			"id": 598,
 			"month": "1405/06",
 			"date": "1405/06/09",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "11990033",
 			"title": "پیچ سرگرد گل پهن 15×5 استوانه ای گالوانیزه",
-			"reason": "هرز",
+			"reason": "هرز بودن",
 			"origin": "contractor",
 			"qty": 33,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-131"],
 			"color": null,
 			"note": ""
 		},
 		{
-			"id": 601,
+			"id": 599,
 			"month": "1405/06",
 			"date": "1405/06/09",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -14775,13 +15141,13 @@ var factory = {
 			"reason": "پارگی",
 			"origin": "both",
 			"qty": 1,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-156"],
 			"color": null,
 			"note": ""
 		},
 		{
-			"id": 602,
+			"id": 600,
 			"month": "1405/06",
 			"date": "1405/06/09",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -14790,8 +15156,38 @@ var factory = {
 			"reason": "دفرمگی",
 			"origin": "contractor",
 			"qty": 7,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-114"],
+			"color": null,
+			"note": ""
+		},
+		{
+			"id": 601,
+			"month": "1405/06",
+			"date": "1405/06/09",
+			"wh": "انبار پای کار مواد اولیه خط یخچال",
+			"code": "11240225",
+			"title": "miniM-براکت لولا پایین",
+			"reason": "هرز بودن",
+			"origin": "prod",
+			"qty": 4,
+			"match": "exact",
+			"bomIds": ["mini-142"],
+			"color": null,
+			"note": ""
+		},
+		{
+			"id": 602,
+			"month": "1405/06",
+			"date": "1405/06/09",
+			"wh": "انبار پای کار مواد اولیه خط یخچال",
+			"code": "11990095",
+			"title": "پیچ گالوانیزه آچار خور M6×15",
+			"reason": "هرز بودن",
+			"origin": "prod",
+			"qty": 1,
+			"match": "exact",
+			"bomIds": ["mini-144"],
 			"color": null,
 			"note": ""
 		},
@@ -14800,48 +15196,18 @@ var factory = {
 			"month": "1405/06",
 			"date": "1405/06/09",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
-			"code": "11240225",
-			"title": "miniM-براکت لولا پایین",
-			"reason": "هرز",
-			"origin": "prod",
-			"qty": 4,
-			"match": "none",
-			"bomIds": [],
+			"code": "11240229",
+			"title": "miniM-لاینر درب",
+			"reason": "ساییدگی",
+			"origin": "contractor",
+			"qty": 2,
+			"match": "exact",
+			"bomIds": ["mini-148"],
 			"color": null,
 			"note": ""
 		},
 		{
 			"id": 604,
-			"month": "1405/06",
-			"date": "1405/06/09",
-			"wh": "انبار پای کار مواد اولیه خط یخچال",
-			"code": "11990095",
-			"title": "پیچ گالوانیزه آچار خور M6×15",
-			"reason": "هرز",
-			"origin": "prod",
-			"qty": 1,
-			"match": "none",
-			"bomIds": [],
-			"color": null,
-			"note": ""
-		},
-		{
-			"id": 605,
-			"month": "1405/06",
-			"date": "1405/06/09",
-			"wh": "انبار پای کار مواد اولیه خط یخچال",
-			"code": "11240229",
-			"title": "miniM-لاینر درب",
-			"reason": "سایدگی",
-			"origin": "contractor",
-			"qty": 2,
-			"match": "none",
-			"bomIds": [],
-			"color": null,
-			"note": ""
-		},
-		{
-			"id": 606,
 			"month": "1405/06",
 			"date": "1405/06/09",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -14856,7 +15222,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 607,
+			"id": 605,
 			"month": "1405/06",
 			"date": "1405/06/09",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -14865,13 +15231,13 @@ var factory = {
 			"reason": "خش",
 			"origin": "contractor",
 			"qty": 1,
-			"match": "none",
-			"bomIds": [],
+			"match": "canon",
+			"bomIds": ["mini-115"],
 			"color": "white",
-			"note": ""
+			"note": "گونه‌نویسی یکسان پس از حذف رنگ/وضعیت"
 		},
 		{
-			"id": 608,
+			"id": 606,
 			"month": "1405/06",
 			"date": "1405/06/09",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -14886,7 +15252,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 609,
+			"id": 607,
 			"month": "1405/06",
 			"date": "1405/06/09",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -14895,28 +15261,28 @@ var factory = {
 			"reason": "شکستگی",
 			"origin": "contractor",
 			"qty": 3,
-			"match": "none",
-			"bomIds": [],
+			"match": "canon",
+			"bomIds": ["mini-154"],
 			"color": "white",
-			"note": ""
+			"note": "گونه‌نویسی یکسان پس از حذف رنگ/وضعیت"
 		},
 		{
-			"id": 610,
+			"id": 608,
 			"month": "1405/06",
 			"date": "1405/06/09",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "32240019",
 			"title": "mini - سردری مشکی  (نیمه ساخته)",
-			"reason": "لکه رنگ",
+			"reason": "ایراد رنگ",
 			"origin": "contractor",
 			"qty": 1,
-			"match": "none",
-			"bomIds": [],
+			"match": "canon",
+			"bomIds": ["mini-154"],
 			"color": "gloss",
-			"note": ""
+			"note": "گونه‌نویسی یکسان پس از حذف رنگ/وضعیت"
 		},
 		{
-			"id": 611,
+			"id": 609,
 			"month": "1405/06",
 			"date": "1405/06/09",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -14931,7 +15297,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 612,
+			"id": 610,
 			"month": "1405/06",
 			"date": "1405/06/09",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -14946,7 +15312,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 613,
+			"id": 611,
 			"month": "1405/06",
 			"date": "1405/06/18",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -14961,7 +15327,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 614,
+			"id": 612,
 			"month": "1405/06",
 			"date": "1405/06/18",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -14970,13 +15336,13 @@ var factory = {
 			"reason": "شکستگی",
 			"origin": "contractor",
 			"qty": 1,
-			"match": "none",
-			"bomIds": [],
+			"match": "canon",
+			"bomIds": ["mini-154"],
 			"color": "gloss",
-			"note": ""
+			"note": "گونه‌نویسی یکسان پس از حذف رنگ/وضعیت"
 		},
 		{
-			"id": 615,
+			"id": 613,
 			"month": "1405/06",
 			"date": "1405/06/18",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -14985,13 +15351,13 @@ var factory = {
 			"reason": "دفرمگی",
 			"origin": "contractor",
 			"qty": 7,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-152"],
 			"color": null,
 			"note": ""
 		},
 		{
-			"id": 616,
+			"id": 614,
 			"month": "1405/06",
 			"date": "1405/06/18",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -15006,7 +15372,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 617,
+			"id": 615,
 			"month": "1405/06",
 			"date": "1405/06/18",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -15021,7 +15387,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 618,
+			"id": 616,
 			"month": "1405/06",
 			"date": "1405/06/18",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -15036,7 +15402,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 619,
+			"id": 617,
 			"month": "1405/06",
 			"date": "1405/06/18",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -15045,13 +15411,13 @@ var factory = {
 			"reason": "دفرمگی",
 			"origin": "contractor",
 			"qty": 9,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-113"],
 			"color": null,
 			"note": ""
 		},
 		{
-			"id": 620,
+			"id": 618,
 			"month": "1405/06",
 			"date": "1405/06/18",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -15060,13 +15426,13 @@ var factory = {
 			"reason": "خش",
 			"origin": "contractor",
 			"qty": 1,
-			"match": "none",
-			"bomIds": [],
+			"match": "canon",
+			"bomIds": ["mini-115"],
 			"color": "white",
-			"note": ""
+			"note": "گونه‌نویسی یکسان پس از حذف رنگ/وضعیت"
 		},
 		{
-			"id": 621,
+			"id": 619,
 			"month": "1405/06",
 			"date": "1405/06/18",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -15081,7 +15447,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 622,
+			"id": 620,
 			"month": "1405/06",
 			"date": "1405/06/18",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -15090,13 +15456,13 @@ var factory = {
 			"reason": "دفرمگی",
 			"origin": "contractor",
 			"qty": 2,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-148"],
 			"color": null,
 			"note": ""
 		},
 		{
-			"id": 623,
+			"id": 621,
 			"month": "1405/06",
 			"date": "1405/06/18",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -15105,13 +15471,13 @@ var factory = {
 			"reason": "دمونتاژ",
 			"origin": "prod",
 			"qty": 1,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-132"],
 			"color": null,
 			"note": ""
 		},
 		{
-			"id": 624,
+			"id": 622,
 			"month": "1405/06",
 			"date": "1405/06/18",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -15120,13 +15486,13 @@ var factory = {
 			"reason": "دمونتاژ",
 			"origin": "prod",
 			"qty": 2,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-127"],
 			"color": null,
 			"note": ""
 		},
 		{
-			"id": 625,
+			"id": 623,
 			"month": "1405/06",
 			"date": "1405/06/18",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -15141,7 +15507,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 626,
+			"id": 624,
 			"month": "1405/06",
 			"date": "1405/06/18",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -15150,13 +15516,13 @@ var factory = {
 			"reason": "دفرمگی",
 			"origin": "contractor",
 			"qty": 11,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-118"],
 			"color": null,
 			"note": ""
 		},
 		{
-			"id": 627,
+			"id": 625,
 			"month": "1405/06",
 			"date": "1405/06/18",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -15165,13 +15531,13 @@ var factory = {
 			"reason": "دمونتاژ",
 			"origin": "prod",
 			"qty": 1,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-129"],
 			"color": null,
 			"note": ""
 		},
 		{
-			"id": 628,
+			"id": 626,
 			"month": "1405/06",
 			"date": "1405/06/19",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -15186,7 +15552,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 629,
+			"id": 627,
 			"month": "1405/06",
 			"date": "1405/06/19",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -15201,7 +15567,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 630,
+			"id": 628,
 			"month": "1405/06",
 			"date": "1405/06/19",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -15216,7 +15582,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 631,
+			"id": 629,
 			"month": "1405/06",
 			"date": "1405/06/19",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -15231,7 +15597,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 632,
+			"id": 630,
 			"month": "1405/06",
 			"date": "1405/06/19",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -15246,7 +15612,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 633,
+			"id": 631,
 			"month": "1405/06",
 			"date": "1405/06/19",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -15261,7 +15627,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 634,
+			"id": 632,
 			"month": "1405/06",
 			"date": "1405/06/19",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -15276,7 +15642,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 635,
+			"id": 633,
 			"month": "1405/06",
 			"date": "1405/06/19",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -15291,13 +15657,13 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 636,
+			"id": 634,
 			"month": "1405/06",
 			"date": "1405/06/19",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "11240040",
 			"title": "mini - بطری گیر بزرگ",
-			"reason": "لک تزریق",
+			"reason": "ایراد تزریق",
 			"origin": "contractor",
 			"qty": 1,
 			"match": "exact",
@@ -15306,7 +15672,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 637,
+			"id": 635,
 			"month": "1405/06",
 			"date": "1405/06/19",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -15321,13 +15687,13 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 638,
+			"id": 636,
 			"month": "1405/06",
 			"date": "1405/06/19",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "11240124",
 			"title": "mini - برچسب انرژی",
-			"reason": "لک و حباب",
+			"reason": "لکه",
 			"origin": "contractor",
 			"qty": 33,
 			"match": "exact",
@@ -15336,7 +15702,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 639,
+			"id": 637,
 			"month": "1405/06",
 			"date": "1405/06/19",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -15351,7 +15717,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 640,
+			"id": 638,
 			"month": "1405/06",
 			"date": "1405/06/19",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -15366,7 +15732,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 641,
+			"id": 639,
 			"month": "1405/06",
 			"date": "1405/06/24",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -15381,7 +15747,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 642,
+			"id": 640,
 			"month": "1405/06",
 			"date": "1405/06/24",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -15396,7 +15762,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 643,
+			"id": 641,
 			"month": "1405/06",
 			"date": "1405/06/25",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -15405,13 +15771,13 @@ var factory = {
 			"reason": "دمونتاژ",
 			"origin": "contractor",
 			"qty": 12,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-114"],
 			"color": null,
 			"note": ""
 		},
 		{
-			"id": 644,
+			"id": 642,
 			"month": "1405/06",
 			"date": "1405/06/25",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -15420,13 +15786,13 @@ var factory = {
 			"reason": "دمونتاژ",
 			"origin": "prod",
 			"qty": 4,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-133"],
 			"color": null,
 			"note": ""
 		},
 		{
-			"id": 645,
+			"id": 643,
 			"month": "1405/06",
 			"date": "1405/06/25",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -15435,13 +15801,13 @@ var factory = {
 			"reason": "شکستگی",
 			"origin": "contractor",
 			"qty": 1,
-			"match": "none",
-			"bomIds": [],
+			"match": "canon",
+			"bomIds": ["mini-154"],
 			"color": "matte",
-			"note": ""
+			"note": "گونه‌نویسی یکسان پس از حذف رنگ/وضعیت"
 		},
 		{
-			"id": 646,
+			"id": 644,
 			"month": "1405/06",
 			"date": "1405/06/25",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -15450,13 +15816,13 @@ var factory = {
 			"reason": "سوزنی",
 			"origin": "contractor",
 			"qty": 1,
-			"match": "none",
-			"bomIds": [],
+			"match": "canon",
+			"bomIds": ["mini-154"],
 			"color": "white",
-			"note": ""
+			"note": "گونه‌نویسی یکسان پس از حذف رنگ/وضعیت"
 		},
 		{
-			"id": 647,
+			"id": 645,
 			"month": "1405/06",
 			"date": "1405/06/25",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -15471,7 +15837,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 648,
+			"id": 646,
 			"month": "1405/06",
 			"date": "1405/06/25",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -15480,13 +15846,13 @@ var factory = {
 			"reason": "هرز بودن",
 			"origin": "prod",
 			"qty": 33,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-131"],
 			"color": null,
 			"note": ""
 		},
 		{
-			"id": 649,
+			"id": 647,
 			"month": "1405/06",
 			"date": "1405/06/25",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -15495,28 +15861,28 @@ var factory = {
 			"reason": "هرز بودن",
 			"origin": "prod",
 			"qty": 3,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-144"],
 			"color": null,
 			"note": ""
 		},
 		{
-			"id": 650,
+			"id": 648,
 			"month": "1405/06",
 			"date": "1405/06/25",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "11240019",
 			"title": "mini - نیم ساخت قید پایین (سفید)",
-			"reason": "برش نامناسب",
+			"reason": "ایراد اپراتوری",
 			"origin": "prod",
 			"qty": 1,
-			"match": "none",
-			"bomIds": [],
+			"match": "canon",
+			"bomIds": ["mini-116"],
 			"color": "white",
-			"note": ""
+			"note": "گونه‌نویسی یکسان پس از حذف رنگ/وضعیت"
 		},
 		{
-			"id": 651,
+			"id": 649,
 			"month": "1405/06",
 			"date": "1405/06/25",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -15531,7 +15897,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 652,
+			"id": 650,
 			"month": "1405/06",
 			"date": "1405/06/25",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -15540,13 +15906,13 @@ var factory = {
 			"reason": "دفرمگی",
 			"origin": "contractor",
 			"qty": 1,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-118"],
 			"color": null,
 			"note": ""
 		},
 		{
-			"id": 653,
+			"id": 651,
 			"month": "1405/06",
 			"date": "1405/06/25",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -15555,13 +15921,13 @@ var factory = {
 			"reason": "هرز بودن",
 			"origin": "contractor",
 			"qty": 3,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-142"],
 			"color": null,
 			"note": ""
 		},
 		{
-			"id": 654,
+			"id": 652,
 			"month": "1405/06",
 			"date": "1405/06/25",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -15576,7 +15942,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 655,
+			"id": 653,
 			"month": "1405/06",
 			"date": "1405/06/25",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -15585,13 +15951,13 @@ var factory = {
 			"reason": "دمونتاژ",
 			"origin": "contractor",
 			"qty": 12,
-			"match": "none",
-			"bomIds": [],
+			"match": "exact",
+			"bomIds": ["mini-113"],
 			"color": null,
 			"note": ""
 		},
 		{
-			"id": 656,
+			"id": 654,
 			"month": "1405/06",
 			"date": "1405/06/25",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -15606,7 +15972,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 657,
+			"id": 655,
 			"month": "1405/06",
 			"date": "1405/06/26",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -15621,13 +15987,13 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 658,
+			"id": 656,
 			"month": "1405/06",
 			"date": "1405/06/26",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "11240297",
 			"title": "درایر 15 گرمی R600",
-			"reason": "باز شدن از روی کار",
+			"reason": "ایراد اپراتوری",
 			"origin": "prod",
 			"qty": 2,
 			"match": "exact",
@@ -15636,13 +16002,13 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 659,
+			"id": 657,
 			"month": "1405/06",
 			"date": "1405/06/26",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "11240101",
 			"title": "mini - درایر",
-			"reason": "باز شدن از روی کار",
+			"reason": "ایراد اپراتوری",
 			"origin": "prod",
 			"qty": 32,
 			"match": "exact",
@@ -15651,7 +16017,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 660,
+			"id": 658,
 			"month": "1405/06",
 			"date": "1405/06/26",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -15666,7 +16032,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 661,
+			"id": 659,
 			"month": "1405/06",
 			"date": "1405/06/26",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -15681,7 +16047,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 662,
+			"id": 660,
 			"month": "1405/06",
 			"date": "1405/06/26",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -15696,7 +16062,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 663,
+			"id": 661,
 			"month": "1405/06",
 			"date": "1405/06/26",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -15711,7 +16077,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 664,
+			"id": 662,
 			"month": "1405/06",
 			"date": "1405/06/26",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -15726,7 +16092,7 @@ var factory = {
 			"note": "نام در چند خانواده هست: c70، mini"
 		},
 		{
-			"id": 665,
+			"id": 663,
 			"month": "1405/06",
 			"date": "1405/06/26",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -15741,7 +16107,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 666,
+			"id": 664,
 			"month": "1405/06",
 			"date": "1405/06/26",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -15756,13 +16122,13 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 667,
+			"id": 665,
 			"month": "1405/06",
 			"date": "1405/06/26",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "11240071",
 			"title": "mini - ترموستات",
-			"reason": "عدم تایید کیفی",
+			"reason": "رد کیفی",
 			"origin": "contractor",
 			"qty": 3,
 			"match": "exact",
@@ -15771,7 +16137,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 668,
+			"id": 666,
 			"month": "1405/06",
 			"date": "1405/06/26",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -15786,7 +16152,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 669,
+			"id": 667,
 			"month": "1405/06",
 			"date": "1405/06/26",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -15801,7 +16167,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 670,
+			"id": 668,
 			"month": "1405/06",
 			"date": "1405/06/29",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -15816,7 +16182,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 671,
+			"id": 669,
 			"month": "1405/06",
 			"date": "1405/06/29",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -15831,7 +16197,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 672,
+			"id": 670,
 			"month": "1405/06",
 			"date": "1405/06/29",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -15846,7 +16212,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 673,
+			"id": 671,
 			"month": "1405/06",
 			"date": "1405/06/29",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -15861,7 +16227,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 674,
+			"id": 672,
 			"month": "1405/06",
 			"date": "1405/06/29",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -15876,7 +16242,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 675,
+			"id": 673,
 			"month": "1405/06",
 			"date": "1405/06/29",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -15891,7 +16257,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 676,
+			"id": 674,
 			"month": "1405/06",
 			"date": "1405/06/29",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -15906,7 +16272,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 677,
+			"id": 675,
 			"month": "1405/06",
 			"date": "1405/06/29",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -15921,13 +16287,13 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 678,
+			"id": 676,
 			"month": "1405/06",
 			"date": "1405/06/29",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "11240081",
 			"title": "mini - پایه رگلاژ",
-			"reason": "خرابی رزوه",
+			"reason": "هرز بودن",
 			"origin": "prod",
 			"qty": 1,
 			"match": "exact",
@@ -15936,13 +16302,13 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 679,
+			"id": 677,
 			"month": "1405/06",
 			"date": "1405/06/29",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "11240035",
 			"title": "mini - درب یخدان",
-			"reason": "خش+هاله",
+			"reason": "خش",
 			"origin": "both",
 			"qty": 80,
 			"match": "exact",
@@ -15951,7 +16317,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 680,
+			"id": 678,
 			"month": "1405/06",
 			"date": "1405/06/29",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -15966,13 +16332,13 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 681,
+			"id": 679,
 			"month": "1405/06",
 			"date": "1405/06/30",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "32240045",
 			"title": "mini- درپوش سقفی ABS رنگ شده  (آبی پاستیلی Bl-01)(نیمه ساخته)",
-			"reason": "",
+			"reason": "ایراد اپراتوری",
 			"origin": "prod",
 			"qty": 6,
 			"match": "canon",
@@ -15981,13 +16347,13 @@ var factory = {
 			"note": "گونه‌نویسی یکسان پس از حذف رنگ/وضعیت"
 		},
 		{
-			"id": 682,
+			"id": 680,
 			"month": "1405/06",
 			"date": "1405/06/30",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "32240025",
 			"title": "mini- درپوش سقفی قرمز(نیمه ساخته)",
-			"reason": "",
+			"reason": "ایراد اپراتوری",
 			"origin": "prod",
 			"qty": 2,
 			"match": "canon",
@@ -15996,13 +16362,13 @@ var factory = {
 			"note": "گونه‌نویسی یکسان پس از حذف رنگ/وضعیت"
 		},
 		{
-			"id": 683,
+			"id": 681,
 			"month": "1405/06",
 			"date": "1405/06/30",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "32240059",
 			"title": "mini-  رنگ شده درپوش سقفی ABS  (سفید استخوانی )(نیمه ساخته)",
-			"reason": "",
+			"reason": "ایراد اپراتوری",
 			"origin": "prod",
 			"qty": 6,
 			"match": "canon",
@@ -16011,13 +16377,13 @@ var factory = {
 			"note": "گونه‌نویسی یکسان پس از حذف رنگ/وضعیت"
 		},
 		{
-			"id": 684,
+			"id": 682,
 			"month": "1405/06",
 			"date": "1405/06/30",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "32240041",
 			"title": "mini- درپوش سقفی ABS رنگ شده  (سبز پاستیلی Gr-01)(نیمه ساخته)",
-			"reason": "",
+			"reason": "ایراد اپراتوری",
 			"origin": "prod",
 			"qty": 1,
 			"match": "canon",
@@ -16026,13 +16392,13 @@ var factory = {
 			"note": "گونه‌نویسی یکسان پس از حذف رنگ/وضعیت"
 		},
 		{
-			"id": 685,
+			"id": 683,
 			"month": "1405/06",
 			"date": "1405/06/30",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "32240021",
 			"title": "mini - درپوش سقفی مشکی (نیمه ساخته)",
-			"reason": "",
+			"reason": "ایراد اپراتوری",
 			"origin": "prod",
 			"qty": 5,
 			"match": "canon",
@@ -16041,13 +16407,13 @@ var factory = {
 			"note": "گونه‌نویسی یکسان پس از حذف رنگ/وضعیت"
 		},
 		{
-			"id": 686,
+			"id": 684,
 			"month": "1405/06",
 			"date": "1405/06/30",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "11240098",
 			"title": "mini -شیشه طبقات بالا (4×300×413)",
-			"reason": "",
+			"reason": "شکستگی",
 			"origin": "prod",
 			"qty": 1,
 			"match": "exact",
@@ -16056,13 +16422,13 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 687,
+			"id": 685,
 			"month": "1405/06",
 			"date": "1405/06/30",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "11240234",
 			"title": "miniM-کارتن بسته بندی",
-			"reason": "",
+			"reason": "پارگی",
 			"origin": "prod",
 			"qty": 1,
 			"match": "none",
@@ -16071,13 +16437,13 @@ var factory = {
 			"note": "پیشوند خانواده با BOM مقصد نخواند"
 		},
 		{
-			"id": 688,
+			"id": 686,
 			"month": "1405/06",
 			"date": "1405/06/30",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "21161331",
 			"title": "mini - کارتن محصول",
-			"reason": "",
+			"reason": "پارگی",
 			"origin": "prod",
 			"qty": 18,
 			"match": "exact",
@@ -16086,7 +16452,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 689,
+			"id": 687,
 			"month": "1405/06",
 			"date": "1405/06/30",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -16101,7 +16467,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 690,
+			"id": 688,
 			"month": "1405/06",
 			"date": "1405/06/30",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -16116,13 +16482,13 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 691,
+			"id": 689,
 			"month": "1405/06",
 			"date": "1405/06/30",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "11240040",
 			"title": "mini - بطری گیر بزرگ",
-			"reason": "لک بنزین",
+			"reason": "ایراد اپراتوری",
 			"origin": "prod",
 			"qty": 1,
 			"match": "exact",
@@ -16131,7 +16497,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 692,
+			"id": 690,
 			"month": "1405/06",
 			"date": "1405/06/30",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -16146,7 +16512,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 693,
+			"id": 691,
 			"month": "1405/06",
 			"date": "1405/06/30",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -16161,7 +16527,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 694,
+			"id": 692,
 			"month": "1405/06",
 			"date": "1405/06/30",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -16176,7 +16542,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 695,
+			"id": 693,
 			"month": "1405/06",
 			"date": "1405/06/30",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -16191,13 +16557,13 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 696,
+			"id": 694,
 			"month": "1405/06",
 			"date": "1405/06/30",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "11240124",
 			"title": "mini - برچسب انرژی",
-			"reason": "لک و حباب",
+			"reason": "ایراد اپراتوری",
 			"origin": "both",
 			"qty": 4,
 			"match": "exact",
@@ -16206,7 +16572,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 697,
+			"id": 695,
 			"month": "1405/06",
 			"date": "1405/06/30",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -16221,7 +16587,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 698,
+			"id": 696,
 			"month": "1405/06",
 			"date": "1405/06/30",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -16236,7 +16602,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 699,
+			"id": 697,
 			"month": "1405/06",
 			"date": "1405/06/30",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -16251,7 +16617,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 700,
+			"id": 698,
 			"month": "1405/06",
 			"date": "1405/06/30",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -16266,13 +16632,13 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 701,
+			"id": 699,
 			"month": "1405/06",
 			"date": "1405/06/30",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "11240015",
 			"title": "mini - شاسی اصلی",
-			"reason": "خرابی",
+			"reason": "ایراد اپراتوری",
 			"origin": "prod",
 			"qty": 1,
 			"match": "exact",
@@ -16281,13 +16647,13 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 702,
+			"id": 700,
 			"month": "1405/06",
 			"date": "1405/06/30",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "11240122",
 			"title": "C2S - برچسب سیکلوپنتان",
-			"reason": "خرابی",
+			"reason": "ایراد چاپ",
 			"origin": "contractor",
 			"qty": 8,
 			"match": "ambiguous",
@@ -16296,7 +16662,7 @@ var factory = {
 			"note": "نام در چند خانواده هست: c70، mini"
 		},
 		{
-			"id": 703,
+			"id": 701,
 			"month": "1405/06",
 			"date": "1405/06/30",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -16311,7 +16677,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 704,
+			"id": 702,
 			"month": "1405/06",
 			"date": "1405/06/30",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -16326,7 +16692,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 705,
+			"id": 703,
 			"month": "1405/06",
 			"date": "1405/06/30",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -16341,7 +16707,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 706,
+			"id": 704,
 			"month": "1405/06",
 			"date": "1405/06/30",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -16356,13 +16722,13 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 707,
+			"id": 705,
 			"month": "1405/06",
 			"date": "1405/06/30",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "11240125",
 			"title": "mini - نقشه سیم کشی",
-			"reason": "خرابی",
+			"reason": "ایراد اپراتوری",
 			"origin": "prod",
 			"qty": 2,
 			"match": "exact",
@@ -16371,13 +16737,13 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 708,
+			"id": 706,
 			"month": "1405/06",
 			"date": "1405/06/30",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "11240126",
 			"title": "mini - برچسب اخطار",
-			"reason": "خرابی",
+			"reason": "ایراد چاپ",
 			"origin": "contractor",
 			"qty": 2,
 			"match": "canon",
@@ -16386,7 +16752,7 @@ var factory = {
 			"note": "گونه‌نویسی یکسان پس از حذف رنگ/وضعیت"
 		},
 		{
-			"id": 709,
+			"id": 707,
 			"month": "1405/06",
 			"date": "1405/06/30",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -16401,13 +16767,13 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 710,
+			"id": 708,
 			"month": "1405/06",
 			"date": "1405/06/31",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "11240101",
 			"title": "mini - درایر",
-			"reason": "باز شدن از روی کار",
+			"reason": "ایراد اپراتوری",
 			"origin": "prod",
 			"qty": 12,
 			"match": "exact",
@@ -16416,7 +16782,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 711,
+			"id": 709,
 			"month": "1405/06",
 			"date": "1405/06/31",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -16431,13 +16797,13 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 712,
+			"id": 710,
 			"month": "1405/06",
 			"date": "1405/06/31",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
 			"code": "11240036",
 			"title": "mini - درپوش پشت یخدان",
-			"reason": "خش بزرگ",
+			"reason": "خش",
 			"origin": "prod",
 			"qty": 1,
 			"match": "exact",
@@ -16446,7 +16812,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 713,
+			"id": 711,
 			"month": "1405/06",
 			"date": "1405/06/31",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -16461,7 +16827,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 714,
+			"id": 712,
 			"month": "1405/06",
 			"date": "1405/06/31",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -16476,7 +16842,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 715,
+			"id": 713,
 			"month": "1405/06",
 			"date": "1405/06/31",
 			"wh": "انبار پای کار مواد اولیه خط یخچال",
@@ -16491,7 +16857,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 716,
+			"id": 714,
 			"month": "1405/01",
 			"date": "1405/01/24",
 			"wh": "ضایعات مواد اولیه لباسشویی و ظرفشویی",
@@ -16506,7 +16872,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 717,
+			"id": 715,
 			"month": "1405/01",
 			"date": "1405/01/24",
 			"wh": "ضایعات مواد اولیه لباسشویی و ظرفشویی",
@@ -16521,22 +16887,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 718,
-			"month": "1405/01",
-			"date": "1405/01/24",
-			"wh": "ضایعات مواد اولیه لباسشویی و ظرفشویی",
-			"code": "11220075",
-			"title": "شیلنگ ورودی آب اصلی- 150 سانتی متر",
-			"reason": "کسری قطعه",
-			"origin": "prod",
-			"qty": 1,
-			"match": "exact",
-			"bomIds": ["wm10-131"],
-			"color": null,
-			"note": ""
-		},
-		{
-			"id": 719,
+			"id": 716,
 			"month": "1405/01",
 			"date": "1405/01/24",
 			"wh": "ضایعات مواد اولیه لباسشویی و ظرفشویی",
@@ -16551,13 +16902,13 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 720,
+			"id": 717,
 			"month": "1405/01",
 			"date": "1405/01/24",
 			"wh": "ضایعات مواد اولیه لباسشویی و ظرفشویی",
 			"code": "12210015",
 			"title": "SKY-WM- براکت جلو - پایین کابین (8V-8T-9T)",
-			"reason": "دوبارکاری",
+			"reason": "ایراد اپراتوری",
 			"origin": "prod",
 			"qty": 1,
 			"match": "none",
@@ -16566,7 +16917,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 721,
+			"id": 718,
 			"month": "1405/01",
 			"date": "1405/01/24",
 			"wh": "ضایعات مواد اولیه لباسشویی و ظرفشویی",
@@ -16581,13 +16932,13 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 722,
+			"id": 719,
 			"month": "1405/01",
 			"date": "1405/01/24",
 			"wh": "ضایعات مواد اولیه لباسشویی و ظرفشویی",
 			"code": "12210484",
 			"title": "H-WM- پیچ سقفی (10kg)",
-			"reason": "هرز",
+			"reason": "هرز بودن",
 			"origin": "prod",
 			"qty": 8,
 			"match": "exact",
@@ -16596,13 +16947,13 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 723,
+			"id": 720,
 			"month": "1405/02",
 			"date": "1405/02/08",
 			"wh": "ضایعات مواد اولیه لباسشویی و ظرفشویی",
 			"code": "11210082",
 			"title": "WM- برچسب انرژی 10kg",
-			"reason": "دوبارکاری",
+			"reason": "ایراد اپراتوری",
 			"origin": "prod",
 			"qty": 1,
 			"match": "exact",
@@ -16611,7 +16962,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 724,
+			"id": 721,
 			"month": "1405/02",
 			"date": "1405/02/08",
 			"wh": "ضایعات مواد اولیه لباسشویی و ظرفشویی",
@@ -16626,13 +16977,13 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 725,
+			"id": 722,
 			"month": "1405/02",
 			"date": "1405/02/08",
 			"wh": "ضایعات مواد اولیه لباسشویی و ظرفشویی",
 			"code": "12210020",
 			"title": "SKY-WM- براکت چپ - پایین کابین (8V-8T-9T)",
-			"reason": "کلینج خورده",
+			"reason": "ایراد مونتاژی",
 			"origin": "prod",
 			"qty": 1,
 			"match": "none",
@@ -16641,13 +16992,13 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 726,
+			"id": 723,
 			"month": "1405/02",
 			"date": "1405/02/08",
 			"wh": "ضایعات مواد اولیه لباسشویی و ظرفشویی",
 			"code": "12210021",
 			"title": "SKY-WM- براکت راست - پایین کابین (8V-8T-9T)",
-			"reason": "کلینج خورده",
+			"reason": "ایراد مونتاژی",
 			"origin": "prod",
 			"qty": 1,
 			"match": "none",
@@ -16656,13 +17007,13 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 727,
+			"id": 724,
 			"month": "1405/02",
 			"date": "1405/02/08",
 			"wh": "ضایعات مواد اولیه لباسشویی و ظرفشویی",
 			"code": "12210229",
 			"title": "sky-wm-ورق بدنه دیگ استیل درون درام (8v-8t-9t)",
-			"reason": "دوخت",
+			"reason": "ایراد اپراتوری",
 			"origin": "prod",
 			"qty": 5,
 			"match": "none",
@@ -16671,7 +17022,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 728,
+			"id": 725,
 			"month": "1405/02",
 			"date": "1405/02/08",
 			"wh": "ضایعات مواد اولیه لباسشویی و ظرفشویی",
@@ -16686,13 +17037,13 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 729,
+			"id": 726,
 			"month": "1405/02",
 			"date": "1405/02/08",
 			"wh": "ضایعات مواد اولیه لباسشویی و ظرفشویی",
 			"code": "12220032",
 			"title": "H-DW-بست فلزی 30.8×7 یا XL31",
-			"reason": "دوبارکاری",
+			"reason": "ایراد اپراتوری",
 			"origin": "prod",
 			"qty": 1,
 			"match": "exact",
@@ -16701,7 +17052,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 730,
+			"id": 727,
 			"month": "1405/02",
 			"date": "1405/02/10",
 			"wh": "ضایعات مواد اولیه لباسشویی و ظرفشویی",
@@ -16716,14 +17067,14 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 731,
+			"id": 728,
 			"month": "1405/02",
 			"date": "1405/02/14",
 			"wh": "ضایعات مواد اولیه لباسشویی و ظرفشویی",
 			"code": "11210195",
 			"title": "8TI3-8TW3 برچسب انرژی-WM",
-			"reason": "دوبارکاری",
-			"origin": "contractor",
+			"reason": "ایراد اپراتوری",
+			"origin": "prod",
 			"qty": 2,
 			"match": "none",
 			"bomIds": [],
@@ -16731,13 +17082,13 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 732,
+			"id": 729,
 			"month": "1405/02",
 			"date": "1405/02/14",
 			"wh": "ضایعات مواد اولیه لباسشویی و ظرفشویی",
 			"code": "11990037",
 			"title": "برچسب گارانتی لباسشویی 30ماه",
-			"reason": "خش دار",
+			"reason": "خش",
 			"origin": "contractor",
 			"qty": 2,
 			"match": "exact",
@@ -16746,7 +17097,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 733,
+			"id": 730,
 			"month": "1405/02",
 			"date": "1405/02/14",
 			"wh": "ضایعات مواد اولیه لباسشویی و ظرفشویی",
@@ -16761,7 +17112,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 734,
+			"id": 731,
 			"month": "1405/02",
 			"date": "1405/02/14",
 			"wh": "ضایعات مواد اولیه لباسشویی و ظرفشویی",
@@ -16776,7 +17127,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 735,
+			"id": 732,
 			"month": "1405/02",
 			"date": "1405/02/14",
 			"wh": "ضایعات مواد اولیه لباسشویی و ظرفشویی",
@@ -16791,7 +17142,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 736,
+			"id": 733,
 			"month": "1405/02",
 			"date": "1405/02/14",
 			"wh": "ضایعات مواد اولیه لباسشویی و ظرفشویی",
@@ -16806,7 +17157,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 737,
+			"id": 734,
 			"month": "1405/02",
 			"date": "1405/02/14",
 			"wh": "ضایعات مواد اولیه لباسشویی و ظرفشویی",
@@ -16821,14 +17172,14 @@ var factory = {
 			"note": "نام در چند خانواده هست: dw، wm8a، wm8b"
 		},
 		{
-			"id": 738,
+			"id": 735,
 			"month": "1405/02",
 			"date": "1405/02/22",
 			"wh": "ضایعات مواد اولیه لباسشویی و ظرفشویی",
 			"code": "11210163",
 			"title": "WM- براکت چپ - پایین کابین (8V-8T-9T)",
-			"reason": "زنگ زدگی-دوبارکاری",
-			"origin": "both",
+			"reason": "ایراد اپراتوری",
+			"origin": "prod",
 			"qty": 2,
 			"match": "none",
 			"bomIds": [],
@@ -16836,13 +17187,13 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 739,
+			"id": 736,
 			"month": "1405/02",
 			"date": "1405/02/22",
 			"wh": "ضایعات مواد اولیه لباسشویی و ظرفشویی",
 			"code": "11210164",
 			"title": "WM- براکت راست - پایین کابین (8V-8T-9T)",
-			"reason": "دوباره کاری",
+			"reason": "ایراد اپراتوری",
 			"origin": "prod",
 			"qty": 1,
 			"match": "none",
@@ -16851,13 +17202,13 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 740,
+			"id": 737,
 			"month": "1405/02",
 			"date": "1405/02/22",
 			"wh": "ضایعات مواد اولیه لباسشویی و ظرفشویی",
 			"code": "11210193",
 			"title": "WM-دفترچه راهنما لباسشویی-8TI3-8TW3-9TI2-9TW2",
-			"reason": "کثیف",
+			"reason": "لکه",
 			"origin": "prod",
 			"qty": 1,
 			"match": "exact",
@@ -16866,13 +17217,13 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 741,
+			"id": 738,
 			"month": "1405/02",
 			"date": "1405/02/22",
 			"wh": "ضایعات مواد اولیه لباسشویی و ظرفشویی",
 			"code": "11210194",
 			"title": "8TI3-8TW3 برچسب آب لباسشویی-WM",
-			"reason": "دوبارکاری",
+			"reason": "ایراد اپراتوری",
 			"origin": "prod",
 			"qty": 3,
 			"match": "none",
@@ -16881,7 +17232,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 742,
+			"id": 739,
 			"month": "1405/02",
 			"date": "1405/02/22",
 			"wh": "ضایعات مواد اولیه لباسشویی و ظرفشویی",
@@ -16896,7 +17247,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 743,
+			"id": 740,
 			"month": "1405/02",
 			"date": "1405/02/22",
 			"wh": "ضایعات مواد اولیه لباسشویی و ظرفشویی",
@@ -16911,13 +17262,13 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 744,
+			"id": 741,
 			"month": "1405/02",
 			"date": "1405/02/22",
 			"wh": "ضایعات مواد اولیه لباسشویی و ظرفشویی",
 			"code": "12210100",
 			"title": "پیچ بالانسر-7.5VW1-7.5VI1-8VW1-8VI1-8TW1-8TI1-9TW1-9TI1",
-			"reason": "شکستگی-هرز",
+			"reason": "شکستگی",
 			"origin": "both",
 			"qty": 5,
 			"match": "none",
@@ -16926,7 +17277,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 745,
+			"id": 742,
 			"month": "1405/02",
 			"date": "1405/02/22",
 			"wh": "ضایعات مواد اولیه لباسشویی و ظرفشویی",
@@ -16941,7 +17292,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 746,
+			"id": 743,
 			"month": "1405/02",
 			"date": "1405/02/22",
 			"wh": "ضایعات مواد اولیه لباسشویی و ظرفشویی",
@@ -16956,7 +17307,7 @@ var factory = {
 			"note": "نام در چند خانواده هست: dw، wm8a، wm8b"
 		},
 		{
-			"id": 747,
+			"id": 744,
 			"month": "1405/03",
 			"date": "1405/03/02",
 			"wh": "ضایعات مواد اولیه لباسشویی و ظرفشویی",
@@ -16971,13 +17322,13 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 748,
+			"id": 745,
 			"month": "1405/03",
 			"date": "1405/03/02",
 			"wh": "ضایعات مواد اولیه لباسشویی و ظرفشویی",
 			"code": "11210166",
 			"title": "WM- براکت چپ - بالای کابین (8V-8T-9T)",
-			"reason": "دوبارکری",
+			"reason": "ایراد اپراتوری",
 			"origin": "prod",
 			"qty": 1,
 			"match": "none",
@@ -16986,7 +17337,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 749,
+			"id": 746,
 			"month": "1405/03",
 			"date": "1405/03/02",
 			"wh": "ضایعات مواد اولیه لباسشویی و ظرفشویی",
@@ -17001,13 +17352,13 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 750,
+			"id": 747,
 			"month": "1405/03",
 			"date": "1405/03/02",
 			"wh": "ضایعات مواد اولیه لباسشویی و ظرفشویی",
 			"code": "11210192",
 			"title": "WM-برچسب معرفی محصول روی کارتن مدل (BMW8TI3)",
-			"reason": "دوبارکاری",
+			"reason": "ایراد اپراتوری",
 			"origin": "prod",
 			"qty": 1,
 			"match": "none",
@@ -17016,13 +17367,13 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 751,
+			"id": 748,
 			"month": "1405/03",
 			"date": "1405/03/02",
 			"wh": "ضایعات مواد اولیه لباسشویی و ظرفشویی",
 			"code": "11990037",
 			"title": "برچسب گارانتی لباسشویی 30ماه",
-			"reason": "دوبارکاری",
+			"reason": "ایراد اپراتوری",
 			"origin": "prod",
 			"qty": 8,
 			"match": "exact",
@@ -17031,7 +17382,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 752,
+			"id": 749,
 			"month": "1405/03",
 			"date": "1405/03/02",
 			"wh": "ضایعات مواد اولیه لباسشویی و ظرفشویی",
@@ -17046,13 +17397,13 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 753,
+			"id": 750,
 			"month": "1405/03",
 			"date": "1405/03/02",
 			"wh": "ضایعات مواد اولیه لباسشویی و ظرفشویی",
 			"code": "12210099",
 			"title": "پیچ موتور دایرکت درایو-8TW1-8TI1-9TW1-9TI1",
-			"reason": "هرز-شکستگی",
+			"reason": "هرز بودن",
 			"origin": "contractor",
 			"qty": 2,
 			"match": "none",
@@ -17061,7 +17412,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 754,
+			"id": 751,
 			"month": "1405/03",
 			"date": "1405/03/02",
 			"wh": "ضایعات مواد اولیه لباسشویی و ظرفشویی",
@@ -17076,7 +17427,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 755,
+			"id": 752,
 			"month": "1405/03",
 			"date": "1405/03/02",
 			"wh": "ضایعات مواد اولیه لباسشویی و ظرفشویی",
@@ -17091,7 +17442,7 @@ var factory = {
 			"note": "نام در چند خانواده هست: dw، wm8a، wm8b"
 		},
 		{
-			"id": 756,
+			"id": 753,
 			"month": "1405/03",
 			"date": "1405/03/02",
 			"wh": "ضایعات مواد اولیه لباسشویی و ظرفشویی",
@@ -17106,13 +17457,13 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 757,
+			"id": 754,
 			"month": "1405/04",
 			"date": "1405/04/09",
 			"wh": "ضایعات مواد اولیه لباسشویی و ظرفشویی",
 			"code": "11210163",
 			"title": "WM- براکت چپ - پایین کابین (8V-8T-9T)",
-			"reason": "دوبارکاری",
+			"reason": "ایراد اپراتوری",
 			"origin": "prod",
 			"qty": 1,
 			"match": "none",
@@ -17121,13 +17472,13 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 758,
+			"id": 755,
 			"month": "1405/04",
 			"date": "1405/04/09",
 			"wh": "ضایعات مواد اولیه لباسشویی و ظرفشویی",
 			"code": "11210164",
 			"title": "WM- براکت راست - پایین کابین (8V-8T-9T)",
-			"reason": "دوبارکاری",
+			"reason": "ایراد اپراتوری",
 			"origin": "prod",
 			"qty": 1,
 			"match": "none",
@@ -17136,7 +17487,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 759,
+			"id": 756,
 			"month": "1405/04",
 			"date": "1405/04/09",
 			"wh": "ضایعات مواد اولیه لباسشویی و ظرفشویی",
@@ -17151,7 +17502,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 760,
+			"id": 757,
 			"month": "1405/04",
 			"date": "1405/04/09",
 			"wh": "ضایعات مواد اولیه لباسشویی و ظرفشویی",
@@ -17166,13 +17517,13 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 761,
+			"id": 758,
 			"month": "1405/04",
 			"date": "1405/04/09",
 			"wh": "ضایعات مواد اولیه لباسشویی و ظرفشویی",
 			"code": "11210197",
 			"title": "WM-برچسب آب لباسشویی-9TI2-9TW2",
-			"reason": "دوبارکاری",
+			"reason": "ایراد اپراتوری",
 			"origin": "prod",
 			"qty": 1,
 			"match": "exact",
@@ -17181,13 +17532,13 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 762,
+			"id": 759,
 			"month": "1405/04",
 			"date": "1405/04/09",
 			"wh": "ضایعات مواد اولیه لباسشویی و ظرفشویی",
 			"code": "11210198",
 			"title": "WM-برچسب انرژی لباسشویی-9TI2-9TW2",
-			"reason": "دوبارکاری",
+			"reason": "ایراد اپراتوری",
 			"origin": "prod",
 			"qty": 1,
 			"match": "exact",
@@ -17196,7 +17547,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 763,
+			"id": 760,
 			"month": "1405/04",
 			"date": "1405/04/09",
 			"wh": "ضایعات مواد اولیه لباسشویی و ظرفشویی",
@@ -17211,7 +17562,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 764,
+			"id": 761,
 			"month": "1405/04",
 			"date": "1405/04/09",
 			"wh": "ضایعات مواد اولیه لباسشویی و ظرفشویی",
@@ -17226,13 +17577,13 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 765,
+			"id": 762,
 			"month": "1405/04",
 			"date": "1405/04/09",
 			"wh": "ضایعات مواد اولیه لباسشویی و ظرفشویی",
 			"code": "11990037",
 			"title": "برچسب گارانتی لباسشویی 30ماه",
-			"reason": "دوبارکاری",
+			"reason": "ایراد اپراتوری",
 			"origin": "both",
 			"qty": 11,
 			"match": "exact",
@@ -17241,7 +17592,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 766,
+			"id": 763,
 			"month": "1405/04",
 			"date": "1405/04/09",
 			"wh": "ضایعات مواد اولیه لباسشویی و ظرفشویی",
@@ -17256,13 +17607,13 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 767,
+			"id": 764,
 			"month": "1405/04",
 			"date": "1405/04/09",
 			"wh": "ضایعات مواد اولیه لباسشویی و ظرفشویی",
 			"code": "12210124",
 			"title": "SKY-WM- بست فلزی شیلنگ 3 راهی پمپ تخلیه (7.5-8V-8T-9T)",
-			"reason": "دوبارکاری",
+			"reason": "ایراد اپراتوری",
 			"origin": "prod",
 			"qty": 1,
 			"match": "none",
@@ -17271,7 +17622,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 768,
+			"id": 765,
 			"month": "1405/04",
 			"date": "1405/04/09",
 			"wh": "ضایعات مواد اولیه لباسشویی و ظرفشویی",
@@ -17286,7 +17637,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 769,
+			"id": 766,
 			"month": "1405/04",
 			"date": "1405/04/09",
 			"wh": "ضایعات مواد اولیه لباسشویی و ظرفشویی",
@@ -17301,7 +17652,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 770,
+			"id": 767,
 			"month": "1405/04",
 			"date": "1405/04/09",
 			"wh": "ضایعات مواد اولیه لباسشویی و ظرفشویی",
@@ -17316,7 +17667,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 771,
+			"id": 768,
 			"month": "1405/04",
 			"date": "1405/04/09",
 			"wh": "ضایعات مواد اولیه لباسشویی و ظرفشویی",
@@ -17331,7 +17682,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 772,
+			"id": 769,
 			"month": "1405/04",
 			"date": "1405/04/09",
 			"wh": "ضایعات مواد اولیه لباسشویی و ظرفشویی",
@@ -17346,13 +17697,13 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 773,
+			"id": 770,
 			"month": "1405/04",
 			"date": "1405/04/09",
 			"wh": "ضایعات مواد اولیه لباسشویی و ظرفشویی",
 			"code": "12220031",
 			"title": "H-DW- بست فلزی (38.1×7)",
-			"reason": "دوبارکاری",
+			"reason": "ایراد اپراتوری",
 			"origin": "prod",
 			"qty": 2,
 			"match": "exact",
@@ -17361,13 +17712,13 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 774,
+			"id": 771,
 			"month": "1405/04",
 			"date": "1405/04/09",
 			"wh": "ضایعات مواد اولیه لباسشویی و ظرفشویی",
 			"code": "12220031",
 			"title": "H-DW- بست فلزی (38.1×7)",
-			"reason": "دوبارکاری",
+			"reason": "ایراد اپراتوری",
 			"origin": "prod",
 			"qty": 2,
 			"match": "exact",
@@ -17376,13 +17727,13 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 775,
+			"id": 772,
 			"month": "1405/04",
 			"date": "1405/04/09",
 			"wh": "ضایعات مواد اولیه لباسشویی و ظرفشویی",
 			"code": "12220031",
 			"title": "H-DW- بست فلزی (38.1×7)",
-			"reason": "دوبارکاری",
+			"reason": "ایراد اپراتوری",
 			"origin": "prod",
 			"qty": 3,
 			"match": "exact",
@@ -17391,7 +17742,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 776,
+			"id": 773,
 			"month": "1405/04",
 			"date": "1405/04/09",
 			"wh": "ضایعات مواد اولیه لباسشویی و ظرفشویی",
@@ -17406,7 +17757,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 777,
+			"id": 774,
 			"month": "1405/04",
 			"date": "1405/04/09",
 			"wh": "ضایعات مواد اولیه لباسشویی و ظرفشویی",
@@ -17421,7 +17772,7 @@ var factory = {
 			"note": "نام در چند خانواده هست: dw، wm8a، wm8b"
 		},
 		{
-			"id": 778,
+			"id": 775,
 			"month": "1405/06",
 			"date": "1405/06/15",
 			"wh": "ضایعات مواد اولیه لباسشویی و ظرفشویی",
@@ -17436,13 +17787,13 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 779,
+			"id": 776,
 			"month": "1405/06",
 			"date": "1405/06/15",
 			"wh": "ضایعات مواد اولیه لباسشویی و ظرفشویی",
 			"code": "11220073",
 			"title": "DW-شیلنگ خرطومی تخلیه ظرفشویی (15&16)",
-			"reason": "سوراخ شدگی",
+			"reason": "سوراخ",
 			"origin": "prod",
 			"qty": 1,
 			"match": "canon",
@@ -17451,7 +17802,7 @@ var factory = {
 			"note": "گونه‌نویسی یکسان پس از حذف رنگ/وضعیت"
 		},
 		{
-			"id": 780,
+			"id": 777,
 			"month": "1405/06",
 			"date": "1405/06/15",
 			"wh": "ضایعات مواد اولیه لباسشویی و ظرفشویی",
@@ -17466,13 +17817,13 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 781,
+			"id": 778,
 			"month": "1405/06",
 			"date": "1405/06/15",
 			"wh": "ضایعات مواد اولیه لباسشویی و ظرفشویی",
 			"code": "11990010",
 			"title": "WM - شیلنگ تخلیه (8V-8T-9T)",
-			"reason": "سوراخ شدگی",
+			"reason": "سوراخ",
 			"origin": "contractor",
 			"qty": 3,
 			"match": "exact",
@@ -17481,7 +17832,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 782,
+			"id": 779,
 			"month": "1405/06",
 			"date": "1405/06/15",
 			"wh": "ضایعات مواد اولیه لباسشویی و ظرفشویی",
@@ -17496,13 +17847,13 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 783,
+			"id": 780,
 			"month": "1405/06",
 			"date": "1405/06/15",
 			"wh": "ضایعات مواد اولیه لباسشویی و ظرفشویی",
 			"code": "11210164",
 			"title": "WM- براکت راست - پایین کابین (8V-8T-9T)",
-			"reason": "دوبارکاری",
+			"reason": "ایراد اپراتوری",
 			"origin": "prod",
 			"qty": 1,
 			"match": "none",
@@ -17511,7 +17862,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 784,
+			"id": 781,
 			"month": "1405/06",
 			"date": "1405/06/15",
 			"wh": "ضایعات مواد اولیه لباسشویی و ظرفشویی",
@@ -17526,7 +17877,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 785,
+			"id": 782,
 			"month": "1405/06",
 			"date": "1405/06/15",
 			"wh": "ضایعات مواد اولیه لباسشویی و ظرفشویی",
@@ -17541,7 +17892,7 @@ var factory = {
 			"note": "گونه‌نویسی یکسان پس از حذف رنگ/وضعیت"
 		},
 		{
-			"id": 786,
+			"id": 783,
 			"month": "1405/06",
 			"date": "1405/06/15",
 			"wh": "ضایعات مواد اولیه لباسشویی و ظرفشویی",
@@ -17556,7 +17907,7 @@ var factory = {
 			"note": "گونه‌نویسی یکسان پس از حذف رنگ/وضعیت"
 		},
 		{
-			"id": 787,
+			"id": 784,
 			"month": "1405/06",
 			"date": "1405/06/15",
 			"wh": "ضایعات مواد اولیه لباسشویی و ظرفشویی",
@@ -17571,7 +17922,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 788,
+			"id": 785,
 			"month": "1405/06",
 			"date": "1405/06/15",
 			"wh": "ضایعات مواد اولیه لباسشویی و ظرفشویی",
@@ -17586,7 +17937,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 789,
+			"id": 786,
 			"month": "1405/06",
 			"date": "1405/06/15",
 			"wh": "ضایعات مواد اولیه لباسشویی و ظرفشویی",
@@ -17601,7 +17952,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 790,
+			"id": 787,
 			"month": "1405/06",
 			"date": "1405/06/15",
 			"wh": "ضایعات مواد اولیه لباسشویی و ظرفشویی",
@@ -17616,7 +17967,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 791,
+			"id": 788,
 			"month": "1405/06",
 			"date": "1405/06/15",
 			"wh": "ضایعات مواد اولیه لباسشویی و ظرفشویی",
@@ -17631,7 +17982,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 792,
+			"id": 789,
 			"month": "1405/06",
 			"date": "1405/06/15",
 			"wh": "ضایعات مواد اولیه لباسشویی و ظرفشویی",
@@ -17646,7 +17997,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 793,
+			"id": 790,
 			"month": "1405/06",
 			"date": "1405/06/15",
 			"wh": "ضایعات مواد اولیه لباسشویی و ظرفشویی",
@@ -17661,7 +18012,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 794,
+			"id": 791,
 			"month": "1405/06",
 			"date": "1405/06/15",
 			"wh": "ضایعات مواد اولیه لباسشویی و ظرفشویی",
@@ -17676,7 +18027,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 795,
+			"id": 792,
 			"month": "1405/06",
 			"date": "1405/06/15",
 			"wh": "ضایعات مواد اولیه لباسشویی و ظرفشویی",
@@ -17691,7 +18042,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 796,
+			"id": 793,
 			"month": "1405/06",
 			"date": "1405/06/15",
 			"wh": "ضایعات مواد اولیه لباسشویی و ظرفشویی",
@@ -17706,7 +18057,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 797,
+			"id": 794,
 			"month": "1405/06",
 			"date": "1405/06/15",
 			"wh": "ضایعات مواد اولیه لباسشویی و ظرفشویی",
@@ -17721,7 +18072,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 798,
+			"id": 795,
 			"month": "1405/06",
 			"date": "1405/06/15",
 			"wh": "ضایعات مواد اولیه لباسشویی و ظرفشویی",
@@ -17736,7 +18087,7 @@ var factory = {
 			"note": "گونه‌نویسی یکسان پس از حذف رنگ/وضعیت"
 		},
 		{
-			"id": 799,
+			"id": 796,
 			"month": "1405/06",
 			"date": "1405/06/15",
 			"wh": "ضایعات مواد اولیه لباسشویی و ظرفشویی",
@@ -17751,7 +18102,7 @@ var factory = {
 			"note": "گونه‌نویسی یکسان پس از حذف رنگ/وضعیت"
 		},
 		{
-			"id": 800,
+			"id": 797,
 			"month": "1405/06",
 			"date": "1405/06/15",
 			"wh": "ضایعات مواد اولیه لباسشویی و ظرفشویی",
@@ -17766,7 +18117,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 801,
+			"id": 798,
 			"month": "1405/06",
 			"date": "1405/06/15",
 			"wh": "ضایعات مواد اولیه لباسشویی و ظرفشویی",
@@ -17781,7 +18132,7 @@ var factory = {
 			"note": "نام در چند خانواده هست: dw، wm8a، wm8b"
 		},
 		{
-			"id": 802,
+			"id": 799,
 			"month": "1405/06",
 			"date": "1405/06/15",
 			"wh": "ضایعات مواد اولیه لباسشویی و ظرفشویی",
@@ -17796,7 +18147,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 803,
+			"id": 800,
 			"month": "1405/06",
 			"date": "1405/06/15",
 			"wh": "ضایعات مواد اولیه لباسشویی و ظرفشویی",
@@ -17811,7 +18162,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 804,
+			"id": 801,
 			"month": "1405/06",
 			"date": "1405/06/15",
 			"wh": "ضایعات مواد اولیه لباسشویی و ظرفشویی",
@@ -17826,7 +18177,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 805,
+			"id": 802,
 			"month": "1405/06",
 			"date": "1405/06/15",
 			"wh": "ضایعات مواد اولیه لباسشویی و ظرفشویی",
@@ -17841,7 +18192,7 @@ var factory = {
 			"note": ""
 		},
 		{
-			"id": 806,
+			"id": 803,
 			"month": "1405/06",
 			"date": "1405/06/15",
 			"wh": "ضایعات مواد اولیه لباسشویی و ظرفشویی",
@@ -54240,49 +54591,24 @@ var factory = {
 	],
 	issues: [
 		{
-			"level": "danger",
-			"title": "بخشی از ضایعات ضریب مصرف ندارد",
-			"detail": "ردیف‌هایی که نامشان با فایل شدت اهمیت یکی نشد از نرخ واقعی خارج شده‌اند و در جدول مغایرت مانده‌اند. حذف نشده‌اند."
+			"level": "warn",
+			"title": "بعضی ردیف‌های ضایعات در درصد نمی‌آیند",
+			"detail": "اگر نام کالا در فایل ضریب مصرف نباشد، آن مقدار نه در صورت شاخص است و نه در مخرج. ردیف در جدول ضایعات می‌ماند."
 		},
 		{
 			"level": "warn",
-			"title": "کد کالا در شیت لباسشویی ۸T3 / ۹T2 قابل استفاده نیست",
-			"detail": "کدهای این شیت با الگوی شیت لباسشویی ۱۰ کیلو پر شده و با نام قطعه نمی‌خواند. تطبیق فقط با نام انجام شد."
+			"title": "تولید C70 در فایل شش‌ماهه نیست",
+			"detail": "برای این خانواده تعداد تولید صفر است، پس درصد ضایعات تعریف نمی‌شود و وارد شاخص کل نمی‌شود."
 		},
 		{
 			"level": "warn",
-			"title": "شیت‌های مینی، C70، ظرفشویی و ۸T2 کد کالا ندارند",
-			"detail": "ستون کد در این شیت‌ها نیست؛ اتصال ضایعات به ضریب از روی نام قطعه است."
-		},
-		{
-			"level": "warn",
-			"title": "تولید C70 / FR16 در فایل شش‌ماهه نیست",
-			"detail": "ضایعات این خانواده ثبت شده اما مخرج تولید صفر است. نرخ واقعی C70 تعریف نشده و در شاخص کل وارد نمی‌شود."
-		},
-		{
-			"level": "warn",
-			"title": "یخچال CM-RM5 فهرست ضریب جدا ندارد",
-			"detail": "این مدل‌ها در تولید هستند. ضایعاتشان اگر نام مینی نداشته باشد به شاخص مینی وصل نشده است."
+			"title": "یخچال CM-RM5 فایل ضریب جدا ندارد",
+			"detail": "این مدل‌ها در تولید هستند. تا وقتی نام قطعه‌شان در شیت مینی یا C70 نباشد، در درصد ضایعات نمی‌آیند."
 		},
 		{
 			"level": "info",
-			"title": "تاریخ ضایعات، تاریخ نیاز است",
-			"detail": "محور زمان ضایعات ستون «تاریخ نیاز» است نه الزاماً تاریخ کشف. تولید با «تاریخ جمع‌آوری» شمرده شده."
-		},
-		{
-			"level": "info",
-			"title": "ردیف‌های هم‌نام داخل یک شیت جمع شده‌اند",
-			"detail": "اگر یک نام چند بار آمده باشد ضریب مصرف‌ها جمع و درجه اهمیت، بیشینه شده تا یک قطعه دو بار در مخرج ننشیند."
-		},
-		{
-			"level": "info",
-			"title": "قطعه مشترک دو خط لباسشویی ۸ و ۹",
-			"detail": "اگر نام عیناً در هر دو شیت ۸T2/۹T1 و ۸T3/۹T2 باشد، ضایعات به نسبت مصرف مورد انتظار دو خط تسهیم می‌شود."
-		},
-		{
-			"level": "info",
-			"title": "عنوان شیت C70 در فایل مبدأ «یخچال مینی» است",
-			"detail": "محتوا قطعات FR16 است و به‌عنوان خانواده C70 خوانده شد. عنوان شیت اصلاح نشده است."
+			"title": "شیت تزریق فوم جزو یخچال مینی است",
+			"detail": "قطعات شیت فوم با همان تعداد تولید مینی در مخرج می‌آیند، چون تولید جداگانه‌ای برای فوم ثبت نشده است."
 		}
 	]
 };
@@ -54338,18 +54664,12 @@ var ORIGIN_LABEL = {
 	both: "مشترک",
 	unknown: "نامشخص"
 };
-var COLOR_LABEL = {
-	white: "سفید",
-	gloss: "مشکی براق",
-	matte: "مشکی مات",
-	red: "قرمز",
-	blue: "آبی",
-	green: "سبز",
-	pink: "صورتی",
-	steel: "استیل",
-	inox: "اینوکس",
-	pattern: "طرح‌دار"
-};
+function importanceLabel(s) {
+	if (s === 1) return "غیر بحرانی";
+	if (s === 2) return "بحرانی";
+	if (s === 3) return "بسیار بحرانی";
+	return faNum(s, 2);
+}
 var useFilters = create((set, get) => ({
 	months: [],
 	group: "all",
@@ -54416,15 +54736,6 @@ var NAV = [
 ];
 function Shell({ children }) {
 	const f = useFilters();
-	const families = [
-		"mini",
-		"rm5",
-		"c70",
-		"wm10",
-		"wm8a",
-		"wm8b",
-		"dw"
-	].filter((id) => f.group === "all" || familyGroup(id) === f.group);
 	const models = factory.models.filter((m) => {
 		if (f.group !== "all" && familyGroup(m.family) !== f.group) return false;
 		if (f.family !== "all" && m.family !== f.family) return false;
@@ -54483,7 +54794,7 @@ function Shell({ children }) {
 							children: monthLabel(m)
 						}, m))]
 					}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-						className: "grid grid-cols-2 gap-2 lg:grid-cols-4",
+						className: "grid grid-cols-1 gap-2 sm:grid-cols-3",
 						children: [
 							/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Select, {
 								label: "گروه محصول",
@@ -54495,12 +54806,6 @@ function Shell({ children }) {
 									["wm", GROUP_LABEL.wm],
 									["dw", GROUP_LABEL.dw]
 								]
-							}),
-							/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Select, {
-								label: "خانواده / خط",
-								value: f.family,
-								onChange: (v) => f.setFamily(v),
-								options: [["all", "همه خانواده‌ها"], ...families.map((id) => [id, FAMILY_LABEL[id] ?? id])]
 							}),
 							/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Select, {
 								label: "مدل",
@@ -54642,4 +54947,4 @@ function qtyText(n) {
 	return faNum(n, n >= 100 || Number.isInteger(n) ? 0 : 1);
 }
 //#endregion
-export { qtyText as _, Note as a, Shell as c, faPct as d, factory as f, pctWidth as g, monthLabel as h, Kpi as i, bomById as l, modelByCode as m, COLOR_LABEL as n, ORIGIN_LABEL as o, familyGroup as p, FAMILY_LABEL as r, Panel as s, BarRow as t, faNum as u, rateText as v, useFilters as y };
+export { qtyText as _, ORIGIN_LABEL as a, bomById as c, factory as d, familyGroup as f, pctWidth as g, monthLabel as h, Note as i, faNum as l, modelByCode as m, FAMILY_LABEL as n, Panel as o, importanceLabel as p, Kpi as r, Shell as s, BarRow as t, faPct as u, rateText as v, useFilters as y };

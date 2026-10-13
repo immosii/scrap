@@ -1,4 +1,4 @@
-//#region node_modules/.nitro/vite/services/ssr/assets/_tanstack-start-manifest_v-CpuUmxSH.js
+//#region node_modules/.nitro/vite/services/ssr/assets/_tanstack-start-manifest_v-TLN9sakb.js
 var tsrStartManifest = () => ({ routes: {
 	__root__: {
 		filePath: "/workspace/src/routes/__root.tsx",
@@ -8,43 +8,43 @@ var tsrStartManifest = () => ({ routes: {
 			"/method",
 			"/quality"
 		],
-		preloads: ["/assets/index-BQEdaRep.js"],
+		preloads: ["/assets/index-B4ocxz5l.js"],
 		scripts: [{ attrs: {
 			type: "module",
 			async: !0,
-			src: "/assets/index-BQEdaRep.js"
+			src: "/assets/index-B4ocxz5l.js"
 		} }]
 	},
 	"/": {
 		filePath: "/workspace/src/routes/index.tsx",
 		children: void 0,
 		preloads: [
-			"/assets/routes-JS8UuyXB.js",
-			"/assets/widgets-nq_HrV9Q.js",
-			"/assets/metrics-D9LJ6wwY.js"
+			"/assets/routes-B4aBpF7K.js",
+			"/assets/widgets-Dq7vilrJ.js",
+			"/assets/metrics-BnG4RYuK.js"
 		]
 	},
 	"/data": {
 		filePath: "/workspace/src/routes/data.tsx",
 		children: void 0,
 		preloads: [
-			"/assets/data-Crh3-x8v.js",
-			"/assets/widgets-nq_HrV9Q.js",
-			"/assets/metrics-D9LJ6wwY.js"
+			"/assets/data-CX1z_p7V.js",
+			"/assets/widgets-Dq7vilrJ.js",
+			"/assets/metrics-BnG4RYuK.js"
 		]
 	},
 	"/method": {
 		filePath: "/workspace/src/routes/method.tsx",
 		children: void 0,
-		preloads: ["/assets/method-ChdPI_Ei.js", "/assets/widgets-nq_HrV9Q.js"]
+		preloads: ["/assets/method-DPz4yR1D.js", "/assets/widgets-Dq7vilrJ.js"]
 	},
 	"/quality": {
 		filePath: "/workspace/src/routes/quality.tsx",
 		children: void 0,
 		preloads: [
-			"/assets/quality-CEn2gKR5.js",
-			"/assets/widgets-nq_HrV9Q.js",
-			"/assets/metrics-D9LJ6wwY.js"
+			"/assets/quality-CKdaVwWH.js",
+			"/assets/widgets-Dq7vilrJ.js",
+			"/assets/metrics-BnG4RYuK.js"
 		]
 	}
 } });

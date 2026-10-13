@@ -1,5 +1,5 @@
-import { f as factory, h as monthLabel, l as bomById, m as modelByCode, o as ORIGIN_LABEL, p as familyGroup, r as FAMILY_LABEL } from "./widgets-DxwXF1wO.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/metrics-BdWMn0BD.js
+import { a as ORIGIN_LABEL, c as bomById, d as factory, f as familyGroup, h as monthLabel, m as modelByCode, n as FAMILY_LABEL } from "./widgets-BAyxnzMj.mjs";
+//#region node_modules/.nitro/vite/services/ssr/assets/metrics-CnqHy9C0.js
 function monthOk(month, months) {
 	return months.length === 0 || months.includes(month);
 }
@@ -46,26 +46,27 @@ function productionOf(scope, honorModel) {
 	}
 	return byFamily;
 }
-function rateBlock(scope, nByFamily) {
+function rateBlock(scope, nByFamily, nSplit) {
 	const partQ = /* @__PURE__ */ new Map();
 	const shared = /* @__PURE__ */ new Set();
 	for (const row of factory.scrap) {
 		if (!scrapVisible(row, scope, true)) continue;
 		if (row.match !== "exact" && row.match !== "canon") continue;
-		const parts = row.bomIds.map((id) => bomById.get(id)).filter((p) => !!p && familyAllowed(p.family, scope) && (nByFamily.get(p.family) ?? 0) > 0);
-		if (!parts.length) continue;
-		if (parts.length > 1) parts.forEach((p) => shared.add(p.id));
-		const weights = parts.map((p) => (nByFamily.get(p.family) ?? 0) * p.c);
+		const linked = row.bomIds.map((id) => bomById.get(id)).filter((p) => !!p);
+		if (!linked.length) continue;
+		if (linked.length > 1) linked.forEach((p) => shared.add(p.id));
+		const weights = linked.map((p) => (nSplit.get(p.family) ?? 0) * p.c);
 		const sum = weights.reduce((a, b) => a + b, 0);
-		parts.forEach((p, i) => {
-			const share = sum > 0 ? weights[i] / sum : 1 / parts.length;
+		linked.forEach((p, i) => {
+			if (!familyAllowed(p.family, scope)) return;
+			if ((nByFamily.get(p.family) ?? 0) <= 0) return;
+			const share = sum > 0 ? weights[i] / sum : 0;
+			if (share <= 0) return;
 			partQ.set(p.id, (partQ.get(p.id) ?? 0) + row.qty * share);
 		});
 	}
 	let num = 0;
 	let den = 0;
-	let numOcc = 0;
-	let denOcc = 0;
 	const parts = [];
 	for (const part of factory.bom) {
 		if (!familyAllowed(part.family, scope)) continue;
@@ -76,10 +77,6 @@ function rateBlock(scope, nByFamily) {
 		const load = q * part.s;
 		den += e * part.s;
 		num += load;
-		if (q > 0) {
-			denOcc += e * part.s;
-			numOcc += load;
-		}
 		parts.push({
 			id: part.id,
 			title: part.title,
@@ -97,12 +94,17 @@ function rateBlock(scope, nByFamily) {
 	}
 	return {
 		parts,
-		rBom: den > 0 ? num / den * 100 : null,
-		rOcc: denOcc > 0 ? numOcc / denOcc * 100 : null,
-		num
+		rBom: den > 0 ? num / den * 100 : null
 	};
 }
 function buildView(scope) {
+	const nSplit = productionOf({
+		months: scope.months,
+		group: "all",
+		family: "all",
+		model: "all",
+		origin: "all"
+	}, false);
 	const nFamily = productionOf(scope, false);
 	const nModel = productionOf(scope, true);
 	let n = 0;
@@ -117,10 +119,8 @@ function buildView(scope) {
 		if (scope.model !== "all" && model.code !== scope.model) continue;
 		if (cell.grade === "B") nB += cell.qty;
 	}
-	const rated = rateBlock(scope, nFamily);
+	const rated = rateBlock(scope, nFamily, nSplit);
 	let qRaw = 0;
-	let qMatched = 0;
-	let qAmbiguous = 0;
 	let emptyReason = 0;
 	const originQty = /* @__PURE__ */ new Map();
 	const causeMap = /* @__PURE__ */ new Map();
@@ -130,8 +130,6 @@ function buildView(scope) {
 		if (!scrapVisible(row, scope, true)) continue;
 		qRaw += row.qty;
 		if (!row.reason) emptyReason += 1;
-		if (row.match === "exact" || row.match === "canon") qMatched += row.qty;
-		if (row.match === "ambiguous") qAmbiguous += row.qty;
 		const bucket = originQty.get(row.origin) ?? {
 			qty: 0,
 			rows: 0
@@ -178,22 +176,18 @@ function buildView(scope) {
 		const nMap = productionOf(sub, false);
 		let nn = 0;
 		for (const v of nMap.values()) nn += v;
-		const block = rateBlock(sub, nMap);
+		const block = rateBlock(sub, nMap, nSplit);
 		let q = 0;
-		let qm = 0;
 		for (const row of factory.scrap) {
 			if (!scrapVisible(row, sub, true)) continue;
 			q += row.qty;
-			if (row.match === "exact" || row.match === "canon") qm += row.qty;
 		}
 		return {
 			key,
 			label: monthLabel(key),
 			n: nn,
 			q,
-			qMatched: qm,
-			rBom: block.rBom,
-			rawPerUnit: nn > 0 ? q / nn : null
+			rBom: block.rBom
 		};
 	});
 	const families = [
@@ -213,23 +207,12 @@ function buildView(scope) {
 		};
 		const nMap = productionOf(sub, false);
 		const nn = nMap.get(id) ?? 0;
-		const block = rateBlock(sub, nMap);
-		let q = 0;
-		let qm = 0;
-		for (const row of factory.scrap) {
-			if (!scrapVisible(row, sub, true)) continue;
-			q += row.qty;
-			if (row.match === "exact" || row.match === "canon") qm += row.qty;
-		}
+		const block = rateBlock(sub, nMap, nSplit);
 		return {
 			id,
 			label: FAMILY_LABEL[id] ?? id,
 			n: nn,
-			qRaw: q,
-			qMatched: qm,
-			rBom: block.rBom,
-			rOcc: block.rOcc,
-			cover: q > 0 ? qm / q * 100 : null
+			rBom: block.rBom
 		};
 	});
 	const nByModel = /* @__PURE__ */ new Map();
@@ -265,69 +248,14 @@ function buildView(scope) {
 			share: famN > 0 ? stat.n / famN * 100 : null
 		};
 	}).filter((m) => m.n > 0).sort((a, b) => b.n - a.n);
-	const colorN = /* @__PURE__ */ new Map();
-	for (const cell of factory.prod) {
-		if (!monthOk(cell.month, scope.months)) continue;
-		const model = modelByCode.get(cell.code);
-		if (!model?.color) continue;
-		if (scope.group !== "all" && familyGroup(model.family) !== scope.group) continue;
-		if (scope.family !== "all" && model.family !== scope.family) continue;
-		const key = `${model.family}|${model.color}`;
-		colorN.set(key, (colorN.get(key) ?? 0) + cell.qty);
-	}
-	const colorQ = /* @__PURE__ */ new Map();
-	for (const row of factory.scrap) {
-		if (!row.color || row.match !== "exact" && row.match !== "canon") continue;
-		if (!monthOk(row.month, scope.months)) continue;
-		if (scope.origin !== "all" && row.origin !== scope.origin) continue;
-		for (const id of row.bomIds) {
-			const part = bomById.get(id);
-			if (!part || !familyAllowed(part.family, {
-				...scope,
-				model: "all"
-			})) continue;
-			const key = `${id}|${row.color}`;
-			colorQ.set(key, (colorQ.get(key) ?? 0) + row.qty);
-		}
-	}
-	const colorParts = [];
-	for (const [key, q] of colorQ) {
-		const [id, color] = key.split("|");
-		const part = bomById.get(id);
-		if (!part) continue;
-		if (scope.model !== "all") {
-			const selected = modelByCode.get(scope.model);
-			if (!selected || selected.color !== color || selected.family !== part.family) continue;
-		}
-		const nColor = colorN.get(`${part.family}|${color}`) ?? 0;
-		const e = nColor * part.c;
-		colorParts.push({
-			id: part.id,
-			title: part.title,
-			family: part.family,
-			color,
-			c: part.c,
-			s: part.s,
-			q,
-			nColor,
-			e,
-			rate: e > 0 ? q / e * 100 : null
-		});
-	}
-	colorParts.sort((a, b) => (b.rate ?? -1) - (a.rate ?? -1));
 	const selected = scope.model === "all" ? null : models.find((m) => m.code === scope.model) ?? null;
 	return {
 		n,
 		nAllFamily,
 		nB,
 		qRaw,
-		qMatched,
-		qAmbiguous,
-		cover: qRaw > 0 ? qMatched / qRaw * 100 : null,
-		rawPerUnit: nAllFamily > 0 ? qRaw / nAllFamily : null,
-		rBom: rated.rBom,
-		rOcc: rated.rOcc,
 		emptyReason,
+		rBom: rated.rBom,
 		months,
 		families,
 		origins: [
@@ -355,7 +283,6 @@ function buildView(scope) {
 		causes: [...causeMap.values()].sort((a, b) => b.qty - a.qty),
 		unmatched: [...unmatchedMap.values()].sort((a, b) => b.qty - a.qty),
 		models,
-		colorParts,
 		selected
 	};
 }

@@ -2,7 +2,7 @@ import { createFileRoute } from "@tanstack/react-router";
 import { useMemo, useState } from "react";
 import { Shell } from "@/components/shell";
 import { Note, Panel, qtyText, rateText } from "@/components/widgets";
-import { COLOR_LABEL, FAMILY_LABEL, faNum, faPct, ORIGIN_LABEL } from "@/lib/format";
+import { FAMILY_LABEL, faNum, faPct, importanceLabel, ORIGIN_LABEL } from "@/lib/format";
 import { buildView, scrapRowsForPart, type PartStat } from "@/lib/metrics";
 import { useFilters } from "@/lib/store";
 
@@ -46,21 +46,19 @@ function QualityPage() {
       <div className="mb-4">
         <h1 className="text-xl font-semibold">تحلیل کنترل کیفیت</h1>
         <p className="mt-1 max-w-3xl text-sm leading-relaxed text-fg-muted">
-          مقایسه مدل‌ها مستقل از اینکه ضایعات را به مدل نسبت بدهیم. نرخ قطعه فقط جایی مدل‌محور است که نام ضایعات رنگ را گفته باشد.
+          ضایعات نام مدل ندارد، پس درصد ضایعات برای هر مدل جدا حساب نمی‌شود. جدول مدل فقط می‌گوید از هر مدل چند دستگاه ساخته شده و چند تا درجه B بوده است.
         </p>
       </div>
 
-      <Panel title="روند در برابر حجم تولید" subtitle="اگر تولید بالا برود و نرخ واقعی بالا بماند، مسئله سیستمی است نه یک ماه کم‌تیراژ.">
+      <Panel title="روند در برابر حجم تولید" subtitle="اگر تولید بالا باشد و درصد ضایعات هم بالا بماند، مسئله مربوط به یک ماه کم‌تیراژ نیست.">
         <div className="overflow-x-auto">
-          <table className="w-full min-w-[40rem] text-sm">
+          <table className="w-full min-w-[32rem] text-sm">
             <thead>
               <tr className="text-xs text-fg-muted">
                 <Th>ماه</Th>
                 <Th>تولید</Th>
-                <Th>ضایعات خام</Th>
-                <Th>خام / دستگاه</Th>
-                <Th>وصل به ضریب</Th>
-                <Th>نرخ واقعی</Th>
+                <Th>مقدار ضایعات</Th>
+                <Th>درصد ضایعات</Th>
               </tr>
             </thead>
             <tbody>
@@ -69,8 +67,6 @@ function QualityPage() {
                   <td className="py-2.5">{m.label}</td>
                   <Td>{faNum(m.n)}</Td>
                   <Td>{qtyText(m.q)}</Td>
-                  <Td>{m.rawPerUnit == null ? "—" : faNum(m.rawPerUnit, 2)}</Td>
-                  <Td>{qtyText(m.qMatched)}</Td>
                   <Td>{rateText(m.rBom)}</Td>
                 </tr>
               ))}
@@ -81,8 +77,8 @@ function QualityPage() {
 
       <div className="mt-4">
         <Panel
-          title="مدل‌ها، مستقل از ماه"
-          subtitle="جمع تولید در بازه فیلتر. نرخ خانواده برای همه مدل‌های آن خانواده یکی است چون ضایعات سریال مدل ندارد."
+          title="تولید به تفکیک مدل"
+          subtitle="سهم از تولید خانواده یعنی این مدل چند درصد از دستگاه‌های همان خانواده را ساخته است. این سهم داخل فرمول درصد ضایعات نیست."
         >
           <div className="overflow-x-auto">
             <table className="w-full min-w-[46rem] text-sm">
@@ -91,7 +87,7 @@ function QualityPage() {
                   <Th>مدل</Th>
                   <Th>خانواده</Th>
                   <Th>تولید</Th>
-                  <Th>سهم خانواده</Th>
+                  <Th>سهم از تولید خانواده</Th>
                   <Th>درجه B</Th>
                   <Th>درصد B</Th>
                 </tr>
@@ -120,45 +116,7 @@ function QualityPage() {
       </div>
 
       <div className="mt-4">
-        <Panel
-          title="قطعات هم‌رنگ"
-          subtitle="اگر نام ضایعات رنگ داشته باشد، مخرج فقط تولید همان رنگ در خانواده است. این نرخ داخل شاخص کل BOM جایگزین نشده."
-        >
-          {view.colorParts.length === 0 ? (
-            <p className="text-sm text-fg-muted">در این فیلتر ضایعات رنگیِ وصل‌شده به ضریب نیست.</p>
-          ) : (
-            <div className="overflow-x-auto">
-              <table className="w-full min-w-[40rem] text-sm">
-                <thead>
-                  <tr className="text-xs text-fg-muted">
-                    <Th>قطعه</Th>
-                    <Th>رنگ</Th>
-                    <Th>مقدار</Th>
-                    <Th>تولید رنگ</Th>
-                    <Th>ضریب</Th>
-                    <Th>نرخ رنگ</Th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {view.colorParts.slice(0, 12).map((p) => (
-                    <tr key={`${p.id}-${p.color}`} className="border-t border-border">
-                      <td className="py-2.5">{p.title}</td>
-                      <td className="py-2.5">{COLOR_LABEL[p.color] ?? p.color}</td>
-                      <Td>{qtyText(p.q)}</Td>
-                      <Td>{faNum(p.nColor)}</Td>
-                      <Td>{faNum(p.c, 2)}</Td>
-                      <Td>{p.nColor === 0 ? "مخرج صفر" : rateText(p.rate)}</Td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-            </div>
-          )}
-        </Panel>
-      </div>
-
-      <div className="mt-4">
-        <Panel title="قطعات، ضریب و نرخ" subtitle="کلیک روی ردیف، ردیف‌های خام و جای‌گذاری فرمول را نشان می‌دهد.">
+        <Panel title="قطعات و درصد ضایعات" subtitle="کلیک روی ردیف، ردیف‌های ضایعات همان قطعه و جای‌گذاری فرمول را نشان می‌دهد.">
           <div className="mb-3 flex flex-col gap-2 sm:flex-row">
             <input
               value={q}
@@ -172,17 +130,17 @@ function QualityPage() {
               onChange={(e) => setSort(e.target.value as SortKey)}
               className="h-10 rounded-sm border border-border bg-bg px-2 text-sm"
             >
-              <option value="rate">نرخ واقعی</option>
-              <option value="load">بار وزنی</option>
+              <option value="rate">درصد ضایعات</option>
+              <option value="load">اثر در شاخص</option>
               <option value="s">درجه اهمیت</option>
-              <option value="q">مقدار خام</option>
+              <option value="q">مقدار ضایعات</option>
             </select>
             <button
               type="button"
               onClick={() => setOnlyScrap((v) => !v)}
               className="h-10 rounded-sm border border-border bg-bg-subtle px-3 text-xs"
             >
-              {onlyScrap ? "فقط دارای ضایعات" : "کل BOM"}
+              {onlyScrap ? "فقط دارای ضایعات" : "همه قطعات"}
             </button>
           </div>
           <div className="overflow-x-auto">
@@ -190,12 +148,12 @@ function QualityPage() {
               <thead>
                 <tr className="text-xs text-fg-muted">
                   <Th>قطعه</Th>
-                  <Th>C</Th>
-                  <Th>S</Th>
-                  <Th>Q</Th>
-                  <Th>E = N×C</Th>
-                  <Th>نرخ</Th>
-                  <Th>Q×S</Th>
+                  <Th>ضریب مصرف</Th>
+                  <Th>اهمیت</Th>
+                  <Th>مقدار ضایعات</Th>
+                  <Th>تولید × ضریب</Th>
+                  <Th>درصد ضایعات</Th>
+                  <Th>اثر در شاخص</Th>
                 </tr>
               </thead>
               <tbody>
@@ -220,12 +178,12 @@ function QualityPage() {
       {openPart ? null : null}
 
       <div className="mt-4 grid gap-3 lg:grid-cols-2">
-        <Panel title="علت‌های همین فیلتر" subtitle="مقدار خام. علت ضریب مصرف ندارد و وارد نرخ واقعی نمی‌شود.">
+        <Panel title="علت‌های همین فیلتر" subtitle="جمع ستون مقدار. علت درجه اهمیت ندارد و جدا از درصد ضایعات است.">
           <CauseFamily scopeReady={view.causes.slice(0, 8)} />
         </Panel>
         <div>
-          <Note tone="warn" title="مخرج کوچک">
-            اگر مصرف مورد انتظار زیر ۵ باشد نرخ را ناپایدار بدانید. در جدول، این ردیف‌ها با مرتب‌سازی نرخ ممکن است بالا بیایند؛ ستون E را با نرخ بخوانید.
+          <Note tone="warn" title="مصرف مورد انتظار کم">
+            اگر تولید × ضریب مصرف کمتر از ۵ باشد، درصد ضایعات ناپایدار است. ستون «تولید × ضریب» را کنار درصد بخوانید.
           </Note>
           <div className="mt-3">
             <Note tone="info" title="شرح خالی">
@@ -276,7 +234,7 @@ function PartRows({
               {part.unit ? ` · ${part.unit}` : ""}
               {part.shared ? " · مشترک دو خط" : ""}
               {part.dups > 1 ? " · ردیف تکراری BOM جمع شد" : ""}
-              {unstable ? " · مخرج کوچک" : ""}
+              {unstable ? " · مصرف مورد انتظار کم" : ""}
             </span>
           </button>
         </td>
@@ -291,11 +249,12 @@ function PartRows({
         <tr className="border-t border-border bg-bg-subtle">
           <td colSpan={7} className="px-2 py-3 text-xs leading-relaxed text-fg-muted">
             <p>
-              نرخ = Q ÷ (N × C) × ۱۰۰ = {qtyText(part.q)} ÷ {faNum(part.e, 2)} × ۱۰۰ = {rateText(part.rate)}. اهمیت S=
-              {faNum(part.s, 0)} فقط در شاخص وزنی خانواده اثر دارد، نه در نرخ خود قطعه. بار وزنی = Q × S = {qtyText(part.load)}.
+              درصد ضایعات = مقدار ÷ (تعداد تولید × ضریب مصرف) × ۱۰۰ = {qtyText(part.q)} ÷ {faNum(part.e, 2)} × ۱۰۰ ={" "}
+              {rateText(part.rate)}. درجه اهمیت ({importanceLabel(part.s)}) درصد خود این قطعه را عوض نمی‌کند؛ در شاخص کلان ضرب می‌شود.
+              اثر در شاخص = مقدار × اهمیت = {qtyText(part.load)}.
             </p>
             {part.shared ? (
-              <p className="mt-1">این نام در دو شیت لباسشویی ۸/۹ بوده و مقدار به نسبت مصرف مورد انتظار دو خط شکسته شده است.</p>
+              <p className="mt-1">این نام در هر دو خط لباسشویی ۸ و ۹ آمده و مقدار ضایعات به نسبت ضریب مصرف دو خط تقسیم شده است.</p>
             ) : null}
             <div className="mt-2 overflow-x-auto">
               <table className="w-full min-w-[32rem] text-xs">

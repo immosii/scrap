@@ -75,7 +75,48 @@ def jalali_date(value: object) -> str:
     return f"{int(m.group(1)):04d}/{int(m.group(2)):02d}/{int(m.group(3)):02d}"
 
 
+def parse_sheet(ws, mode: str) -> list[dict]:
+    acc: dict[str, dict] = {}
+    order: list[str] = []
+    for i, r in enumerate(ws.iter_rows(values_only=True)):
+        if i < 2:
+            continue
+        rr = list(r)
+        if mode == "c":
+            title, unit, qty, imp = (rr + [None] * 6)[2:6]
+        else:
+            title, unit, qty, imp = (rr + [None] * 4)[:4]
+        if not title:
+            continue
+        t = str(title).strip()
+        if t.startswith("مجموع"):
+            continue
+        q, im = num(qty), num(imp)
+        if q is None or im is None:
+            continue
+        n = norm(t)
+        if n not in acc:
+            acc[n] = {
+                "title": t,
+                "n": n,
+                "ct": canon_tokens(n),
+                "unit": str(unit or "").strip(),
+                "c": q,
+                "w": q * float(im),
+                "s": float(im),
+                "dups": 1,
+            }
+            order.append(n)
+        else:
+            acc[n]["c"] += q
+            acc[n]["w"] += q * float(im)
+            acc[n]["s"] = acc[n]["w"] / acc[n]["c"] if acc[n]["c"] else float(im)
+            acc[n]["dups"] += 1
+    return [acc[key] for key in order]
+
+
 def parse_bom(path: str) -> list[dict]:
+    """Sheets are the coefficient file only. Foam injection is part of mini output, not its own line."""
     wb = load_workbook(path, data_only=True, read_only=True)
     specs = [
         ("wm10", "wm-10", "c"),
@@ -83,47 +124,19 @@ def parse_bom(path: str) -> list[dict]:
         ("wm8b", "wm-8t3-9t2", "c"),
         ("dw", "DW", "p"),
         ("mini", "MINI", "p"),
+        ("mini", "فوم", "p"),
         ("c70", "C70", "p"),
     ]
     bom: list[dict] = []
+    seq: dict[str, int] = defaultdict(int)
     for fam, sheet, mode in specs:
-        rows = list(wb[sheet].iter_rows(values_only=True))
-        acc: dict[str, dict] = {}
-        order: list[str] = []
-        for r in rows[2:]:
-            rr = list(r)
-            if mode == "c":
-                title, unit, qty, imp = (rr + [None] * 6)[2:6]
-            else:
-                title, unit, qty, imp = (rr + [None] * 4)[:4]
-            if not title:
-                continue
-            t = str(title).strip()
-            if t.startswith("مجموع"):
-                continue
-            q, im = num(qty), num(imp)
-            if q is None or im is None:
-                continue
-            n = norm(t)
-            if n not in acc:
-                acc[n] = {
-                    "title": t,
-                    "n": n,
-                    "ct": canon_tokens(n),
-                    "unit": str(unit or "").strip(),
-                    "c": q,
-                    "s": float(im),
-                    "dups": 1,
-                    "family": fam,
-                }
-                order.append(n)
-            else:
-                acc[n]["c"] += q
-                acc[n]["s"] = max(acc[n]["s"], float(im))
-                acc[n]["dups"] += 1
-        for i, key in enumerate(order):
-            p = acc[key]
-            p["id"] = f"{fam}-{i}"
+        if sheet not in wb.sheetnames:
+            continue
+        for p in parse_sheet(wb[sheet], mode):
+            p["family"] = fam
+            p["id"] = f"{fam}-{seq[fam]}"
+            seq[fam] += 1
+            p.pop("w", None)
             bom.append(p)
     wb.close()
     return bom
@@ -271,9 +284,9 @@ def origin_of(prod: float, con: float) -> str:
 
 def main() -> None:
     root = "/workspace/attachments"
-    bom = parse_bom(f"{root}/شدت اهمیت - ضریب مصرف .xlsx")
+    bom = parse_bom(f"{root}/شدت اهمیت - ضریب مصرف  (2).xlsx")
 
-    wb = load_workbook(f"{root}/ضایعات.xlsx", data_only=True, read_only=True)
+    wb = load_workbook(f"{root}/ضایعات (2).xlsx", data_only=True, read_only=True)
     scrap_rows = list(wb[wb.sheetnames[0]].iter_rows(values_only=True))[1:]
     wb.close()
     scrap = []
@@ -302,7 +315,7 @@ def main() -> None:
             }
         )
 
-    wb = load_workbook(f"{root}/کل تولیدات 6 ماهه اول.xlsx", data_only=True, read_only=True)
+    wb = load_workbook(f"{root}/کل تولیدات 6 ماهه اول (2).xlsx", data_only=True, read_only=True)
     prod_rows = list(wb[wb.sheetnames[0]].iter_rows(values_only=True))[1:]
     wb.close()
     models: dict[str, dict] = {}
@@ -349,49 +362,24 @@ def main() -> None:
     ]
     issues = [
         {
-            "level": "danger",
-            "title": "بخشی از ضایعات ضریب مصرف ندارد",
-            "detail": "ردیف‌هایی که نامشان با فایل شدت اهمیت یکی نشد از نرخ واقعی خارج شده‌اند و در جدول مغایرت مانده‌اند. حذف نشده‌اند.",
+            "level": "warn",
+            "title": "بعضی ردیف‌های ضایعات در درصد نمی‌آیند",
+            "detail": "اگر نام کالا در فایل ضریب مصرف نباشد، آن مقدار نه در صورت شاخص است و نه در مخرج. ردیف در جدول ضایعات می‌ماند.",
         },
         {
             "level": "warn",
-            "title": "کد کالا در شیت لباسشویی ۸T3 / ۹T2 قابل استفاده نیست",
-            "detail": "کدهای این شیت با الگوی شیت لباسشویی ۱۰ کیلو پر شده و با نام قطعه نمی‌خواند. تطبیق فقط با نام انجام شد.",
+            "title": "تولید C70 در فایل شش‌ماهه نیست",
+            "detail": "برای این خانواده تعداد تولید صفر است، پس درصد ضایعات تعریف نمی‌شود و وارد شاخص کل نمی‌شود.",
         },
         {
             "level": "warn",
-            "title": "شیت‌های مینی، C70، ظرفشویی و ۸T2 کد کالا ندارند",
-            "detail": "ستون کد در این شیت‌ها نیست؛ اتصال ضایعات به ضریب از روی نام قطعه است.",
-        },
-        {
-            "level": "warn",
-            "title": "تولید C70 / FR16 در فایل شش‌ماهه نیست",
-            "detail": "ضایعات این خانواده ثبت شده اما مخرج تولید صفر است. نرخ واقعی C70 تعریف نشده و در شاخص کل وارد نمی‌شود.",
-        },
-        {
-            "level": "warn",
-            "title": "یخچال CM-RM5 فهرست ضریب جدا ندارد",
-            "detail": "این مدل‌ها در تولید هستند. ضایعاتشان اگر نام مینی نداشته باشد به شاخص مینی وصل نشده است.",
+            "title": "یخچال CM-RM5 فایل ضریب جدا ندارد",
+            "detail": "این مدل‌ها در تولید هستند. تا وقتی نام قطعه‌شان در شیت مینی یا C70 نباشد، در درصد ضایعات نمی‌آیند.",
         },
         {
             "level": "info",
-            "title": "تاریخ ضایعات، تاریخ نیاز است",
-            "detail": "محور زمان ضایعات ستون «تاریخ نیاز» است نه الزاماً تاریخ کشف. تولید با «تاریخ جمع‌آوری» شمرده شده.",
-        },
-        {
-            "level": "info",
-            "title": "ردیف‌های هم‌نام داخل یک شیت جمع شده‌اند",
-            "detail": "اگر یک نام چند بار آمده باشد ضریب مصرف‌ها جمع و درجه اهمیت، بیشینه شده تا یک قطعه دو بار در مخرج ننشیند.",
-        },
-        {
-            "level": "info",
-            "title": "قطعه مشترک دو خط لباسشویی ۸ و ۹",
-            "detail": "اگر نام عیناً در هر دو شیت ۸T2/۹T1 و ۸T3/۹T2 باشد، ضایعات به نسبت مصرف مورد انتظار دو خط تسهیم می‌شود.",
-        },
-        {
-            "level": "info",
-            "title": "عنوان شیت C70 در فایل مبدأ «یخچال مینی» است",
-            "detail": "محتوا قطعات FR16 است و به‌عنوان خانواده C70 خوانده شد. عنوان شیت اصلاح نشده است.",
+            "title": "شیت تزریق فوم جزو یخچال مینی است",
+            "detail": "قطعات شیت فوم با همان تعداد تولید مینی در مخرج می‌آیند، چون تولید جداگانه‌ای برای فوم ثبت نشده است.",
         },
     ]
 

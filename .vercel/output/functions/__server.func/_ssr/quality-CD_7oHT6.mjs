@@ -1,8 +1,8 @@
 import { i as __toESM } from "../_runtime.mjs";
 import { q as require_react, x as require_jsx_runtime } from "../_libs/@tanstack/react-router+[...].mjs";
-import { _ as qtyText, a as Note, c as Shell, d as faPct, n as COLOR_LABEL, o as ORIGIN_LABEL, r as FAMILY_LABEL, s as Panel, u as faNum, v as rateText, y as useFilters } from "./widgets-DxwXF1wO.mjs";
-import { n as scrapRowsForPart, t as buildView } from "./metrics-BdWMn0BD.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/quality-CsbB6M2m.js
+import { _ as qtyText, a as ORIGIN_LABEL, i as Note, l as faNum, n as FAMILY_LABEL, o as Panel, p as importanceLabel, s as Shell, u as faPct, v as rateText, y as useFilters } from "./widgets-BAyxnzMj.mjs";
+import { n as scrapRowsForPart, t as buildView } from "./metrics-CnqHy9C0.mjs";
+//#region node_modules/.nitro/vite/services/ssr/assets/quality-CD_7oHT6.js
 var import_react = /* @__PURE__ */ __toESM(require_react());
 var import_jsx_runtime = require_jsx_runtime();
 function QualityPage() {
@@ -44,25 +44,23 @@ function QualityPage() {
 				children: "تحلیل کنترل کیفیت"
 			}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
 				className: "mt-1 max-w-3xl text-sm leading-relaxed text-fg-muted",
-				children: "مقایسه مدل‌ها مستقل از اینکه ضایعات را به مدل نسبت بدهیم. نرخ قطعه فقط جایی مدل‌محور است که نام ضایعات رنگ را گفته باشد."
+				children: "ضایعات نام مدل ندارد، پس درصد ضایعات برای هر مدل جدا حساب نمی‌شود. جدول مدل فقط می‌گوید از هر مدل چند دستگاه ساخته شده و چند تا درجه B بوده است."
 			})]
 		}),
 		/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Panel, {
 			title: "روند در برابر حجم تولید",
-			subtitle: "اگر تولید بالا برود و نرخ واقعی بالا بماند، مسئله سیستمی است نه یک ماه کم‌تیراژ.",
+			subtitle: "اگر تولید بالا باشد و درصد ضایعات هم بالا بماند، مسئله مربوط به یک ماه کم‌تیراژ نیست.",
 			children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
 				className: "overflow-x-auto",
 				children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("table", {
-					className: "w-full min-w-[40rem] text-sm",
+					className: "w-full min-w-[32rem] text-sm",
 					children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("thead", { children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("tr", {
 						className: "text-xs text-fg-muted",
 						children: [
 							/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Th, { children: "ماه" }),
 							/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Th, { children: "تولید" }),
-							/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Th, { children: "ضایعات خام" }),
-							/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Th, { children: "خام / دستگاه" }),
-							/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Th, { children: "وصل به ضریب" }),
-							/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Th, { children: "نرخ واقعی" })
+							/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Th, { children: "مقدار ضایعات" }),
+							/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Th, { children: "درصد ضایعات" })
 						]
 					}) }), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("tbody", { children: view.months.map((m) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("tr", {
 						className: "border-t border-border",
@@ -73,8 +71,6 @@ function QualityPage() {
 							}),
 							/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Td, { children: faNum(m.n) }),
 							/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Td, { children: qtyText(m.q) }),
-							/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Td, { children: m.rawPerUnit == null ? "—" : faNum(m.rawPerUnit, 2) }),
-							/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Td, { children: qtyText(m.qMatched) }),
 							/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Td, { children: rateText(m.rBom) })
 						]
 					}, m.key)) })]
@@ -84,8 +80,8 @@ function QualityPage() {
 		/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
 			className: "mt-4",
 			children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Panel, {
-				title: "مدل‌ها، مستقل از ماه",
-				subtitle: "جمع تولید در بازه فیلتر. نرخ خانواده برای همه مدل‌های آن خانواده یکی است چون ضایعات سریال مدل ندارد.",
+				title: "تولید به تفکیک مدل",
+				subtitle: "سهم از تولید خانواده یعنی این مدل چند درصد از دستگاه‌های همان خانواده را ساخته است. این سهم داخل فرمول درصد ضایعات نیست.",
 				children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
 					className: "overflow-x-auto",
 					children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("table", {
@@ -96,7 +92,7 @@ function QualityPage() {
 								/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Th, { children: "مدل" }),
 								/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Th, { children: "خانواده" }),
 								/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Th, { children: "تولید" }),
-								/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Th, { children: "سهم خانواده" }),
+								/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Th, { children: "سهم از تولید خانواده" }),
 								/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Th, { children: "درجه B" }),
 								/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Th, { children: "درصد B" })
 							]
@@ -126,52 +122,9 @@ function QualityPage() {
 		}),
 		/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
 			className: "mt-4",
-			children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Panel, {
-				title: "قطعات هم‌رنگ",
-				subtitle: "اگر نام ضایعات رنگ داشته باشد، مخرج فقط تولید همان رنگ در خانواده است. این نرخ داخل شاخص کل BOM جایگزین نشده.",
-				children: view.colorParts.length === 0 ? /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-					className: "text-sm text-fg-muted",
-					children: "در این فیلتر ضایعات رنگیِ وصل‌شده به ضریب نیست."
-				}) : /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
-					className: "overflow-x-auto",
-					children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("table", {
-						className: "w-full min-w-[40rem] text-sm",
-						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("thead", { children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("tr", {
-							className: "text-xs text-fg-muted",
-							children: [
-								/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Th, { children: "قطعه" }),
-								/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Th, { children: "رنگ" }),
-								/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Th, { children: "مقدار" }),
-								/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Th, { children: "تولید رنگ" }),
-								/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Th, { children: "ضریب" }),
-								/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Th, { children: "نرخ رنگ" })
-							]
-						}) }), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("tbody", { children: view.colorParts.slice(0, 12).map((p) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("tr", {
-							className: "border-t border-border",
-							children: [
-								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("td", {
-									className: "py-2.5",
-									children: p.title
-								}),
-								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("td", {
-									className: "py-2.5",
-									children: COLOR_LABEL[p.color] ?? p.color
-								}),
-								/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Td, { children: qtyText(p.q) }),
-								/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Td, { children: faNum(p.nColor) }),
-								/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Td, { children: faNum(p.c, 2) }),
-								/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Td, { children: p.nColor === 0 ? "مخرج صفر" : rateText(p.rate) })
-							]
-						}, `${p.id}-${p.color}`)) })]
-					})
-				})
-			})
-		}),
-		/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
-			className: "mt-4",
 			children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(Panel, {
-				title: "قطعات، ضریب و نرخ",
-				subtitle: "کلیک روی ردیف، ردیف‌های خام و جای‌گذاری فرمول را نشان می‌دهد.",
+				title: "قطعات و درصد ضایعات",
+				subtitle: "کلیک روی ردیف، ردیف‌های ضایعات همان قطعه و جای‌گذاری فرمول را نشان می‌دهد.",
 				children: [
 					/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 						className: "mb-3 flex flex-col gap-2 sm:flex-row",
@@ -190,11 +143,11 @@ function QualityPage() {
 								children: [
 									/* @__PURE__ */ (0, import_jsx_runtime.jsx)("option", {
 										value: "rate",
-										children: "نرخ واقعی"
+										children: "درصد ضایعات"
 									}),
 									/* @__PURE__ */ (0, import_jsx_runtime.jsx)("option", {
 										value: "load",
-										children: "بار وزنی"
+										children: "اثر در شاخص"
 									}),
 									/* @__PURE__ */ (0, import_jsx_runtime.jsx)("option", {
 										value: "s",
@@ -202,7 +155,7 @@ function QualityPage() {
 									}),
 									/* @__PURE__ */ (0, import_jsx_runtime.jsx)("option", {
 										value: "q",
-										children: "مقدار خام"
+										children: "مقدار ضایعات"
 									})
 								]
 							}),
@@ -210,7 +163,7 @@ function QualityPage() {
 								type: "button",
 								onClick: () => setOnlyScrap((v) => !v),
 								className: "h-10 rounded-sm border border-border bg-bg-subtle px-3 text-xs",
-								children: onlyScrap ? "فقط دارای ضایعات" : "کل BOM"
+								children: onlyScrap ? "فقط دارای ضایعات" : "همه قطعات"
 							})
 						]
 					}),
@@ -222,12 +175,12 @@ function QualityPage() {
 								className: "text-xs text-fg-muted",
 								children: [
 									/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Th, { children: "قطعه" }),
-									/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Th, { children: "C" }),
-									/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Th, { children: "S" }),
-									/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Th, { children: "Q" }),
-									/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Th, { children: "E = N×C" }),
-									/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Th, { children: "نرخ" }),
-									/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Th, { children: "Q×S" })
+									/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Th, { children: "ضریب مصرف" }),
+									/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Th, { children: "اهمیت" }),
+									/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Th, { children: "مقدار ضایعات" }),
+									/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Th, { children: "تولید × ضریب" }),
+									/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Th, { children: "درصد ضایعات" }),
+									/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Th, { children: "اثر در شاخص" })
 								]
 							}) }), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("tbody", { children: parts.slice(0, 80).map((p) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(PartRows, {
 								part: p,
@@ -249,12 +202,12 @@ function QualityPage() {
 			className: "mt-4 grid gap-3 lg:grid-cols-2",
 			children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Panel, {
 				title: "علت‌های همین فیلتر",
-				subtitle: "مقدار خام. علت ضریب مصرف ندارد و وارد نرخ واقعی نمی‌شود.",
+				subtitle: "جمع ستون مقدار. علت درجه اهمیت ندارد و جدا از درصد ضایعات است.",
 				children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(CauseFamily, { scopeReady: view.causes.slice(0, 8) })
 			}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Note, {
 				tone: "warn",
-				title: "مخرج کوچک",
-				children: "اگر مصرف مورد انتظار زیر ۵ باشد نرخ را ناپایدار بدانید. در جدول، این ردیف‌ها با مرتب‌سازی نرخ ممکن است بالا بیایند؛ ستون E را با نرخ بخوانید."
+				title: "مصرف مورد انتظار کم",
+				children: "اگر تولید × ضریب مصرف کمتر از ۵ باشد، درصد ضایعات ناپایدار است. ستون «تولید × ضریب» را کنار درصد بخوانید."
 			}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
 				className: "mt-3",
 				children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(Note, {
@@ -302,7 +255,7 @@ function PartRows({ part, open, onToggle, trace }) {
 							part.unit ? ` · ${part.unit}` : "",
 							part.shared ? " · مشترک دو خط" : "",
 							part.dups > 1 ? " · ردیف تکراری BOM جمع شد" : "",
-							unstable ? " · مخرج کوچک" : ""
+							unstable ? " · مصرف مورد انتظار کم" : ""
 						]
 					})]
 				})
@@ -321,21 +274,22 @@ function PartRows({ part, open, onToggle, trace }) {
 			className: "px-2 py-3 text-xs leading-relaxed text-fg-muted",
 			children: [
 				/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("p", { children: [
-					"نرخ = Q ÷ (N × C) × ۱۰۰ = ",
+					"درصد ضایعات = مقدار ÷ (تعداد تولید × ضریب مصرف) × ۱۰۰ = ",
 					qtyText(part.q),
 					" ÷ ",
 					faNum(part.e, 2),
-					" × ۱۰۰ = ",
+					" × ۱۰۰ =",
+					" ",
 					rateText(part.rate),
-					". اهمیت S=",
-					faNum(part.s, 0),
-					" فقط در شاخص وزنی خانواده اثر دارد، نه در نرخ خود قطعه. بار وزنی = Q × S = ",
+					". درجه اهمیت (",
+					importanceLabel(part.s),
+					") درصد خود این قطعه را عوض نمی‌کند؛ در شاخص کلان ضرب می‌شود. اثر در شاخص = مقدار × اهمیت = ",
 					qtyText(part.load),
 					"."
 				] }),
 				part.shared ? /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
 					className: "mt-1",
-					children: "این نام در دو شیت لباسشویی ۸/۹ بوده و مقدار به نسبت مصرف مورد انتظار دو خط شکسته شده است."
+					children: "این نام در هر دو خط لباسشویی ۸ و ۹ آمده و مقدار ضایعات به نسبت ضریب مصرف دو خط تقسیم شده است."
 				}) : null,
 				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
 					className: "mt-2 overflow-x-auto",

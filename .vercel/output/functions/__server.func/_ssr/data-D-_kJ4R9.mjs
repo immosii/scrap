@@ -1,8 +1,8 @@
 import { i as __toESM } from "../_runtime.mjs";
 import { q as require_react, x as require_jsx_runtime } from "../_libs/@tanstack/react-router+[...].mjs";
-import { _ as qtyText, a as Note, c as Shell, f as factory, l as bomById, o as ORIGIN_LABEL, r as FAMILY_LABEL, s as Panel, u as faNum, y as useFilters } from "./widgets-DxwXF1wO.mjs";
-import { t as buildView } from "./metrics-BdWMn0BD.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/data-DCXDAPKL.js
+import { _ as qtyText, a as ORIGIN_LABEL, c as bomById, d as factory, i as Note, l as faNum, n as FAMILY_LABEL, o as Panel, s as Shell, y as useFilters } from "./widgets-BAyxnzMj.mjs";
+import { t as buildView } from "./metrics-CnqHy9C0.mjs";
+//#region node_modules/.nitro/vite/services/ssr/assets/data-D-_kJ4R9.js
 var import_react = /* @__PURE__ */ __toESM(require_react());
 var import_jsx_runtime = require_jsx_runtime();
 function DataPage() {
@@ -53,10 +53,10 @@ function DataPage() {
 			className: "mb-4 flex flex-wrap items-end justify-between gap-3",
 			children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h1", {
 				className: "text-xl font-semibold",
-				children: "داده‌های خام و مغایرت"
+				children: "داده‌های فایل‌ها"
 			}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
 				className: "mt-1 text-sm text-fg-muted",
-				children: "هیچ ردیفی حذف نشده. چیزی که در شاخص نیست اینجا برچسب خورده است."
+				children: "ردیف‌ها همان فایل تولید و فایل ضایعات هستند. چیزی که نامش در فایل ضریب نیست، داخل درصد ضایعات نمی‌آید."
 			})] }), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("button", {
 				type: "button",
 				onClick: () => exportScrap(scrap),
@@ -69,7 +69,7 @@ function DataPage() {
 			children: [
 				["scrap", "ضایعات"],
 				["prod", "تولید"],
-				["gap", "مغایرت"]
+				["gap", "خارج از درصد"]
 			].map(([id, label]) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)("button", {
 				type: "button",
 				onClick: () => setTab(id),
@@ -84,8 +84,8 @@ function DataPage() {
 				title: issue.title,
 				children: issue.detail
 			}, issue.title)), /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Panel, {
-				title: "بزرگ‌ترین مقدارهای بدون ضریب",
-				subtitle: "این‌ها در نرخ واقعی نیستند. حدس خانواده فقط برای گروه‌بندی است.",
+				title: "بزرگ‌ترین مقدارهای خارج از درصد",
+				subtitle: "نام این کالاها در فایل ضریب مصرف نیست، پس در شاخص کلان نیستند.",
 				children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
 					className: "overflow-x-auto",
 					children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("table", {
@@ -103,7 +103,7 @@ function DataPage() {
 								}),
 								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("th", {
 									className: "pb-2 text-right font-medium",
-									children: "حدس"
+									children: "خانواده احتمالی"
 								}),
 								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("th", {
 									className: "pb-2 text-left font-medium",
@@ -175,7 +175,7 @@ function DataPage() {
 								}),
 								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("th", {
 									className: "pb-2 text-right font-medium",
-									children: "تطبیق"
+									children: "در درصد"
 								}),
 								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("th", {
 									className: "pb-2 text-left font-medium",
@@ -208,7 +208,7 @@ function DataPage() {
 							}),
 							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("td", {
 								className: "py-2 text-xs",
-								children: row.match === "exact" || row.match === "canon" ? bomById.get(row.bomIds[0] ?? "")?.title ?? "وصل" : row.match === "ambiguous" ? "مبهم" : "بدون ضریب"
+								children: row.match === "exact" || row.match === "canon" ? "داخل درصد" : "خارج از درصد"
 							}),
 							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("td", {
 								className: "py-2 text-left tabular",
@@ -307,8 +307,8 @@ function exportScrap(rows) {
 		"علت",
 		"منشأ",
 		"مقدار",
-		"وضعیت تطبیق",
-		"قطعه ضریب",
+		"وضعیت در درصد",
+		"قطعه",
 		"یادداشت"
 	], ...rows.map((row) => [
 		row.date,

@@ -48,8 +48,8 @@ function DataPage() {
     <Shell>
       <div className="mb-4 flex flex-wrap items-end justify-between gap-3">
         <div>
-          <h1 className="text-xl font-semibold">داده‌های خام و مغایرت</h1>
-          <p className="mt-1 text-sm text-fg-muted">هیچ ردیفی حذف نشده. چیزی که در شاخص نیست اینجا برچسب خورده است.</p>
+          <h1 className="text-xl font-semibold">داده‌های فایل‌ها</h1>
+          <p className="mt-1 text-sm text-fg-muted">ردیف‌ها همان فایل تولید و فایل ضایعات هستند. چیزی که نامش در فایل ضریب نیست، داخل درصد ضایعات نمی‌آید.</p>
         </div>
         <button
           type="button"
@@ -65,7 +65,7 @@ function DataPage() {
           [
             ["scrap", "ضایعات"],
             ["prod", "تولید"],
-            ["gap", "مغایرت"],
+            ["gap", "خارج از درصد"],
           ] as const
         ).map(([id, label]) => (
           <button
@@ -90,14 +90,14 @@ function DataPage() {
               {issue.detail}
             </Note>
           ))}
-          <Panel title="بزرگ‌ترین مقدارهای بدون ضریب" subtitle="این‌ها در نرخ واقعی نیستند. حدس خانواده فقط برای گروه‌بندی است.">
+          <Panel title="بزرگ‌ترین مقدارهای خارج از درصد" subtitle="نام این کالاها در فایل ضریب مصرف نیست، پس در شاخص کلان نیستند.">
             <div className="overflow-x-auto">
               <table className="w-full min-w-[36rem] text-sm">
                 <thead>
                   <tr className="text-xs text-fg-muted">
                     <th className="pb-2 text-right font-medium">عنوان</th>
                     <th className="pb-2 text-right font-medium">کد</th>
-                    <th className="pb-2 text-right font-medium">حدس</th>
+                    <th className="pb-2 text-right font-medium">خانواده احتمالی</th>
                     <th className="pb-2 text-left font-medium">مقدار</th>
                   </tr>
                 </thead>
@@ -137,7 +137,7 @@ function DataPage() {
                   <th className="pb-2 text-right font-medium">عنوان</th>
                   <th className="pb-2 text-right font-medium">علت</th>
                   <th className="pb-2 text-right font-medium">منشأ</th>
-                  <th className="pb-2 text-right font-medium">تطبیق</th>
+                  <th className="pb-2 text-right font-medium">در درصد</th>
                   <th className="pb-2 text-left font-medium">مقدار</th>
                 </tr>
               </thead>
@@ -150,11 +150,7 @@ function DataPage() {
                     <td className="py-2">{row.reason || "—"}</td>
                     <td className="py-2">{ORIGIN_LABEL[row.origin]}</td>
                     <td className="py-2 text-xs">
-                      {row.match === "exact" || row.match === "canon"
-                        ? (bomById.get(row.bomIds[0] ?? "")?.title ?? "وصل")
-                        : row.match === "ambiguous"
-                          ? "مبهم"
-                          : "بدون ضریب"}
+                      {row.match === "exact" || row.match === "canon" ? "داخل درصد" : "خارج از درصد"}
                     </td>
                     <td className="py-2 text-left tabular">{qtyText(row.qty)}</td>
                   </tr>
@@ -226,7 +222,7 @@ function inFamily(
 }
 
 function exportScrap(rows: ScrapRow[]) {
-  const header = ["تاریخ", "ماه", "انبار", "کد", "عنوان", "علت", "منشأ", "مقدار", "وضعیت تطبیق", "قطعه ضریب", "یادداشت"];
+  const header = ["تاریخ", "ماه", "انبار", "کد", "عنوان", "علت", "منشأ", "مقدار", "وضعیت در درصد", "قطعه", "یادداشت"];
   const body = rows.map((row) => [
     row.date,
     row.month,

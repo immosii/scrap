@@ -1,6 +1,6 @@
 import { Link } from "@tanstack/react-router";
 import { factory } from "@/data/load";
-import { FAMILY_LABEL, familyGroup, GROUP_LABEL, monthLabel, ORIGIN_LABEL } from "@/lib/format";
+import { familyGroup, GROUP_LABEL, monthLabel, ORIGIN_LABEL } from "@/lib/format";
 import { useFilters, type GroupId, type OriginFilter } from "@/lib/store";
 
 const NAV = [
@@ -12,9 +12,6 @@ const NAV = [
 
 export function Shell({ children }: { children: React.ReactNode }) {
   const f = useFilters();
-  const families = ["mini", "rm5", "c70", "wm10", "wm8a", "wm8b", "dw"].filter(
-    (id) => f.group === "all" || familyGroup(id) === f.group,
-  );
   const models = factory.models.filter((m) => {
     if (f.group !== "all" && familyGroup(m.family) !== f.group) return false;
     if (f.family !== "all" && m.family !== f.family) return false;
@@ -64,7 +61,7 @@ export function Shell({ children }: { children: React.ReactNode }) {
               </FilterChip>
             ))}
           </div>
-          <div className="grid grid-cols-2 gap-2 lg:grid-cols-4">
+          <div className="grid grid-cols-1 gap-2 sm:grid-cols-3">
             <Select
               label="گروه محصول"
               value={f.group}
@@ -75,12 +72,6 @@ export function Shell({ children }: { children: React.ReactNode }) {
                 ["wm", GROUP_LABEL.wm],
                 ["dw", GROUP_LABEL.dw],
               ]}
-            />
-            <Select
-              label="خانواده / خط"
-              value={f.family}
-              onChange={(v) => f.setFamily(v)}
-              options={[["all", "همه خانواده‌ها"], ...families.map((id) => [id, FAMILY_LABEL[id] ?? id] as [string, string])]}
             />
             <Select
               label="مدل"

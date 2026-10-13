@@ -56,15 +56,9 @@ export const ORIGIN_LABEL: Record<string, string> = {
   unknown: "نامشخص",
 };
 
-export const COLOR_LABEL: Record<string, string> = {
-  white: "سفید",
-  gloss: "مشکی براق",
-  matte: "مشکی مات",
-  red: "قرمز",
-  blue: "آبی",
-  green: "سبز",
-  pink: "صورتی",
-  steel: "استیل",
-  inox: "اینوکس",
-  pattern: "طرح‌دار",
-};
+export function importanceLabel(s: number): string {
+  if (s === 1) return "غیر بحرانی";
+  if (s === 2) return "بحرانی";
+  if (s === 3) return "بسیار بحرانی";
+  return faNum(s, 2);
+}
