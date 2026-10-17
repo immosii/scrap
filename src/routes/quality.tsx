@@ -233,7 +233,7 @@ function PartRows({
               {FAMILY_LABEL[part.family]}
               {part.unit ? ` · ${part.unit}` : ""}
               {part.shared ? " · مشترک دو خط" : ""}
-              {part.dups > 1 ? " · ردیف تکراری BOM جمع شد" : ""}
+              {part.dups > 1 ? " · چند ردیف در فایل ضریب؛ فقط ردیف اول، بدون جمع" : ""}
               {unstable ? " · مصرف مورد انتظار کم" : ""}
             </span>
           </button>

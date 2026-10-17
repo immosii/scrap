@@ -90,7 +90,7 @@ function DataPage() {
               {issue.detail}
             </Note>
           ))}
-          <Panel title="بزرگ‌ترین مقدارهای خارج از درصد" subtitle="نام این کالاها در فایل ضریب مصرف نیست، پس در شاخص کلان نیستند.">
+          <Panel title="بزرگ‌ترین مقدارهای خارج از درصد" subtitle="این نام‌ها یا در فایل ضریب همین نوع محصول نیستند، یا هم‌زمان به لباسشویی و ظرفشویی می‌خورند.">
             <div className="overflow-x-auto">
               <table className="w-full min-w-[36rem] text-sm">
                 <thead>

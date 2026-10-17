@@ -1,13 +1,14 @@
 #!/usr/bin/env python3
 """Build src/data/factory.json from the three source workbooks.
 
-Matching policy (conservative, documented in the app):
-- Exact normalized name, or the same name after dropping only status/color/family tokens.
-- Subset match only when extra tokens are 1–2 characters (codes like M/G), never real words.
-- Conflicting dimension tokens reject the match.
-- wm-8t3 sheet codes are ignored (they are a shifted copy of the wm-10 template).
-- A part name that lands on more than one family stays unmatched, except
-  لباسشویی 8T2/9T1 and 8T3/9T2 sharing the same name (one physical part, two lines).
+Matching policy:
+- Product type only. Color words and model codes are ignored.
+- A scrap row uses the coefficient row of that product type.
+- If the same part is listed more than once in the coefficient file,
+  the first row is kept. Consumption coefficients are never added together.
+- A name that lands on two product types (washer and dishwasher)
+  stays out of the rate. Two models of one type stay linked; scrap
+  quantity is split by production, not by summing coefficients.
 """
 from __future__ import annotations
 
@@ -19,28 +20,81 @@ from openpyxl import load_workbook
 
 TRANS = str.maketrans("۰۱۲۳۴۵۶۷۸۹٠١٢٣٤٥٦٧٨٩", "01234567890123456789")
 YEH = str.maketrans({"ي": "ی", "ك": "ک", "ة": "ه", "أ": "ا", "إ": "ا"})
-DROP = set(
+COLOR = set(
     """
-    mini minim min c70 c60 c2s fr16 h wm dw sky
-    نیمه ساخته رنگ شده abs جدید قرمز مشکی سفید آبی سبز صورتی مات براق استخوانی پاستیلی
-    اینوکس استیل هاردستون bl gr bk bk02 wh re pi
-    مشترک lm70 lm60 lm70c lm70rc
+    سفید آبی سبز قرمز صورتی مشکی مات براق استخوانی پاستیلی سیلور نقره نقره‌ای
+    کرم رزگلد اینوکس طلایی طلا هاردستون چرمی
     """.split()
 )
-
-FAMILIES = ["mini", "rm5", "c70", "wm10", "wm8a", "wm8b", "dw"]
+STATUS = set("نیمه ساخته رنگ شده نیم ساخت جدید مشترک abs".split())
+FAMILY_WORDS = set("mini minim min c70 c60 c2s fr16 h wm dw sky metal minimetal".split())
+MODEL_WORDS = set("میراکل روسو russo lm70 lm60 lm70c lm70rc مدل".split())
+DROP_TOKEN = COLOR | STATUS | FAMILY_WORDS | MODEL_WORDS | {"با", "ای", "و"}
 
 
 def norm(s: object) -> str:
     s = str(s or "").translate(TRANS).translate(YEH)
     s = s.replace("\u200c", " ").replace("\xa0", " ").lower()
     s = s.replace("×", "x").replace("*", "x")
-    s = re.sub(r"[()\[\]\{\}\-–—_:،,./\\«»\"+]", " ", s)
+    s = re.sub(r"(?<=\d)[./](?=\d)", "d", s)
+    s = re.sub(r"[()\[\]\{\}\-–—_:،,\\«»\"+]", " ", s)
     return re.sub(r"\s+", " ", s).strip()
 
 
-def canon_tokens(n: str) -> list[str]:
-    return [t for t in n.split() if t not in DROP and t != "با" and len(t) > 1]
+def explode(token: str) -> list[str]:
+    bits = re.findall(r"[a-z0-9d]+|[\u0600-\u06ff]+", token)
+    if not bits:
+        bits = [token]
+    out: list[str] = []
+    for bit in bits:
+        cur = bit
+        if cur in FAMILY_WORDS or cur in MODEL_WORDS or cur in COLOR or cur in STATUS:
+            out.append(cur)
+            continue
+        changed = True
+        while changed and cur:
+            changed = False
+            for pre in ("minimetal", "minim", "mini", "metal", "c70", "c60", "c2s", "fr16", "sky"):
+                if cur.startswith(pre) and len(cur) > len(pre):
+                    out.append(pre)
+                    cur = cur[len(pre) :]
+                    changed = True
+                    break
+        m = re.match(r"^([^\d]{3,})(\d.*)$", cur)
+        if m:
+            out.append(m.group(1))
+            out.append(m.group(2))
+        elif cur:
+            out.append(cur)
+    return out
+
+
+def is_model_code(token: str) -> bool:
+    if token in {"7d5", "10kg", "8t", "9t", "8v", "7v"}:
+        return True
+    if re.fullmatch(r"\d{1,2}[tv][iw]?\d?", token):
+        return True
+    if re.fullmatch(r"\d{1,2}kg", token):
+        return True
+    if re.fullmatch(r"(bl|gr|bk|wh|re|pi)\d*", token):
+        return True
+    if re.fullmatch(r"0\d", token):
+        return True
+    return False
+
+
+def signature(n: str) -> tuple[str, ...]:
+    tokens: list[str] = []
+    for raw in n.split():
+        for token in explode(raw):
+            if token in DROP_TOKEN or is_model_code(token) or len(token) <= 1:
+                continue
+            tokens.append(token)
+    return tuple(sorted(set(tokens)))
+
+
+def dims(sig: tuple[str, ...]) -> tuple[str, ...]:
+    return tuple(token for token in sig if re.search(r"\d", token))
 
 
 def num(x: object) -> float | None:
@@ -76,8 +130,7 @@ def jalali_date(value: object) -> str:
 
 
 def parse_sheet(ws, mode: str) -> list[dict]:
-    acc: dict[str, dict] = {}
-    order: list[str] = []
+    rows: list[dict] = []
     for i, r in enumerate(ws.iter_rows(values_only=True)):
         if i < 2:
             continue
@@ -95,28 +148,22 @@ def parse_sheet(ws, mode: str) -> list[dict]:
         if q is None or im is None:
             continue
         n = norm(t)
-        if n not in acc:
-            acc[n] = {
+        rows.append(
+            {
                 "title": t,
                 "n": n,
-                "ct": canon_tokens(n),
+                "ct": list(signature(n)),
                 "unit": str(unit or "").strip(),
                 "c": q,
-                "w": q * float(im),
                 "s": float(im),
                 "dups": 1,
             }
-            order.append(n)
-        else:
-            acc[n]["c"] += q
-            acc[n]["w"] += q * float(im)
-            acc[n]["s"] = acc[n]["w"] / acc[n]["c"] if acc[n]["c"] else float(im)
-            acc[n]["dups"] += 1
-    return [acc[key] for key in order]
+        )
+    return rows
 
 
 def parse_bom(path: str) -> list[dict]:
-    """Sheets are the coefficient file only. Foam injection is part of mini output, not its own line."""
+    """Coefficient workbook only. Foam injection belongs to mini, not its own line."""
     wb = load_workbook(path, data_only=True, read_only=True)
     specs = [
         ("wm10", "wm-10", "c"),
@@ -129,20 +176,28 @@ def parse_bom(path: str) -> list[dict]:
     ]
     bom: list[dict] = []
     seq: dict[str, int] = defaultdict(int)
+    seen: dict[tuple, dict] = {}
     for fam, sheet, mode in specs:
         if sheet not in wb.sheetnames:
             continue
         for p in parse_sheet(wb[sheet], mode):
+            key = (fam, tuple(p["ct"]) if p["ct"] else ("raw", p["n"]))
+            prev = seen.get(key)
+            if prev is not None:
+                prev["dups"] += 1
+                continue
             p["family"] = fam
             p["id"] = f"{fam}-{seq[fam]}"
             seq[fam] += 1
-            p.pop("w", None)
+            seen[key] = p
             bom.append(p)
     wb.close()
     return bom
 
 
 def prefer(sn: str, fams: list[str]) -> list[str]:
+    if "rm5" in sn:
+        return []
     if "c70" in sn or "fr16" in sn:
         return [f for f in fams if f == "c70"]
     if "mini" in sn or "minim" in sn:
@@ -153,59 +208,88 @@ def prefer(sn: str, fams: list[str]) -> list[str]:
         return [f for f in fams if f == "wm8a"]
     if "10kg" in sn:
         return [f for f in fams if f == "wm10"]
+    if any(x in sn for x in ["8t", "9t", "8v", "7d5"]):
+        return [f for f in fams if f in {"wm8a", "wm8b"}]
     if "ظرفشو" in sn or "h dw" in sn or sn.startswith("dw ") or " dw " in f" {sn} ":
         return [f for f in fams if f == "dw"]
     return fams
 
 
+def product_group(family: str) -> str:
+    if family in {"mini", "c70", "rm5"}:
+        return "fridge"
+    if family == "dw":
+        return "dw"
+    return "wm"
+
+
 def match_title(title: str, wh: str, bom: list[dict]) -> tuple[str, list[dict], str]:
     sn = norm(title)
     allow = {"mini", "c70"} if "یخچال" in (wh or "") else {"wm10", "wm8a", "wm8b", "dw"}
-    ct = canon_tokens(sn)
+    if "rm5" in sn:
+        allow = set()
+    ct = signature(sn)
     hits: list[tuple[int, dict]] = []
     for p in bom:
         if p["family"] not in allow:
             continue
-        if sn == p["n"]:
-            hits.append((100, p))
+        pt = tuple(p["ct"])
+        if sn == p["n"] or (ct and ct == pt):
+            hits.append((100 if sn == p["n"] else 90, p))
             continue
-        pt = p["ct"]
         if not ct or not pt:
             continue
-        na = [t for t in ct if re.search(r"\d", t)]
-        nb = [t for t in pt if re.search(r"\d", t)]
-        if na and nb and set(na) != set(nb):
-            continue
-        if ct == pt:
-            hits.append((90, p))
+        if dims(ct) and dims(pt) and dims(ct) != dims(pt):
             continue
         a, b = set(ct), set(pt)
         if a <= b or b <= a:
             short, long_ = (a, b) if len(a) <= len(b) else (b, a)
             extra = long_ - short
-            strong = len(short) >= 2 or (len(short) == 1 and min(len(t) for t in short) >= 6)
-            if strong and extra and all(len(t) <= 2 for t in extra):
+            if any(re.search(r"\d", token) for token in extra):
+                continue
+            strong = len(short) >= 2 or (len(short) == 1 and min(len(token) for token in short) >= 4)
+            if strong and extra and all(len(token) <= 2 for token in extra):
                 hits.append((80, p))
+    if not any(score >= 90 for score, _ in hits):
+        subset_hits = []
+        for p in bom:
+            if p["family"] not in allow:
+                continue
+            pt = tuple(p["ct"])
+            if not ct or not pt or not set(ct) < set(pt):
+                continue
+            if len(set(pt) - set(ct)) > 2:
+                continue
+            if dims(ct) and dims(ct) != dims(pt):
+                continue
+            if not (len(ct) >= 2 or min(len(token) for token in ct) >= 4):
+                continue
+            subset_hits.append(p)
+        by_family_sub: dict[str, list[dict]] = {}
+        for p in subset_hits:
+            by_family_sub.setdefault(p["family"], []).append(p)
+        for parts in by_family_sub.values():
+            if len(parts) == 1:
+                hits.append((70, parts[0]))
     if not hits:
         return "none", [], ""
-    top = max(s for s, _ in hits)
-    tops = [p for s, p in hits if s == top]
-    fams = prefer(sn, list({p["family"] for p in tops}))
-    chosen = [p for p in tops if p["family"] in fams]
+    top = max(score for score, _ in hits)
+    tops = [p for score, p in hits if score == top]
+    by_family: dict[str, dict] = {}
+    for p in tops:
+        by_family.setdefault(p["family"], p)
+    fams = prefer(sn, list(by_family))
+    chosen = [by_family[f] for f in fams if f in by_family]
     if not chosen:
         return "none", [], "پیشوند خانواده با BOM مقصد نخواند"
-    fam_set = {p["family"] for p in chosen}
-    if fam_set <= {"wm8a", "wm8b"} and len(fam_set) >= 1:
-        # keep both lines when the name is shared; caller gets every chosen part
-        note = "exact" if top == 100 else "گونه‌نویسی یکسان پس از حذف رنگ/وضعیت"
-        return ("exact" if top == 100 else "canon"), chosen, note
-    if len(fam_set) != 1:
-        names = "، ".join(sorted(fam_set))
-        return "ambiguous", chosen, f"نام در چند خانواده هست: {names}"
-    # one part per family (duplicates already merged)
-    best = chosen[0]
-    note = "exact" if top == 100 else "گونه‌نویسی یکسان پس از حذف رنگ/وضعیت"
-    return ("exact" if top == 100 else "canon"), [best], note
+    groups = {product_group(p["family"]) for p in chosen}
+    if len(groups) != 1:
+        return "ambiguous", [], "نام در چند نوع محصول هست: " + "، ".join(sorted(groups))
+    kind = "exact" if top == 100 and all(sn == p["n"] for p in chosen) else "canon"
+    if len(chosen) == 1:
+        note = "" if kind == "exact" else "فارغ از رنگ و مدل؛ ضریب همین نوع محصول"
+        return kind, chosen, note
+    return kind, chosen, "همان قطعه در چند مدل این نوع محصول؛ ضریب‌ها جمع نشده و به نسبت تولید تقسیم شده"
 
 
 def scrap_color(title: str) -> str | None:
@@ -284,7 +368,11 @@ def origin_of(prod: float, con: float) -> str:
 
 def main() -> None:
     root = "/workspace/attachments"
-    bom = parse_bom(f"{root}/شدت اهمیت - ضریب مصرف  (2).xlsx")
+    bom = parse_bom(f"{root}/شدت اهمیت - ضریب مصرف -2.xlsx")
+    collapsed = [p for p in bom if p["dups"] > 1]
+    print("kept first row, not summed:")
+    for p in collapsed:
+        print(f"  {p['family']} x{p['dups']} c={p['c']} s={p['s']} {p['title'][:70]}")
 
     wb = load_workbook(f"{root}/ضایعات (2).xlsx", data_only=True, read_only=True)
     scrap_rows = list(wb[wb.sheetnames[0]].iter_rows(values_only=True))[1:]
@@ -311,7 +399,7 @@ def main() -> None:
                 "match": kind,
                 "bomIds": [p["id"] for p in parts] if kind in ("exact", "canon") else [],
                 "color": scrap_color(title),
-                "note": "" if note == "exact" else note,
+                "note": note,
             }
         )
 
@@ -364,22 +452,27 @@ def main() -> None:
         {
             "level": "warn",
             "title": "بعضی ردیف‌های ضایعات در درصد نمی‌آیند",
-            "detail": "اگر نام کالا در فایل ضریب مصرف نباشد، آن مقدار نه در صورت شاخص است و نه در مخرج. ردیف در جدول ضایعات می‌ماند.",
+            "detail": "فقط وقتی نام کالا — بدون رنگ و مدل — با یک نوع محصول در فایل ضریب یکی باشد وارد درصد می‌شود. اگر در فایل ضریب نباشد، یا هم‌زمان به دو نوع محصول (مثلاً لباسشویی و ظرفشویی) بخورد، خارج از درصد می‌ماند.",
+        },
+        {
+            "level": "info",
+            "title": "ردیف تکراری ضریب مصرف جمع نمی‌شود",
+            "detail": "اگر یک قطعه چند بار در فایل ضریب آمده باشد، فقط ردیف اول همان نوع محصول استفاده می‌شود. تعداد و درجه اهمیت ردیف‌های بعدی با آن جمع نمی‌شود.",
         },
         {
             "level": "warn",
             "title": "تولید C70 در فایل شش‌ماهه نیست",
-            "detail": "برای این خانواده تعداد تولید صفر است، پس درصد ضایعات تعریف نمی‌شود و وارد شاخص کل نمی‌شود.",
+            "detail": "برای این خانواده تعداد تولید صفر است، پس درصد ضایعات تعریف نمی‌شود. اگر همان قطعه در مینی هم باشد، مقدار ضایعات با ضریب مینی و تولید مینی حساب می‌شود.",
         },
         {
             "level": "warn",
             "title": "یخچال CM-RM5 فایل ضریب جدا ندارد",
-            "detail": "این مدل‌ها در تولید هستند. تا وقتی نام قطعه‌شان در شیت مینی یا C70 نباشد، در درصد ضایعات نمی‌آیند.",
+            "detail": "این مدل‌ها در تولید هستند. ضایعاتی که در نامشان RM5 است به شیت مینی یا C70 وصل نمی‌شود.",
         },
         {
             "level": "info",
             "title": "شیت تزریق فوم جزو یخچال مینی است",
-            "detail": "قطعات شیت فوم با همان تعداد تولید مینی در مخرج می‌آیند، چون تولید جداگانه‌ای برای فوم ثبت نشده است.",
+            "detail": "قطعات شیت فوم با همان تعداد تولید مینی در مخرج می‌آیند. اگر نامشان با یک قطعه شیت مینی یکی باشد، فقط ردیف اول می‌ماند.",
         },
     ]
 
@@ -399,7 +492,6 @@ def main() -> None:
     with open(dest, "w", encoding="utf-8") as f:
         json.dump(out, f, ensure_ascii=False, separators=(",", ":"))
     print("wrote", dest)
-    # sanity
     from collections import Counter
 
     q = sum(s["qty"] for s in scrap)
@@ -410,6 +502,18 @@ def main() -> None:
     print("origin", Counter(s["origin"] for s in scrap))
     print("families", Counter(m["family"] for m in models.values()))
     print("prod", sum(c["qty"] for c in out["prod"]), "B", sum(c["qty"] for c in out["prod"] if c["grade"] == "B"))
+    print("--- canon samples ---")
+    shown = set()
+    for s in scrap:
+        if s["match"] != "canon" or s["title"] in shown:
+            continue
+        shown.add(s["title"])
+        ids = s["bomIds"]
+        names = [p["title"] for p in bom if p["id"] in ids]
+        print(f"  {s['qty']:>6} {s['title'][:60]}")
+        print(f"         -> {names}")
+        if len(shown) >= 40:
+            break
 
 
 if __name__ == "__main__":
