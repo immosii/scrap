@@ -234,14 +234,19 @@ def match_title(title: str, wh: str, bom: list[dict]) -> tuple[str, list[dict], 
         if p["family"] not in allow:
             continue
         pt = tuple(p["ct"])
-        if sn == p["n"] or (ct and ct == pt):
+        ct_use, pt_use = ct, pt
+        if "بالانسور" in ct or "بالانسور" in pt:
+            # 13 / 15 / 16 on a dishwasher balancer is the model, not another part.
+            ct_use = tuple(token for token in ct if token not in {"13", "15", "16"})
+            pt_use = tuple(token for token in pt if token not in {"13", "15", "16"})
+        if sn == p["n"] or (ct_use and ct_use == pt_use):
             hits.append((100 if sn == p["n"] else 90, p))
             continue
-        if not ct or not pt:
+        if not ct_use or not pt_use:
             continue
-        if dims(ct) and dims(pt) and dims(ct) != dims(pt):
+        if dims(ct_use) and dims(pt_use) and dims(ct_use) != dims(pt_use):
             continue
-        a, b = set(ct), set(pt)
+        a, b = set(ct_use), set(pt_use)
         if a <= b or b <= a:
             short, long_ = (a, b) if len(a) <= len(b) else (b, a)
             extra = long_ - short
